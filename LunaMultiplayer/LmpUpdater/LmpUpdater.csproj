@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ProDotNetZip" Version="1.20.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(Configuration)' == 'Debug'">
+    <None Update="foo.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+
+  <Target Name="CopyCustomContent" AfterTargets="AfterBuild">
+    <Copy SourceFiles="../External/Dependencies/System.Runtime.Serialization.dll" DestinationFolder="$(OutDir)" />
+  </Target>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\LmpGlobal\LmpGlobal.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,91 @@
+name = FARSettingsScenarioModule
+scene = 5, 6, 7
+newGame = False
+fractionTransonicDrag = 1
+gaussianVehicleLengthFractionForSmoothing = 0.01
+numAreaSmoothingPasses = 1
+numDerivSmoothingPasses = 1
+numVoxelsControllableVessel = 250000
+numVoxelsDebrisVessel = 20000
+minPhysTicksPerUpdate = 80
+useHigherResVoxelPoints = True
+use32BitIndices = False
+index = 5
+allowStructuralFailures = True
+showMomentArrows = False
+useBlizzyToolbar = False
+aeroFailureExplosions = True
+FlightGUISettings
+{
+	FlightDataSettings
+	{
+		section0active = True
+		section1active = True
+		section2active = True
+		section3active = True
+		section4active = True
+		section5active = True
+		section6active = True
+		section7active = True
+		section8active = True
+	}
+	AirSpeedSettings
+	{
+		unitTypeIndex = 0
+		velTypeIndex = 0
+	}
+	AeroVizSettings
+	{
+		fullySaturatedCl = 0.5
+		fullySaturatedCd = 0.10000000000000001
+		fullySaturatedClBody = 0.050000000000000003
+		fullySaturatedCdBody = 0.01
+		fullySaturatedStall = 10
+	}
+	StabilityAugmentationSettings
+	{
+		aoALowLim = -10
+		aoAHighLim = 20
+		scalingDynPres = 20
+		ControlSys0
+		{
+			active = False
+			zeroPoint = 0
+			kP = 0.5
+			kD = 1
+			kI = 0.5
+		}
+		ControlSys1
+		{
+			active = False
+			zeroPoint = 0
+			kP = 0
+			kD = 1
+			kI = 0
+		}
+		ControlSys2
+		{
+			active = False
+			zeroPoint = 0
+			kP = 0
+			kD = 1
+			kI = 0
+		}
+		ControlSys3
+		{
+			active = False
+			zeroPoint = 0
+			kP = 0.25
+			kD = 0
+			kI = 0
+		}
+		ControlSys4
+		{
+			active = False
+			zeroPoint = 0
+			kP = 0
+			kD = 0
+			kI = 0
+		}
+	}
+}

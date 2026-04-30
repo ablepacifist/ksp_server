@@ -1,0 +1,21 @@
+[05:00:35][Info]: Continued from logfile 2026-04-18 00-00-35.log
+[22:19:41][LMP]: New client Connection from ::ffff:198.98.90.126:54437
+[22:19:41][Debug]: Online Players: 0, connected: 1
+[22:19:41][LMP]: Client Sumwood (5dc923ecfeb7c13bbe1c584e13de6d7e91d7e86e) handshake successful, LMP Version: 0.29.0, KSP Version: 1.12.5
+[22:19:41][Debug]: Online Players: 1, connected: 1
+[22:19:41][Debug]: Sending Sumwood 1 vessels
+[22:19:41][Debug]: Sending Sumwood 51 kerbals...
+[22:19:41][Debug]: Sending Sumwood 9 possible subspaces
+[22:19:48][Debug]: Sumwood acquired lock UnloadedUpdate - 22cfc288-e3eb-4430-8625-470b97ac4e5c - Sumwood
+[22:19:48][Debug]: Sumwood acquired lock AsteroidComet - Sumwood
+[22:19:48][Debug]: Sumwood synced with subspace '299' created by Alex
+[22:19:48][Debug]: Removing abandoned subspace '-2147483648'
+[22:19:50][Debug]: Performing backups...
+[22:19:50][Debug]: Backups done
+[22:20:02][Debug]: Removing vessel 22cfc288-e3eb-4430-8625-470b97ac4e5c from Sumwood
+[22:20:02][Debug]: Sumwood released lock UnloadedUpdate - 22cfc288-e3eb-4430-8625-470b97ac4e5c - Sumwood
+[22:20:04][Debug]: Sumwood sent Connection end message, reason: Quit
+[22:20:04][Debug]: Online Players: 0, connected: 0
+[22:20:04][Debug]: Sumwood released lock AsteroidComet - Sumwood
+[22:20:04][Debug]: Performing backups...
+[22:20:04][Debug]: Backups done

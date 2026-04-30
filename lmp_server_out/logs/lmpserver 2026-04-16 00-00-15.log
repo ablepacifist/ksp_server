@@ -1,0 +1,1339 @@
+[05:00:15][Info]: Continued from logfile 2026-04-16 00-00-15.log
+[23:57:25][LMP]: New client Connection from ::ffff:127.126.21.88:3331
+[23:57:25][Debug]: Online Players: 0, connected: 1
+[23:57:25][LMP]: Client Alex (9cb5cf425960fd77d2ef347c2cc4c5361badc866) handshake successful, LMP Version: 0.29.0, KSP Version: 1.12.5
+[23:57:25][Debug]: Online Players: 1, connected: 1
+[23:57:25][Debug]: Sending Alex 2 vessels
+[23:57:25][Debug]: Sending Alex 51 kerbals...
+[23:57:26][Debug]: Sending Alex 9 possible subspaces
+[23:57:31][Debug]: Alex acquired lock UnloadedUpdate - 0e7a795d-3032-4104-a80c-9c75fd65fd19 - Alex
+[23:57:31][Debug]: Alex acquired lock UnloadedUpdate - 22cfc288-e3eb-4430-8625-470b97ac4e5c - Alex
+[23:57:31][Debug]: Alex acquired lock AsteroidComet - Alex
+[23:57:31][Debug]: Removing abandoned subspace '-2147483648'
+[23:57:42][Debug]: Alex released lock UnloadedUpdate - 22cfc288-e3eb-4430-8625-470b97ac4e5c - Alex
+[23:57:42][Debug]: Alex released lock UnloadedUpdate - 0e7a795d-3032-4104-a80c-9c75fd65fd19 - Alex
+[23:57:45][Debug]: Sending Alex 2 vessels
+[23:57:49][Debug]: Performing backups...
+[23:57:49][Debug]: Backups done
+[23:57:50][Debug]: Removing vessel 0e7a795d-3032-4104-a80c-9c75fd65fd19 from Alex
+[23:57:50][Debug]: Alex acquired lock UnloadedUpdate - 22cfc288-e3eb-4430-8625-470b97ac4e5c - Alex
+[23:57:53][Debug]: Alex acquired lock UnloadedUpdate - b3041e1e-2bf1-4a86-a403-e8c1d0fc0ce2 - Alex
+[23:58:02][Debug]: Alex released lock UnloadedUpdate - b3041e1e-2bf1-4a86-a403-e8c1d0fc0ce2 - Alex
+[23:58:02][Debug]: Alex released lock UnloadedUpdate - 22cfc288-e3eb-4430-8625-470b97ac4e5c - Alex
+[23:58:19][Debug]: Performing backups...
+[23:58:19][Debug]: Backups done
+[23:58:22][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[23:58:27][Debug]: Alex acquired lock Control - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[23:58:27][Debug]: Alex acquired lock Update - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[23:58:27][Debug]: Alex acquired lock UnloadedUpdate - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[23:58:27][Debug]: Alex acquired lock UnloadedUpdate - 22cfc288-e3eb-4430-8625-470b97ac4e5c - Alex
+[23:58:27][Debug]: Alex acquired lock UnloadedUpdate - b3041e1e-2bf1-4a86-a403-e8c1d0fc0ce2 - Alex
+[23:58:49][Debug]: Performing backups...
+[23:58:49][Debug]: Backups done
+[23:59:19][Debug]: Performing backups...
+[23:59:19][Debug]: Backups done
+[23:59:49][Debug]: Performing backups...
+[23:59:49][Debug]: Backups done
+[00:00:07][Debug]: Alex acquired lock UnloadedUpdate - 265db1ae-3db4-4610-a2b9-30770436942f - Alex
+[00:00:07][Debug]: Alex acquired lock Update - 265db1ae-3db4-4610-a2b9-30770436942f - Alex
+[00:00:07][Debug]: Alex acquired lock UnloadedUpdate - 969129c1-fc63-4dfc-acc0-52a56634d491 - Alex
+[00:00:07][Debug]: Alex acquired lock Update - 969129c1-fc63-4dfc-acc0-52a56634d491 - Alex
+[00:00:07][Debug]: Alex acquired lock UnloadedUpdate - 5bdaf370-a110-4621-b32f-b16f675e1b77 - Alex
+[00:00:07][Debug]: Alex acquired lock Update - 5bdaf370-a110-4621-b32f-b16f675e1b77 - Alex
+[00:00:19][Debug]: Performing backups...
+[00:00:19][Debug]: Backups done
+[00:00:49][Debug]: Performing backups...
+[00:00:49][Debug]: Backups done
+[00:01:19][Debug]: Performing backups...
+[00:01:19][Debug]: Backups done
+[00:01:49][Debug]: Performing backups...
+[00:01:49][Debug]: Backups done
+[00:02:19][Debug]: Performing backups...
+[00:02:19][Debug]: Backups done
+[00:02:49][Debug]: Performing backups...
+[00:02:49][Debug]: Backups done
+[00:03:19][Debug]: Performing backups...
+[00:03:19][Debug]: Backups done
+[00:03:49][Debug]: Performing backups...
+[00:03:49][Debug]: Backups done
+[00:04:19][Debug]: Performing backups...
+[00:04:19][Debug]: Backups done
+[00:04:49][Debug]: Performing backups...
+[00:04:49][Debug]: Backups done
+[00:05:19][Debug]: Performing backups...
+[00:05:19][Debug]: Backups done
+[00:05:31][Debug]: Alex acquired lock Update - 5bbbb944-0e77-4639-add9-8187ba2b795e - Alex
+[00:05:31][Debug]: Alex acquired lock UnloadedUpdate - 5bbbb944-0e77-4639-add9-8187ba2b795e - Alex
+[00:05:31][Debug]: Alex acquired lock UnloadedUpdate - f60a7b05-1ee4-47f6-b873-30b1aeb85750 - Alex
+[00:05:31][Debug]: Alex acquired lock Update - f60a7b05-1ee4-47f6-b873-30b1aeb85750 - Alex
+[00:05:31][Debug]: Alex acquired lock UnloadedUpdate - 8dd288da-bffe-4e07-9745-53dc10a8b4e3 - Alex
+[00:05:31][Debug]: Alex acquired lock Update - 8dd288da-bffe-4e07-9745-53dc10a8b4e3 - Alex
+[00:05:49][Debug]: Performing backups...
+[00:05:49][Debug]: Backups done
+[00:06:19][Debug]: Performing backups...
+[00:06:19][Debug]: Backups done
+[00:06:37][Debug]: Alex released lock Update - f60a7b05-1ee4-47f6-b873-30b1aeb85750 - Alex
+[00:06:37][Debug]: Alex released lock Update - 8dd288da-bffe-4e07-9745-53dc10a8b4e3 - Alex
+[00:06:37][Debug]: Alex released lock Update - 5bbbb944-0e77-4639-add9-8187ba2b795e - Alex
+[00:06:49][Debug]: Performing backups...
+[00:06:49][Debug]: Backups done
+[00:07:19][Debug]: Performing backups...
+[00:07:19][Debug]: Backups done
+[00:07:49][Debug]: Performing backups...
+[00:07:49][Debug]: Backups done
+[00:08:19][Debug]: Performing backups...
+[00:08:19][Debug]: Backups done
+[00:08:49][Debug]: Performing backups...
+[00:08:49][Debug]: Backups done
+[00:09:19][Debug]: Performing backups...
+[00:09:19][Debug]: Backups done
+[00:09:49][Debug]: Performing backups...
+[00:09:49][Debug]: Backups done
+[00:10:17][Debug]: Alex is warping
+[00:10:19][Debug]: Performing backups...
+[00:10:19][Debug]: Backups done
+[00:10:21][Debug]: Alex released lock UnloadedUpdate - 5bbbb944-0e77-4639-add9-8187ba2b795e - Alex
+[00:10:21][Debug]: Alex released lock UnloadedUpdate - f60a7b05-1ee4-47f6-b873-30b1aeb85750 - Alex
+[00:10:21][Debug]: Alex released lock UnloadedUpdate - 8dd288da-bffe-4e07-9745-53dc10a8b4e3 - Alex
+[00:10:37][Debug]: Alex created the new subspace '256'
+[00:10:37][Debug]: Removing abandoned subspace '255'
+[00:10:49][Debug]: Performing backups...
+[00:10:49][Debug]: Backups done
+[00:11:19][Debug]: Performing backups...
+[00:11:19][Debug]: Backups done
+[00:11:35][Debug]: Alex is warping
+[00:11:37][Debug]: Alex created the new subspace '257'
+[00:11:37][Debug]: Removing abandoned subspace '256'
+[00:11:49][Debug]: Performing backups...
+[00:11:49][Debug]: Backups done
+[00:11:50][Debug]: Alex is warping
+[00:11:56][Debug]: Alex created the new subspace '258'
+[00:11:56][Debug]: Removing abandoned subspace '257'
+[00:12:11][Debug]: Alex is warping
+[00:12:19][Debug]: Performing backups...
+[00:12:19][Debug]: Backups done
+[00:12:22][Debug]: Alex created the new subspace '259'
+[00:12:22][Debug]: Removing abandoned subspace '258'
+[00:12:49][Debug]: Performing backups...
+[00:12:49][Debug]: Backups done
+[00:13:19][Debug]: Performing backups...
+[00:13:19][Debug]: Backups done
+[00:13:20][Debug]: Alex is warping
+[00:13:23][Debug]: Alex created the new subspace '260'
+[00:13:23][Debug]: Removing abandoned subspace '259'
+[00:13:25][Debug]: Alex is warping
+[00:13:29][Debug]: Alex created the new subspace '261'
+[00:13:29][Debug]: Removing abandoned subspace '260'
+[00:13:49][Debug]: Performing backups...
+[00:13:49][Debug]: Backups done
+[00:14:19][Debug]: Performing backups...
+[00:14:19][Debug]: Backups done
+[00:14:35][Debug]: Alex is warping
+[00:14:46][Debug]: Alex released lock UnloadedUpdate - b3041e1e-2bf1-4a86-a403-e8c1d0fc0ce2 - Alex
+[00:14:46][Debug]: Alex released lock UnloadedUpdate - 22cfc288-e3eb-4430-8625-470b97ac4e5c - Alex
+[00:14:49][Debug]: Performing backups...
+[00:14:49][Debug]: Backups done
+[00:14:57][Debug]: Alex created the new subspace '262'
+[00:14:57][Debug]: Removing abandoned subspace '261'
+[00:15:11][Debug]: Alex is warping
+[00:15:19][Debug]: Alex created the new subspace '263'
+[00:15:19][Debug]: Removing abandoned subspace '262'
+[00:15:19][Debug]: Performing backups...
+[00:15:19][Debug]: Backups done
+[00:15:49][Debug]: Performing backups...
+[00:15:49][Debug]: Backups done
+[00:16:15][Debug]: Alex is warping
+[00:16:19][Debug]: Performing backups...
+[00:16:19][Debug]: Backups done
+[00:16:42][Debug]: Alex created the new subspace '264'
+[00:16:42][Debug]: Removing abandoned subspace '263'
+[00:16:49][Debug]: Performing backups...
+[00:16:49][Debug]: Backups done
+[00:16:56][Debug]: Alex is warping
+[00:17:19][Debug]: Performing backups...
+[00:17:19][Debug]: Backups done
+[00:17:32][Debug]: Alex created the new subspace '265'
+[00:17:32][Debug]: Removing abandoned subspace '264'
+[00:17:49][Debug]: Performing backups...
+[00:17:49][Debug]: Backups done
+[00:17:52][Debug]: Alex is warping
+[00:18:19][Debug]: Performing backups...
+[00:18:19][Debug]: Backups done
+[00:18:32][Debug]: Alex created the new subspace '266'
+[00:18:32][Debug]: Removing abandoned subspace '265'
+[00:18:38][Debug]: Alex is warping
+[00:18:49][Debug]: Performing backups...
+[00:18:49][Debug]: Backups done
+[00:19:19][Debug]: Performing backups...
+[00:19:19][Debug]: Backups done
+[00:19:41][Debug]: Alex created the new subspace '267'
+[00:19:41][Debug]: Removing abandoned subspace '266'
+[00:19:49][Debug]: Performing backups...
+[00:19:49][Debug]: Backups done
+[00:19:55][Debug]: Alex is warping
+[00:20:00][Debug]: Alex created the new subspace '268'
+[00:20:00][Debug]: Removing abandoned subspace '267'
+[00:20:14][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:20:14][Debug]: Alex acquired lock Update - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:20:19][Debug]: Performing backups...
+[00:20:19][Debug]: Backups done
+[00:20:30][Debug]: Science experiment received: mysteryGoo@MinmusInSpaceHigh
+[00:20:31][Debug]: Science experiment received: crewReport@MinmusInSpaceHigh
+[00:20:31][Debug]: Science experiment received: barometerScan@MinmusInSpaceHigh
+[00:20:32][Debug]: Science experiment received: temperatureScan@MinmusInSpaceHigh
+[00:20:33][Debug]: Alex released lock Control - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[00:20:33][Debug]: Alex acquired lock Control - 8c3212be-9fe7-4846-b2e8-61d810904241 - Alex
+[00:20:34][Debug]: Alex acquired lock UnloadedUpdate - 8c3212be-9fe7-4846-b2e8-61d810904241 - Alex
+[00:20:34][Debug]: Alex acquired lock Update - 8c3212be-9fe7-4846-b2e8-61d810904241 - Alex
+[00:20:39][Debug]: Science experiment received: evaReport@MinmusInSpaceHigh
+[00:20:41][Debug]: Alex released lock Control - 8c3212be-9fe7-4846-b2e8-61d810904241 - Alex
+[00:20:41][Debug]: Alex acquired lock Control - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[00:20:41][Debug]: Alex released lock Update - 8c3212be-9fe7-4846-b2e8-61d810904241 - Alex
+[00:20:41][Debug]: Alex released lock UnloadedUpdate - 8c3212be-9fe7-4846-b2e8-61d810904241 - Alex
+[00:20:46][Debug]: Alex is warping
+[00:20:47][Debug]: Alex released lock Update - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:20:49][Debug]: Performing backups...
+[00:20:49][Debug]: Backups done
+[00:20:50][Debug]: Alex created the new subspace '269'
+[00:20:50][Debug]: Removing abandoned subspace '268'
+[00:20:51][Debug]: Alex is warping
+[00:20:57][Debug]: Alex created the new subspace '270'
+[00:20:57][Debug]: Removing abandoned subspace '269'
+[00:21:19][Debug]: Performing backups...
+[00:21:19][Debug]: Backups done
+[00:21:20][Debug]: Alex is warping
+[00:21:30][Debug]: Alex created the new subspace '271'
+[00:21:30][Debug]: Removing abandoned subspace '270'
+[00:21:40][Debug]: Alex is warping
+[00:21:49][Debug]: Performing backups...
+[00:21:49][Debug]: Backups done
+[00:21:49][Debug]: Alex created the new subspace '272'
+[00:21:49][Debug]: Removing abandoned subspace '271'
+[00:22:16][Debug]: Alex is warping
+[00:22:19][Debug]: Performing backups...
+[00:22:19][Debug]: Backups done
+[00:22:25][Debug]: Alex created the new subspace '273'
+[00:22:25][Debug]: Removing abandoned subspace '272'
+[00:22:49][Debug]: Performing backups...
+[00:22:49][Debug]: Backups done
+[00:22:58][Debug]: Alex is warping
+[00:23:01][Debug]: Alex created the new subspace '274'
+[00:23:01][Debug]: Removing abandoned subspace '273'
+[00:23:12][Debug]: Alex is warping
+[00:23:16][Debug]: Alex created the new subspace '275'
+[00:23:16][Debug]: Removing abandoned subspace '274'
+[00:23:19][Debug]: Performing backups...
+[00:23:19][Debug]: Backups done
+[00:23:21][Debug]: Alex acquired lock UnloadedUpdate - 699047c2-f88b-4788-9aba-17762ddded87 - Alex
+[00:23:21][Debug]: Alex acquired lock Update - 699047c2-f88b-4788-9aba-17762ddded87 - Alex
+[00:23:49][Debug]: Performing backups...
+[00:23:49][Debug]: Backups done
+[00:24:18][Debug]: Alex is warping
+[00:24:19][Debug]: Performing backups...
+[00:24:19][Debug]: Backups done
+[00:24:36][Debug]: Alex acquired lock Update - 55873ba9-49df-4e3b-bec5-0442b5a75737 - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - 55873ba9-49df-4e3b-bec5-0442b5a75737 - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - f7999500-3b18-4ac3-8f2e-438958ab249d - Alex
+[00:24:36][Debug]: Alex acquired lock Update - f7999500-3b18-4ac3-8f2e-438958ab249d - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - eb4c2011-1fb1-4ea9-9755-0cc38bd7c247 - Alex
+[00:24:36][Debug]: Alex acquired lock Update - eb4c2011-1fb1-4ea9-9755-0cc38bd7c247 - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - 20899211-3ecc-4e85-ada0-c3515ef73c2c - Alex
+[00:24:36][Debug]: Alex acquired lock Update - 20899211-3ecc-4e85-ada0-c3515ef73c2c - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - 0a8e1ae2-613a-4bda-bfbc-2e3a50e0db66 - Alex
+[00:24:36][Debug]: Alex acquired lock Update - 0a8e1ae2-613a-4bda-bfbc-2e3a50e0db66 - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - d31d09e6-7b56-4c59-b452-46c0cb7ab7f7 - Alex
+[00:24:36][Debug]: Alex acquired lock Update - d31d09e6-7b56-4c59-b452-46c0cb7ab7f7 - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - 5c1f4c37-6ab2-4cff-9d4a-a3d09c56b6f1 - Alex
+[00:24:36][Debug]: Alex acquired lock Update - 5c1f4c37-6ab2-4cff-9d4a-a3d09c56b6f1 - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - 2c3acbda-cfd3-49a5-b80a-090a2ad78679 - Alex
+[00:24:36][Debug]: Alex acquired lock Update - 2c3acbda-cfd3-49a5-b80a-090a2ad78679 - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - c6def4b6-76e0-41bd-a61d-301c4b6b3624 - Alex
+[00:24:36][Debug]: Alex acquired lock Update - c6def4b6-76e0-41bd-a61d-301c4b6b3624 - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - 7a0671f3-fd1d-428c-aa2a-c3b988c43521 - Alex
+[00:24:36][Debug]: Alex acquired lock Update - 7a0671f3-fd1d-428c-aa2a-c3b988c43521 - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - f5f22dc5-73e4-48e3-a148-de4f81ebebb5 - Alex
+[00:24:36][Debug]: Alex acquired lock Update - f5f22dc5-73e4-48e3-a148-de4f81ebebb5 - Alex
+[00:24:36][Debug]: Alex acquired lock UnloadedUpdate - 50f73791-3cac-4074-8b4d-75a754406374 - Alex
+[00:24:36][Debug]: Alex acquired lock Update - 50f73791-3cac-4074-8b4d-75a754406374 - Alex
+[00:24:36][Debug]: Alex released lock UnloadedUpdate - 55873ba9-49df-4e3b-bec5-0442b5a75737 - Alex
+[00:24:36][Debug]: Alex released lock Update - 55873ba9-49df-4e3b-bec5-0442b5a75737 - Alex
+[00:24:36][Debug]: Alex released lock Update - f7999500-3b18-4ac3-8f2e-438958ab249d - Alex
+[00:24:36][Debug]: Alex released lock UnloadedUpdate - f7999500-3b18-4ac3-8f2e-438958ab249d - Alex
+[00:24:36][Debug]: Alex released lock Update - 20899211-3ecc-4e85-ada0-c3515ef73c2c - Alex
+[00:24:36][Debug]: Alex released lock Update - 0a8e1ae2-613a-4bda-bfbc-2e3a50e0db66 - Alex
+[00:24:36][Debug]: Alex released lock Update - d31d09e6-7b56-4c59-b452-46c0cb7ab7f7 - Alex
+[00:24:36][Debug]: Alex released lock UnloadedUpdate - 0a8e1ae2-613a-4bda-bfbc-2e3a50e0db66 - Alex
+[00:24:36][Debug]: Alex released lock UnloadedUpdate - d31d09e6-7b56-4c59-b452-46c0cb7ab7f7 - Alex
+[00:24:36][Debug]: Alex released lock UnloadedUpdate - eb4c2011-1fb1-4ea9-9755-0cc38bd7c247 - Alex
+[00:24:36][Debug]: Alex released lock Update - eb4c2011-1fb1-4ea9-9755-0cc38bd7c247 - Alex
+[00:24:36][Debug]: Alex released lock UnloadedUpdate - 20899211-3ecc-4e85-ada0-c3515ef73c2c - Alex
+[00:24:37][Debug]: Alex released lock UnloadedUpdate - 699047c2-f88b-4788-9aba-17762ddded87 - Alex
+[00:24:37][Debug]: Alex released lock UnloadedUpdate - 5c1f4c37-6ab2-4cff-9d4a-a3d09c56b6f1 - Alex
+[00:24:37][Debug]: Alex released lock Update - 5c1f4c37-6ab2-4cff-9d4a-a3d09c56b6f1 - Alex
+[00:24:37][Debug]: Alex released lock Update - 2c3acbda-cfd3-49a5-b80a-090a2ad78679 - Alex
+[00:24:37][Debug]: Alex released lock UnloadedUpdate - 2c3acbda-cfd3-49a5-b80a-090a2ad78679 - Alex
+[00:24:37][Debug]: Alex released lock UnloadedUpdate - c6def4b6-76e0-41bd-a61d-301c4b6b3624 - Alex
+[00:24:37][Debug]: Alex released lock Update - c6def4b6-76e0-41bd-a61d-301c4b6b3624 - Alex
+[00:24:37][Debug]: Alex released lock Update - 699047c2-f88b-4788-9aba-17762ddded87 - Alex
+[00:24:37][Debug]: Alex released lock UnloadedUpdate - 7a0671f3-fd1d-428c-aa2a-c3b988c43521 - Alex
+[00:24:37][Debug]: Alex released lock Update - 7a0671f3-fd1d-428c-aa2a-c3b988c43521 - Alex
+[00:24:37][Debug]: Alex released lock UnloadedUpdate - f5f22dc5-73e4-48e3-a148-de4f81ebebb5 - Alex
+[00:24:37][Debug]: Alex released lock Update - f5f22dc5-73e4-48e3-a148-de4f81ebebb5 - Alex
+[00:24:37][Debug]: Alex released lock UnloadedUpdate - 50f73791-3cac-4074-8b4d-75a754406374 - Alex
+[00:24:37][Debug]: Alex released lock Update - 50f73791-3cac-4074-8b4d-75a754406374 - Alex
+[00:24:41][Debug]: Alex created the new subspace '276'
+[00:24:41][Debug]: Removing abandoned subspace '275'
+[00:24:42][Debug]: Alex is warping
+[00:24:45][Debug]: Alex created the new subspace '277'
+[00:24:45][Debug]: Removing abandoned subspace '276'
+[00:24:46][Debug]: Alex is warping
+[00:24:49][Debug]: Performing backups...
+[00:24:49][Debug]: Backups done
+[00:25:19][Debug]: Performing backups...
+[00:25:19][Debug]: Backups done
+[00:25:21][Debug]: Science experiment received: crewReport@MinmusInSpaceHigh
+[00:25:35][Debug]: Alex created the new subspace '278'
+[00:25:35][Debug]: Removing abandoned subspace '277'
+[00:25:41][Debug]: Alex released lock Control - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[00:25:41][Debug]: Alex acquired lock Control - bd23a1c6-958f-4416-90fa-0db34c14c4e7 - Alex
+[00:25:41][Debug]: Alex acquired lock Update - bd23a1c6-958f-4416-90fa-0db34c14c4e7 - Alex
+[00:25:41][Debug]: Alex acquired lock UnloadedUpdate - bd23a1c6-958f-4416-90fa-0db34c14c4e7 - Alex
+[00:25:45][Debug]: Science experiment received: surfaceSample@KerbinSrfSplashedWater
+[00:25:49][Debug]: Performing backups...
+[00:25:49][Debug]: Backups done
+[00:25:54][Debug]: Alex acquired lock Control - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[00:25:54][Debug]: Alex failed to release lock Control - bd23a1c6-958f-4416-90fa-0db34c14c4e7 - Alex
+[00:25:54][Debug]: Alex released lock UnloadedUpdate - bd23a1c6-958f-4416-90fa-0db34c14c4e7 - Alex
+[00:25:54][Debug]: Alex released lock Update - bd23a1c6-958f-4416-90fa-0db34c14c4e7 - Alex
+[00:26:02][Debug]: Alex released lock Control - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[00:26:02][Debug]: Alex acquired lock Control - 8c3cc673-3a14-4e67-890b-25f51d07d960 - Alex
+[00:26:02][Debug]: Alex acquired lock UnloadedUpdate - 8c3cc673-3a14-4e67-890b-25f51d07d960 - Alex
+[00:26:02][Debug]: Alex acquired lock Update - 8c3cc673-3a14-4e67-890b-25f51d07d960 - Alex
+[00:26:05][Debug]: Alex acquired lock Control - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[00:26:05][Debug]: Alex failed to release lock Control - 8c3cc673-3a14-4e67-890b-25f51d07d960 - Alex
+[00:26:05][Debug]: Alex released lock UnloadedUpdate - 8c3cc673-3a14-4e67-890b-25f51d07d960 - Alex
+[00:26:05][Debug]: Alex released lock Update - 8c3cc673-3a14-4e67-890b-25f51d07d960 - Alex
+[00:26:12][Debug]: Alex acquired lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:26:12][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:26:12][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:26:12][Debug]: Alex acquired lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:26:12][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:26:12][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[00:26:12][Debug]: Alex released lock Control - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[00:26:13][Debug]: Alex released lock Update - 265db1ae-3db4-4610-a2b9-30770436942f - Alex
+[00:26:13][Debug]: Alex released lock Update - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[00:26:13][Debug]: Alex released lock Update - 5bdaf370-a110-4621-b32f-b16f675e1b77 - Alex
+[00:26:13][Debug]: Alex released lock Update - 969129c1-fc63-4dfc-acc0-52a56634d491 - Alex
+[00:26:13][Debug]: Alex released lock UnloadedUpdate - 265db1ae-3db4-4610-a2b9-30770436942f - Alex
+[00:26:13][Debug]: Alex released lock UnloadedUpdate - 4019034d-72d5-4f08-b1fe-3c320dec06c5 - Alex
+[00:26:13][Debug]: Alex released lock UnloadedUpdate - 5bdaf370-a110-4621-b32f-b16f675e1b77 - Alex
+[00:26:13][Debug]: Alex released lock UnloadedUpdate - 969129c1-fc63-4dfc-acc0-52a56634d491 - Alex
+[00:26:13][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:26:16][Debug]: Science received: 120.67958 Reason: VesselRecovery
+[00:26:16][Debug]: Science experiment received: crewReport@MinmusInSpaceHigh
+[00:26:16][Debug]: Science received: 140.67958 Reason: VesselRecovery
+[00:26:16][Debug]: Science experiment received: evaReport@MinmusInSpaceHigh
+[00:26:16][Debug]: Science received: 141.42958 Reason: VesselRecovery
+[00:26:16][Debug]: Science experiment received: surfaceSample@KerbinSrfSplashedWater
+[00:26:16][Debug]: Science received: 166.42958 Reason: VesselRecovery
+[00:26:16][Debug]: Science experiment received: mysteryGoo@MinmusInSpaceHigh
+[00:26:16][Debug]: Science received: 196.42958 Reason: VesselRecovery
+[00:26:16][Debug]: Science experiment received: barometerScan@MinmusInSpaceHigh
+[00:26:16][Debug]: Science received: 216.42958 Reason: VesselRecovery
+[00:26:16][Debug]: Science experiment received: temperatureScan@MinmusInSpaceHigh
+[00:26:16][Debug]: Science received: 231.42958 Reason: VesselRecovery
+[00:26:16][Debug]: Science experiment received: recovery@MinmusFlewBy
+[00:26:16][Debug]: Alex failed to release lock Kerbal - Irly Kerman - Alex
+[00:26:16][Debug]: Alex failed to release lock Kerbal - Irly Kerman - Alex
+[00:26:19][Debug]: Performing backups...
+[00:26:19][Debug]: Backups done
+[00:26:49][Debug]: Performing backups...
+[00:26:49][Debug]: Backups done
+[00:27:18][Debug]: Science received: 71.42958 Reason: RnDTechResearch
+[00:27:18][Debug]: Technology unlocked: advExploration
+[00:27:19][Debug]: Performing backups...
+[00:27:19][Debug]: Backups done
+[00:27:30][Debug]: Alex released lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:27:30][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:27:30][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:27:30][Debug]: Alex released lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:27:30][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:27:49][Debug]: Performing backups...
+[00:27:49][Debug]: Backups done
+[00:28:19][Debug]: Performing backups...
+[00:28:19][Debug]: Backups done
+[00:28:49][Debug]: Performing backups...
+[00:28:49][Debug]: Backups done
+[00:29:19][Debug]: Performing backups...
+[00:29:19][Debug]: Backups done
+[00:29:49][Debug]: Performing backups...
+[00:29:49][Debug]: Backups done
+[00:30:19][Debug]: Performing backups...
+[00:30:19][Debug]: Backups done
+[00:30:28][Debug]: Alex acquired lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:30:28][Debug]: Alex acquired lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:30:28][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:30:28][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:30:28][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:30:28][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:30:31][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:30:31][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:30:31][Debug]: Alex released lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:30:31][Debug]: Alex released lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:30:31][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:30:31][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:30:49][Debug]: Performing backups...
+[00:30:49][Debug]: Backups done
+[00:31:19][Debug]: Performing backups...
+[00:31:19][Debug]: Backups done
+[00:31:49][Debug]: Performing backups...
+[00:31:49][Debug]: Backups done
+[00:32:19][Debug]: Performing backups...
+[00:32:19][Debug]: Backups done
+[00:32:49][Debug]: Performing backups...
+[00:32:49][Debug]: Backups done
+[00:33:19][Debug]: Performing backups...
+[00:33:19][Debug]: Backups done
+[00:33:49][Debug]: Performing backups...
+[00:33:49][Debug]: Backups done
+[00:34:19][Debug]: Performing backups...
+[00:34:19][Debug]: Backups done
+[00:34:49][Debug]: Performing backups...
+[00:34:49][Debug]: Backups done
+[00:35:19][Debug]: Performing backups...
+[00:35:19][Debug]: Backups done
+[00:35:49][Debug]: Performing backups...
+[00:35:49][Debug]: Backups done
+[00:36:19][Debug]: Performing backups...
+[00:36:19][Debug]: Backups done
+[00:36:49][Debug]: Performing backups...
+[00:36:49][Debug]: Backups done
+[00:37:19][Debug]: Performing backups...
+[00:37:19][Debug]: Backups done
+[00:37:49][Debug]: Performing backups...
+[00:37:49][Debug]: Backups done
+[00:38:19][Debug]: Performing backups...
+[00:38:19][Debug]: Backups done
+[00:38:49][Debug]: Performing backups...
+[00:38:49][Debug]: Backups done
+[00:39:19][Debug]: Performing backups...
+[00:39:19][Debug]: Backups done
+[00:39:49][Debug]: Performing backups...
+[00:39:49][Debug]: Backups done
+[00:40:19][Debug]: Performing backups...
+[00:40:19][Debug]: Backups done
+[00:40:49][Debug]: Performing backups...
+[00:40:49][Debug]: Backups done
+[00:41:19][Debug]: Performing backups...
+[00:41:19][Debug]: Backups done
+[00:41:38][Debug]: Alex acquired lock Control - 58857cc3-b1e2-4a15-a55f-c70f13100b79 - Alex
+[00:41:38][Debug]: Alex acquired lock Update - 58857cc3-b1e2-4a15-a55f-c70f13100b79 - Alex
+[00:41:38][Debug]: Alex acquired lock UnloadedUpdate - 58857cc3-b1e2-4a15-a55f-c70f13100b79 - Alex
+[00:41:38][Debug]: Alex acquired lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:41:38][Debug]: Alex acquired lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:41:38][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:41:38][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:41:38][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:41:38][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:41:49][Debug]: Performing backups...
+[00:41:49][Debug]: Backups done
+[00:41:54][Debug]: Alex released lock Control - 58857cc3-b1e2-4a15-a55f-c70f13100b79 - Alex
+[00:41:54][Debug]: Alex released lock Update - 58857cc3-b1e2-4a15-a55f-c70f13100b79 - Alex
+[00:41:54][Debug]: Alex released lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:41:54][Debug]: Alex released lock UnloadedUpdate - 58857cc3-b1e2-4a15-a55f-c70f13100b79 - Alex
+[00:41:54][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:41:54][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:41:54][Debug]: Alex released lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:41:54][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:41:54][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:42:03][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[00:42:08][Debug]: Alex acquired lock Control - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:42:08][Debug]: Alex acquired lock Update - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:42:08][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:42:08][Debug]: Alex acquired lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:42:08][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:42:08][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:42:08][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:42:08][Debug]: Alex acquired lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:42:08][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:42:19][Debug]: Performing backups...
+[00:42:19][Debug]: Backups done
+[00:42:49][Debug]: Performing backups...
+[00:42:49][Debug]: Backups done
+[00:43:19][Debug]: Performing backups...
+[00:43:19][Debug]: Backups done
+[00:43:41][Debug]: Alex acquired lock UnloadedUpdate - 4456bc6a-ba96-43cc-bcd5-0e3b02128231 - Alex
+[00:43:41][Debug]: Alex acquired lock Update - 4456bc6a-ba96-43cc-bcd5-0e3b02128231 - Alex
+[00:43:41][Debug]: Alex acquired lock UnloadedUpdate - 4b7712db-992b-4cdc-84eb-0ae8cc25522e - Alex
+[00:43:41][Debug]: Alex acquired lock Update - 4b7712db-992b-4cdc-84eb-0ae8cc25522e - Alex
+[00:43:49][Debug]: Performing backups...
+[00:43:49][Debug]: Backups done
+[00:44:18][Debug]: Alex is warping
+[00:44:19][Debug]: Performing backups...
+[00:44:19][Debug]: Backups done
+[00:44:27][Debug]: Alex created the new subspace '279'
+[00:44:27][Debug]: Removing abandoned subspace '278'
+[00:44:30][Debug]: Alex released lock Update - 4456bc6a-ba96-43cc-bcd5-0e3b02128231 - Alex
+[00:44:31][Debug]: Alex released lock Update - 4b7712db-992b-4cdc-84eb-0ae8cc25522e - Alex
+[00:44:49][Debug]: Performing backups...
+[00:44:49][Debug]: Backups done
+[00:45:19][Debug]: Performing backups...
+[00:45:19][Debug]: Backups done
+[00:45:49][Debug]: Performing backups...
+[00:45:49][Debug]: Backups done
+[00:46:19][Debug]: Performing backups...
+[00:46:19][Debug]: Backups done
+[00:46:22][Debug]: Science experiment received: barometerScan@KerbinInSpaceLow
+[00:46:25][Debug]: Science experiment received: temperatureScan@KerbinInSpaceLow
+[00:46:27][Debug]: Alex released lock Control - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:46:27][Debug]: Alex acquired lock Control - 4641db91-2a7d-4792-9471-74d373b2a8e5 - Alex
+[00:46:27][Debug]: Alex acquired lock Update - 4641db91-2a7d-4792-9471-74d373b2a8e5 - Alex
+[00:46:27][Debug]: Alex acquired lock UnloadedUpdate - 4641db91-2a7d-4792-9471-74d373b2a8e5 - Alex
+[00:46:32][Debug]: Science experiment received: evaReport@KerbinInSpaceLowWater
+[00:46:35][Debug]: Alex acquired lock Control - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:46:35][Debug]: Alex failed to release lock Control - 4641db91-2a7d-4792-9471-74d373b2a8e5 - Alex
+[00:46:35][Debug]: Alex released lock UnloadedUpdate - 4641db91-2a7d-4792-9471-74d373b2a8e5 - Alex
+[00:46:35][Debug]: Alex released lock Update - 4641db91-2a7d-4792-9471-74d373b2a8e5 - Alex
+[00:46:41][Debug]: Science experiment received: crewReport@KerbinInSpaceLow
+[00:46:49][Debug]: Performing backups...
+[00:46:49][Debug]: Backups done
+[00:46:54][Debug]: Alex acquired lock UnloadedUpdate - db493b0f-a76f-4a08-9c2f-69d272c0ef4b - Alex
+[00:46:54][Debug]: Alex acquired lock Update - db493b0f-a76f-4a08-9c2f-69d272c0ef4b - Alex
+[00:47:19][Debug]: Performing backups...
+[00:47:19][Debug]: Backups done
+[00:47:19][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[00:47:19][Debug]: Alex released lock Update - db493b0f-a76f-4a08-9c2f-69d272c0ef4b - Alex
+[00:47:19][Debug]: Alex released lock Control - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:47:19][Debug]: Alex released lock Update - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:47:19][Debug]: Alex released lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:47:19][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:47:19][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:47:19][Debug]: Alex released lock UnloadedUpdate - 4b7712db-992b-4cdc-84eb-0ae8cc25522e - Alex
+[00:47:19][Debug]: Alex released lock UnloadedUpdate - db493b0f-a76f-4a08-9c2f-69d272c0ef4b - Alex
+[00:47:19][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:47:19][Debug]: Alex released lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:47:19][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:47:19][Debug]: Alex released lock UnloadedUpdate - 4456bc6a-ba96-43cc-bcd5-0e3b02128231 - Alex
+[00:47:19][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:47:27][Debug]: Alex acquired lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:47:27][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:47:27][Debug]: Alex acquired lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:47:27][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:47:27][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:47:27][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:47:27][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:47:27][Debug]: Alex acquired lock UnloadedUpdate - db493b0f-a76f-4a08-9c2f-69d272c0ef4b - Alex
+[00:47:27][Debug]: Alex acquired lock UnloadedUpdate - 4456bc6a-ba96-43cc-bcd5-0e3b02128231 - Alex
+[00:47:27][Debug]: Alex acquired lock UnloadedUpdate - 4b7712db-992b-4cdc-84eb-0ae8cc25522e - Alex
+[00:47:36][Debug]: Alex acquired lock Update - db493b0f-a76f-4a08-9c2f-69d272c0ef4b - Alex
+[00:47:37][Debug]: Alex acquired lock Control - db493b0f-a76f-4a08-9c2f-69d272c0ef4b - Alex
+[00:47:37][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[00:47:37][Debug]: Alex acquired lock Update - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:47:49][Debug]: Performing backups...
+[00:47:49][Debug]: Backups done
+[00:47:56][Debug]: Alex released lock UnloadedUpdate - 4b7712db-992b-4cdc-84eb-0ae8cc25522e - Alex
+[00:47:56][Debug]: Alex released lock UnloadedUpdate - 4456bc6a-ba96-43cc-bcd5-0e3b02128231 - Alex
+[00:48:15][Debug]: Alex released lock Update - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:48:17][Debug]: Alex is warping
+[00:48:19][Debug]: Performing backups...
+[00:48:19][Debug]: Backups done
+[00:48:23][Debug]: Alex created the new subspace '280'
+[00:48:23][Debug]: Removing abandoned subspace '279'
+[00:48:26][Debug]: Alex is warping
+[00:48:27][Debug]: Alex created the new subspace '281'
+[00:48:27][Debug]: Removing abandoned subspace '280'
+[00:48:49][Debug]: Performing backups...
+[00:48:49][Debug]: Backups done
+[00:49:19][Debug]: Performing backups...
+[00:49:19][Debug]: Backups done
+[00:49:42][Debug]: Alex is warping
+[00:49:49][Debug]: Performing backups...
+[00:49:49][Debug]: Backups done
+[00:49:55][Debug]: Alex created the new subspace '282'
+[00:49:55][Debug]: Removing abandoned subspace '281'
+[00:49:58][Debug]: Alex is warping
+[00:50:03][Debug]: Alex created the new subspace '283'
+[00:50:03][Debug]: Removing abandoned subspace '282'
+[00:50:03][Debug]: Alex is warping
+[00:50:06][Debug]: Alex created the new subspace '284'
+[00:50:06][Debug]: Removing abandoned subspace '283'
+[00:50:19][Debug]: Performing backups...
+[00:50:19][Debug]: Backups done
+[00:50:49][Debug]: Performing backups...
+[00:50:49][Debug]: Backups done
+[00:51:16][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[00:51:16][Debug]: Alex acquired lock Update - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[00:51:19][Debug]: Performing backups...
+[00:51:19][Debug]: Backups done
+[00:51:33][Debug]: Alex acquired lock UnloadedUpdate - e77c91f2-5214-49fb-a83e-8e7bf34ad024 - Alex
+[00:51:33][Debug]: Alex acquired lock Update - e77c91f2-5214-49fb-a83e-8e7bf34ad024 - Alex
+[00:51:34][Debug]: Alex released lock UnloadedUpdate - e77c91f2-5214-49fb-a83e-8e7bf34ad024 - Alex
+[00:51:34][Debug]: Alex released lock Update - e77c91f2-5214-49fb-a83e-8e7bf34ad024 - Alex
+[00:51:34][Debug]: Alex is warping
+[00:51:49][Debug]: Performing backups...
+[00:51:49][Debug]: Backups done
+[00:52:19][Debug]: Performing backups...
+[00:52:19][Debug]: Backups done
+[00:52:49][Debug]: Performing backups...
+[00:52:49][Debug]: Backups done
+[00:53:19][Debug]: Performing backups...
+[00:53:19][Debug]: Backups done
+[00:53:21][Debug]: Alex created the new subspace '285'
+[00:53:21][Debug]: Removing abandoned subspace '284'
+[00:53:21][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[00:53:21][Debug]: Alex released lock Control - db493b0f-a76f-4a08-9c2f-69d272c0ef4b - Alex
+[00:53:21][Debug]: Alex released lock Update - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[00:53:21][Debug]: Alex released lock Update - db493b0f-a76f-4a08-9c2f-69d272c0ef4b - Alex
+[00:53:21][Debug]: Alex released lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:53:21][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[00:53:21][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:53:21][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:53:21][Debug]: Alex released lock UnloadedUpdate - db493b0f-a76f-4a08-9c2f-69d272c0ef4b - Alex
+[00:53:21][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:53:21][Debug]: Alex released lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:53:21][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:53:21][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:53:25][Debug]: Science received: 71.42958 Reason: VesselRecovery
+[00:53:25][Debug]: Science experiment received: crewReport@KerbinInSpaceLow
+[00:53:25][Debug]: Science received: 79.42958 Reason: VesselRecovery
+[00:53:25][Debug]: Science experiment received: evaReport@KerbinInSpaceLowWater
+[00:53:25][Debug]: Science received: 79.437294 Reason: VesselRecovery
+[00:53:25][Debug]: Science experiment received: recovery@KerbinOrbited
+[00:53:25][Debug]: Alex failed to release lock Kerbal - Irly Kerman - Alex
+[00:53:26][Debug]: Alex failed to release lock Kerbal - Irly Kerman - Alex
+[00:53:34][Debug]: Alex acquired lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:53:34][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:53:34][Debug]: Alex acquired lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:53:34][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:53:34][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[00:53:34][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:53:34][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:53:34][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:53:49][Debug]: Performing backups...
+[00:53:49][Debug]: Backups done
+[00:53:51][Debug]: Alex released lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:53:51][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[00:53:51][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:53:51][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:53:51][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:53:51][Debug]: Alex released lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:53:51][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:53:51][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:54:19][Debug]: Performing backups...
+[00:54:19][Debug]: Backups done
+[00:54:49][Debug]: Performing backups...
+[00:54:49][Debug]: Backups done
+[00:55:19][Debug]: Performing backups...
+[00:55:19][Debug]: Backups done
+[00:55:49][Debug]: Performing backups...
+[00:55:49][Debug]: Backups done
+[00:56:19][Debug]: Performing backups...
+[00:56:19][Debug]: Backups done
+[00:56:49][Debug]: Performing backups...
+[00:56:49][Debug]: Backups done
+[00:56:55][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[00:57:00][Debug]: Alex acquired lock Control - c96bf9a9-e5e6-4937-a8eb-c4840c60a268 - Alex
+[00:57:00][Debug]: Alex acquired lock UnloadedUpdate - c96bf9a9-e5e6-4937-a8eb-c4840c60a268 - Alex
+[00:57:00][Debug]: Alex acquired lock Update - c96bf9a9-e5e6-4937-a8eb-c4840c60a268 - Alex
+[00:57:00][Debug]: Alex acquired lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:57:00][Debug]: Alex acquired lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:57:00][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:57:00][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:57:00][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[00:57:00][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:57:00][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:57:00][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:57:19][Debug]: Performing backups...
+[00:57:19][Debug]: Backups done
+[00:57:36][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[00:57:36][Debug]: Alex released lock Control - c96bf9a9-e5e6-4937-a8eb-c4840c60a268 - Alex
+[00:57:36][Debug]: Alex released lock Update - c96bf9a9-e5e6-4937-a8eb-c4840c60a268 - Alex
+[00:57:36][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[00:57:36][Debug]: Alex released lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:57:36][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:57:36][Debug]: Alex released lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:57:36][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:57:36][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:57:36][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:57:36][Debug]: Alex released lock UnloadedUpdate - c96bf9a9-e5e6-4937-a8eb-c4840c60a268 - Alex
+[00:57:36][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:57:49][Debug]: Performing backups...
+[00:57:49][Debug]: Backups done
+[00:58:04][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[00:58:09][Debug]: Alex acquired lock Control - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[00:58:09][Debug]: Alex acquired lock Update - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[00:58:09][Debug]: Alex acquired lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[00:58:09][Debug]: Alex acquired lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[00:58:09][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[00:58:09][Debug]: Alex acquired lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[00:58:09][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[00:58:09][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[00:58:09][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[00:58:09][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[00:58:09][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[00:58:19][Debug]: Performing backups...
+[00:58:19][Debug]: Backups done
+[00:58:49][Debug]: Performing backups...
+[00:58:49][Debug]: Backups done
+[00:59:19][Debug]: Performing backups...
+[00:59:19][Debug]: Backups done
+[00:59:32][Debug]: Alex acquired lock UnloadedUpdate - 1e3dd445-d0bc-46c4-8561-ed90dfc1d590 - Alex
+[00:59:32][Debug]: Alex acquired lock Update - 1e3dd445-d0bc-46c4-8561-ed90dfc1d590 - Alex
+[00:59:32][Debug]: Alex acquired lock UnloadedUpdate - bfe238f7-cb91-4bd5-8a81-b8bfdc11a5cc - Alex
+[00:59:32][Debug]: Alex acquired lock Update - bfe238f7-cb91-4bd5-8a81-b8bfdc11a5cc - Alex
+[00:59:32][Debug]: Alex acquired lock Update - bae66797-418f-496a-9669-54ba797f25af - Alex
+[00:59:32][Debug]: Alex acquired lock UnloadedUpdate - bae66797-418f-496a-9669-54ba797f25af - Alex
+[00:59:49][Debug]: Performing backups...
+[00:59:49][Debug]: Backups done
+[01:00:19][Debug]: Performing backups...
+[01:00:19][Debug]: Backups done
+[01:00:49][Debug]: Performing backups...
+[01:00:49][Debug]: Backups done
+[01:01:19][Debug]: Performing backups...
+[01:01:19][Debug]: Backups done
+[01:01:24][Debug]: Alex released lock Update - bae66797-418f-496a-9669-54ba797f25af - Alex
+[01:01:24][Debug]: Alex released lock Update - bfe238f7-cb91-4bd5-8a81-b8bfdc11a5cc - Alex
+[01:01:24][Debug]: Alex released lock Update - 1e3dd445-d0bc-46c4-8561-ed90dfc1d590 - Alex
+[01:01:49][Debug]: Performing backups...
+[01:01:49][Debug]: Backups done
+[01:02:19][Debug]: Performing backups...
+[01:02:19][Debug]: Backups done
+[01:02:49][Debug]: Performing backups...
+[01:02:49][Debug]: Backups done
+[01:03:19][Debug]: Performing backups...
+[01:03:19][Debug]: Backups done
+[01:03:33][Debug]: Alex is warping
+[01:03:34][Debug]: Alex released lock UnloadedUpdate - 1e3dd445-d0bc-46c4-8561-ed90dfc1d590 - Alex
+[01:03:34][Debug]: Alex released lock UnloadedUpdate - bfe238f7-cb91-4bd5-8a81-b8bfdc11a5cc - Alex
+[01:03:34][Debug]: Alex released lock UnloadedUpdate - bae66797-418f-496a-9669-54ba797f25af - Alex
+[01:03:49][Debug]: Performing backups...
+[01:03:49][Debug]: Backups done
+[01:03:53][Debug]: Alex created the new subspace '286'
+[01:03:53][Debug]: Removing abandoned subspace '285'
+[01:04:19][Debug]: Performing backups...
+[01:04:19][Debug]: Backups done
+[01:04:39][Debug]: Alex is warping
+[01:04:49][Debug]: Performing backups...
+[01:04:49][Debug]: Backups done
+[01:05:00][Debug]: Alex created the new subspace '287'
+[01:05:00][Debug]: Removing abandoned subspace '286'
+[01:05:19][Debug]: Performing backups...
+[01:05:19][Debug]: Backups done
+[01:05:35][Debug]: Alex acquired lock Update - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:05:35][Debug]: Alex acquired lock UnloadedUpdate - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:05:49][Debug]: Performing backups...
+[01:05:49][Debug]: Backups done
+[01:06:16][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[01:06:16][Debug]: Alex released lock Control - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:06:16][Debug]: Alex released lock Update - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:06:16][Debug]: Alex released lock Update - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:06:16][Debug]: Alex released lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[01:06:16][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:06:16][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:06:16][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:06:16][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:06:16][Debug]: Alex released lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[01:06:16][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:06:16][Debug]: Alex released lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:06:16][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:06:16][Debug]: Alex released lock UnloadedUpdate - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:06:19][Debug]: Performing backups...
+[01:06:19][Debug]: Backups done
+[01:06:29][Debug]: Alex acquired lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[01:06:29][Debug]: Alex acquired lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[01:06:29][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:06:29][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:06:29][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:06:29][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:06:29][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:06:29][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:06:29][Debug]: Alex acquired lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:06:29][Debug]: Alex acquired lock UnloadedUpdate - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:06:48][Debug]: Alex acquired lock Update - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:06:48][Debug]: Alex acquired lock Control - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:06:49][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[01:06:49][Debug]: Alex acquired lock Update - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:06:49][Debug]: Performing backups...
+[01:06:49][Debug]: Backups done
+[01:06:56][Debug]: Science experiment received: crewReport@MunInSpaceHigh
+[01:06:57][Debug]: Alex released lock Control - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:06:57][Debug]: Alex acquired lock Control - a22ba670-2b5f-4b4a-a702-75e06eb07fab - Alex
+[01:06:57][Debug]: Alex acquired lock Update - a22ba670-2b5f-4b4a-a702-75e06eb07fab - Alex
+[01:06:57][Debug]: Alex acquired lock UnloadedUpdate - a22ba670-2b5f-4b4a-a702-75e06eb07fab - Alex
+[01:07:03][Debug]: Science experiment received: evaReport@MunInSpaceHigh
+[01:07:04][Debug]: Alex acquired lock Control - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:07:04][Debug]: Alex failed to release lock Control - a22ba670-2b5f-4b4a-a702-75e06eb07fab - Alex
+[01:07:04][Debug]: Alex released lock UnloadedUpdate - a22ba670-2b5f-4b4a-a702-75e06eb07fab - Alex
+[01:07:04][Debug]: Alex released lock Update - a22ba670-2b5f-4b4a-a702-75e06eb07fab - Alex
+[01:07:19][Debug]: Performing backups...
+[01:07:19][Debug]: Backups done
+[01:07:49][Debug]: Performing backups...
+[01:07:49][Debug]: Backups done
+[01:08:12][Debug]: Alex is warping
+[01:08:14][Debug]: Alex released lock Update - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:08:19][Debug]: Performing backups...
+[01:08:19][Debug]: Backups done
+[01:08:22][Debug]: Alex created the new subspace '288'
+[01:08:22][Debug]: Removing abandoned subspace '287'
+[01:08:35][Debug]: Alex is warping
+[01:08:41][Debug]: Alex created the new subspace '289'
+[01:08:41][Debug]: Removing abandoned subspace '288'
+[01:08:49][Debug]: Performing backups...
+[01:08:49][Debug]: Backups done
+[01:09:12][Debug]: Alex is warping
+[01:09:19][Debug]: Performing backups...
+[01:09:19][Debug]: Backups done
+[01:09:33][Debug]: Alex created the new subspace '290'
+[01:09:33][Debug]: Removing abandoned subspace '289'
+[01:09:38][Debug]: Alex is warping
+[01:09:40][Debug]: Alex created the new subspace '291'
+[01:09:40][Debug]: Removing abandoned subspace '290'
+[01:09:49][Debug]: Performing backups...
+[01:09:49][Debug]: Backups done
+[01:10:19][Debug]: Performing backups...
+[01:10:19][Debug]: Backups done
+[01:10:45][Debug]: Alex is warping
+[01:10:48][Debug]: Alex created the new subspace '292'
+[01:10:48][Debug]: Removing abandoned subspace '291'
+[01:10:49][Debug]: Performing backups...
+[01:10:49][Debug]: Backups done
+[01:10:55][Debug]: Alex is warping
+[01:11:01][Debug]: Alex created the new subspace '293'
+[01:11:01][Debug]: Removing abandoned subspace '292'
+[01:11:19][Debug]: Performing backups...
+[01:11:19][Debug]: Backups done
+[01:11:23][Debug]: Alex acquired lock UnloadedUpdate - dfbec102-5bcf-46c5-84d8-6114162d2195 - Alex
+[01:11:23][Debug]: Alex acquired lock Update - dfbec102-5bcf-46c5-84d8-6114162d2195 - Alex
+[01:11:49][Debug]: Performing backups...
+[01:11:49][Debug]: Backups done
+[01:12:06][Debug]: Alex is warping
+[01:12:09][Debug]: Alex acquired lock UnloadedUpdate - 76df9d59-b4cd-420f-9550-acfaaaa7ee5e - Alex
+[01:12:09][Debug]: Alex acquired lock Update - 76df9d59-b4cd-420f-9550-acfaaaa7ee5e - Alex
+[01:12:10][Debug]: Alex released lock Update - dfbec102-5bcf-46c5-84d8-6114162d2195 - Alex
+[01:12:10][Debug]: Alex released lock UnloadedUpdate - dfbec102-5bcf-46c5-84d8-6114162d2195 - Alex
+[01:12:10][Debug]: Alex acquired lock UnloadedUpdate - d65f2c81-47cf-46ae-b92c-8d9e30a8e81a - Alex
+[01:12:10][Debug]: Alex acquired lock Update - d65f2c81-47cf-46ae-b92c-8d9e30a8e81a - Alex
+[01:12:10][Debug]: Alex acquired lock Update - aeab6b3b-2ce4-409b-a2f2-d88fc4e4b60d - Alex
+[01:12:10][Debug]: Alex acquired lock UnloadedUpdate - aeab6b3b-2ce4-409b-a2f2-d88fc4e4b60d - Alex
+[01:12:10][Debug]: Alex acquired lock UnloadedUpdate - afe8091c-510c-4f66-84d2-1554eda68cd9 - Alex
+[01:12:10][Debug]: Alex acquired lock Update - afe8091c-510c-4f66-84d2-1554eda68cd9 - Alex
+[01:12:10][Debug]: Alex acquired lock UnloadedUpdate - 60c61246-2346-403d-b800-e3e565cc7f3b - Alex
+[01:12:10][Debug]: Alex acquired lock Update - 60c61246-2346-403d-b800-e3e565cc7f3b - Alex
+[01:12:10][Debug]: Alex acquired lock UnloadedUpdate - 68d1f4b0-f457-47e0-9987-fbddf8050c57 - Alex
+[01:12:10][Debug]: Alex acquired lock Update - 68d1f4b0-f457-47e0-9987-fbddf8050c57 - Alex
+[01:12:10][Debug]: Alex acquired lock UnloadedUpdate - d7b1bb1f-a472-45c1-a194-46dd82dfc156 - Alex
+[01:12:10][Debug]: Alex acquired lock Update - d7b1bb1f-a472-45c1-a194-46dd82dfc156 - Alex
+[01:12:10][Debug]: Alex acquired lock UnloadedUpdate - dcf87477-27e6-4dae-8029-0a8dc13bcbff - Alex
+[01:12:10][Debug]: Alex acquired lock Update - dcf87477-27e6-4dae-8029-0a8dc13bcbff - Alex
+[01:12:10][Debug]: Alex released lock Update - 76df9d59-b4cd-420f-9550-acfaaaa7ee5e - Alex
+[01:12:10][Debug]: Alex released lock UnloadedUpdate - 76df9d59-b4cd-420f-9550-acfaaaa7ee5e - Alex
+[01:12:10][Debug]: Alex released lock Update - aeab6b3b-2ce4-409b-a2f2-d88fc4e4b60d - Alex
+[01:12:10][Debug]: Alex released lock UnloadedUpdate - aeab6b3b-2ce4-409b-a2f2-d88fc4e4b60d - Alex
+[01:12:10][Debug]: Alex released lock UnloadedUpdate - afe8091c-510c-4f66-84d2-1554eda68cd9 - Alex
+[01:12:10][Debug]: Alex released lock Update - afe8091c-510c-4f66-84d2-1554eda68cd9 - Alex
+[01:12:10][Debug]: Alex released lock UnloadedUpdate - 60c61246-2346-403d-b800-e3e565cc7f3b - Alex
+[01:12:10][Debug]: Alex released lock Update - 60c61246-2346-403d-b800-e3e565cc7f3b - Alex
+[01:12:10][Debug]: Alex released lock UnloadedUpdate - 68d1f4b0-f457-47e0-9987-fbddf8050c57 - Alex
+[01:12:10][Debug]: Alex released lock Update - 68d1f4b0-f457-47e0-9987-fbddf8050c57 - Alex
+[01:12:10][Debug]: Alex released lock UnloadedUpdate - d7b1bb1f-a472-45c1-a194-46dd82dfc156 - Alex
+[01:12:10][Debug]: Alex released lock Update - d7b1bb1f-a472-45c1-a194-46dd82dfc156 - Alex
+[01:12:10][Debug]: Alex released lock UnloadedUpdate - dcf87477-27e6-4dae-8029-0a8dc13bcbff - Alex
+[01:12:10][Debug]: Alex released lock UnloadedUpdate - d65f2c81-47cf-46ae-b92c-8d9e30a8e81a - Alex
+[01:12:10][Debug]: Alex released lock Update - d65f2c81-47cf-46ae-b92c-8d9e30a8e81a - Alex
+[01:12:10][Debug]: Alex released lock Update - dcf87477-27e6-4dae-8029-0a8dc13bcbff - Alex
+[01:12:19][Debug]: Performing backups...
+[01:12:19][Debug]: Backups done
+[01:12:31][Debug]: Alex created the new subspace '294'
+[01:12:31][Debug]: Removing abandoned subspace '293'
+[01:12:31][Debug]: Alex is warping
+[01:12:49][Debug]: Performing backups...
+[01:12:49][Debug]: Backups done
+[01:13:19][Debug]: Performing backups...
+[01:13:19][Debug]: Backups done
+[01:13:48][Debug]: Alex created the new subspace '295'
+[01:13:48][Debug]: Removing abandoned subspace '294'
+[01:13:49][Debug]: Performing backups...
+[01:13:49][Debug]: Backups done
+[01:13:52][Debug]: Science experiment received: mobileMaterialsLab@KerbinSrfLandedDeserts
+[01:13:56][Debug]: Science experiment received: crewReport@MunInSpaceHigh
+[01:13:57][Debug]: Alex released lock Control - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:13:57][Debug]: Alex acquired lock Control - e73e1c36-e676-4e1d-8afd-32a7ed8f8da0 - Alex
+[01:13:57][Debug]: Alex acquired lock UnloadedUpdate - e73e1c36-e676-4e1d-8afd-32a7ed8f8da0 - Alex
+[01:13:57][Debug]: Alex acquired lock Update - e73e1c36-e676-4e1d-8afd-32a7ed8f8da0 - Alex
+[01:14:01][Debug]: Science experiment received: surfaceSample@KerbinSrfLandedDeserts
+[01:14:04][Debug]: Science experiment received: evaReport@KerbinSrfLandedDeserts
+[01:14:07][Debug]: Alex released lock Control - e73e1c36-e676-4e1d-8afd-32a7ed8f8da0 - Alex
+[01:14:07][Debug]: Alex acquired lock Control - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:14:07][Debug]: Alex released lock Update - e73e1c36-e676-4e1d-8afd-32a7ed8f8da0 - Alex
+[01:14:07][Debug]: Alex released lock UnloadedUpdate - e73e1c36-e676-4e1d-8afd-32a7ed8f8da0 - Alex
+[01:14:17][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[01:14:17][Debug]: Alex released lock Control - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:14:17][Debug]: Alex released lock Update - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:14:17][Debug]: Alex released lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[01:14:17][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:14:17][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:14:17][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:14:17][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:14:17][Debug]: Alex released lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[01:14:17][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:14:17][Debug]: Alex released lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:14:17][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:14:17][Debug]: Alex released lock UnloadedUpdate - bd4f0bf1-8e84-403c-b782-8c08e72f3a9e - Alex
+[01:14:18][Debug]: Science received: 79.437294 Reason: VesselRecovery
+[01:14:18][Debug]: Science experiment received: crewReport@MunInSpaceHigh
+[01:14:18][Debug]: Science received: 79.437294 Reason: VesselRecovery
+[01:14:18][Debug]: Science experiment received: evaReport@MunInSpaceHigh
+[01:14:18][Debug]: Science received: 81.837296 Reason: VesselRecovery
+[01:14:18][Debug]: Science experiment received: evaReport@KerbinSrfLandedDeserts
+[01:14:18][Debug]: Science received: 90.837296 Reason: VesselRecovery
+[01:14:18][Debug]: Science experiment received: surfaceSample@KerbinSrfLandedDeserts
+[01:14:18][Debug]: Science received: 98.337296 Reason: VesselRecovery
+[01:14:18][Debug]: Science experiment received: mobileMaterialsLab@KerbinSrfLandedDeserts
+[01:14:18][Debug]: Science received: 114.337296 Reason: VesselRecovery
+[01:14:18][Debug]: Science experiment received: recovery@MunOrbited
+[01:14:19][Debug]: Performing backups...
+[01:14:19][Debug]: Backups done
+[01:14:19][Debug]: Alex failed to release lock Kerbal - Irly Kerman - Alex
+[01:14:20][Debug]: Alex failed to release lock Kerbal - Irly Kerman - Alex
+[01:14:49][Debug]: Performing backups...
+[01:14:49][Debug]: Backups done
+[01:14:55][Debug]: Alex acquired lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[01:14:55][Debug]: Alex acquired lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[01:14:55][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:14:55][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:14:55][Debug]: Alex acquired lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:14:55][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:14:55][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:14:55][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:14:55][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:15:19][Debug]: Performing backups...
+[01:15:19][Debug]: Backups done
+[01:15:49][Debug]: Performing backups...
+[01:15:49][Debug]: Backups done
+[01:15:57][Debug]: Alex is warping
+[01:15:58][Debug]: Alex created the new subspace '296'
+[01:15:58][Debug]: Removing abandoned subspace '295'
+[01:16:01][Debug]: Alex is warping
+[01:16:09][Debug]: Alex created the new subspace '297'
+[01:16:09][Debug]: Removing abandoned subspace '296'
+[01:16:10][Debug]: Alex released lock UnloadedUpdate - c0cdc946-f96e-4502-9e36-19837efb7139 - Alex
+[01:16:10][Debug]: Alex released lock UnloadedUpdate - 924d9f3b-bc24-4e81-a8c7-4929e5f8caa2 - Alex
+[01:16:19][Debug]: Performing backups...
+[01:16:19][Debug]: Backups done
+[01:16:21][Debug]: Alex acquired lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:16:21][Debug]: Alex acquired lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:16:21][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:16:21][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:16:21][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:16:21][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:16:21][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:16:21][Debug]: Alex released lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:16:21][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:16:27][Debug]: Alex released lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:16:27][Debug]: Alex released lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:16:49][Debug]: Performing backups...
+[01:16:49][Debug]: Backups done
+[01:17:19][Debug]: Performing backups...
+[01:17:19][Debug]: Backups done
+[01:17:49][Debug]: Performing backups...
+[01:17:49][Debug]: Backups done
+[01:18:19][Debug]: Performing backups...
+[01:18:19][Debug]: Backups done
+[01:18:49][Debug]: Performing backups...
+[01:18:49][Debug]: Backups done
+[01:19:19][Debug]: Performing backups...
+[01:19:19][Debug]: Backups done
+[01:19:49][Debug]: Performing backups...
+[01:19:49][Debug]: Backups done
+[01:20:19][Debug]: Performing backups...
+[01:20:19][Debug]: Backups done
+[01:20:49][Debug]: Performing backups...
+[01:20:49][Debug]: Backups done
+[01:21:19][Debug]: Performing backups...
+[01:21:19][Debug]: Backups done
+[01:21:49][Debug]: Performing backups...
+[01:21:49][Debug]: Backups done
+[01:22:19][Debug]: Performing backups...
+[01:22:19][Debug]: Backups done
+[01:22:49][Debug]: Performing backups...
+[01:22:49][Debug]: Backups done
+[01:23:19][Debug]: Performing backups...
+[01:23:19][Debug]: Backups done
+[01:23:49][Debug]: Performing backups...
+[01:23:49][Debug]: Backups done
+[01:24:19][Debug]: Performing backups...
+[01:24:19][Debug]: Backups done
+[01:24:49][Debug]: Performing backups...
+[01:24:49][Debug]: Backups done
+[01:25:19][Debug]: Performing backups...
+[01:25:19][Debug]: Backups done
+[01:25:49][Debug]: Performing backups...
+[01:25:49][Debug]: Backups done
+[01:26:19][Debug]: Performing backups...
+[01:26:19][Debug]: Backups done
+[01:26:49][Debug]: Performing backups...
+[01:26:49][Debug]: Backups done
+[01:27:19][Debug]: Performing backups...
+[01:27:19][Debug]: Backups done
+[01:27:49][Debug]: Performing backups...
+[01:27:49][Debug]: Backups done
+[01:28:19][Debug]: Performing backups...
+[01:28:19][Debug]: Backups done
+[01:28:49][Debug]: Performing backups...
+[01:28:49][Debug]: Backups done
+[01:29:19][Debug]: Performing backups...
+[01:29:19][Debug]: Backups done
+[01:29:49][Debug]: Performing backups...
+[01:29:49][Debug]: Backups done
+[01:30:19][Debug]: Performing backups...
+[01:30:19][Debug]: Backups done
+[01:30:49][Debug]: Performing backups...
+[01:30:49][Debug]: Backups done
+[01:31:19][Debug]: Performing backups...
+[01:31:19][Debug]: Backups done
+[01:31:49][Debug]: Performing backups...
+[01:31:49][Debug]: Backups done
+[01:31:51][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[01:31:51][Debug]: Alex acquired lock Kerbal - Wildorf Kerman - Alex
+[01:31:57][Debug]: Alex acquired lock Control - ba5f8547-d9bd-4b58-8a4c-adc436ec2fc1 - Alex
+[01:31:57][Debug]: Alex acquired lock UnloadedUpdate - ba5f8547-d9bd-4b58-8a4c-adc436ec2fc1 - Alex
+[01:31:57][Debug]: Alex acquired lock Update - ba5f8547-d9bd-4b58-8a4c-adc436ec2fc1 - Alex
+[01:31:57][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:31:57][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:31:57][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:31:57][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:31:57][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:31:57][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:31:57][Debug]: Alex acquired lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:31:57][Debug]: Alex acquired lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:31:57][Debug]: Alex acquired lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:32:12][Debug]: Alex released lock Kerbal - Wildorf Kerman - Alex
+[01:32:12][Debug]: Alex released lock Control - ba5f8547-d9bd-4b58-8a4c-adc436ec2fc1 - Alex
+[01:32:12][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:32:12][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:32:12][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[01:32:12][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:32:12][Debug]: Alex released lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:32:12][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:32:12][Debug]: Alex released lock UnloadedUpdate - ba5f8547-d9bd-4b58-8a4c-adc436ec2fc1 - Alex
+[01:32:12][Debug]: Alex released lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:32:12][Debug]: Alex released lock Update - ba5f8547-d9bd-4b58-8a4c-adc436ec2fc1 - Alex
+[01:32:12][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:32:12][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:32:12][Debug]: Alex released lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:32:19][Debug]: Performing backups...
+[01:32:19][Debug]: Backups done
+[01:32:49][Debug]: Performing backups...
+[01:32:49][Debug]: Backups done
+[01:33:08][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[01:33:08][Debug]: Alex acquired lock Kerbal - Wildorf Kerman - Alex
+[01:33:13][Debug]: Alex acquired lock Control - bfc97798-4772-42f0-8d6f-b5ca9d70cc77 - Alex
+[01:33:14][Debug]: Alex acquired lock Update - bfc97798-4772-42f0-8d6f-b5ca9d70cc77 - Alex
+[01:33:14][Debug]: Alex acquired lock UnloadedUpdate - bfc97798-4772-42f0-8d6f-b5ca9d70cc77 - Alex
+[01:33:14][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:33:14][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:33:14][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:33:14][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:33:14][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:33:14][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:33:14][Debug]: Alex acquired lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:33:14][Debug]: Alex acquired lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:33:14][Debug]: Alex acquired lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:33:19][Debug]: Performing backups...
+[01:33:19][Debug]: Backups done
+[01:33:49][Debug]: Performing backups...
+[01:33:49][Debug]: Backups done
+[01:34:19][Debug]: Performing backups...
+[01:34:19][Debug]: Backups done
+[01:34:49][Debug]: Performing backups...
+[01:34:49][Debug]: Backups done
+[01:34:54][Debug]: Alex acquired lock UnloadedUpdate - f3157414-3be5-434d-9811-678268f6e1a0 - Alex
+[01:34:54][Debug]: Alex acquired lock Update - f3157414-3be5-434d-9811-678268f6e1a0 - Alex
+[01:34:54][Debug]: Alex acquired lock UnloadedUpdate - a7227a17-cb31-4cd8-bd85-a0beea8e68c4 - Alex
+[01:34:54][Debug]: Alex acquired lock Update - a7227a17-cb31-4cd8-bd85-a0beea8e68c4 - Alex
+[01:34:54][Debug]: Alex acquired lock UnloadedUpdate - bff7529d-7720-49f6-8fab-6cfc23e59a1a - Alex
+[01:34:54][Debug]: Alex acquired lock Update - bff7529d-7720-49f6-8fab-6cfc23e59a1a - Alex
+[01:34:54][Debug]: Alex acquired lock UnloadedUpdate - 703e125f-e078-450a-bc03-6dcf65fbcd0d - Alex
+[01:34:54][Debug]: Alex acquired lock Update - 703e125f-e078-450a-bc03-6dcf65fbcd0d - Alex
+[01:34:54][Debug]: Alex acquired lock UnloadedUpdate - a83414a5-eb93-4cde-8aec-6d5d818ded42 - Alex
+[01:34:54][Debug]: Alex acquired lock Update - a83414a5-eb93-4cde-8aec-6d5d818ded42 - Alex
+[01:34:54][Debug]: Alex acquired lock UnloadedUpdate - 7d729e3e-2131-4fac-9484-5177a4aac9f7 - Alex
+[01:34:54][Debug]: Alex acquired lock Update - 7d729e3e-2131-4fac-9484-5177a4aac9f7 - Alex
+[01:35:19][Debug]: Performing backups...
+[01:35:19][Debug]: Backups done
+[01:35:49][Debug]: Performing backups...
+[01:35:49][Debug]: Backups done
+[01:36:19][Debug]: Performing backups...
+[01:36:19][Debug]: Backups done
+[01:36:49][Debug]: Performing backups...
+[01:36:49][Debug]: Backups done
+[01:37:19][Debug]: Performing backups...
+[01:37:19][Debug]: Backups done
+[01:37:44][Debug]: Alex released lock Update - 703e125f-e078-450a-bc03-6dcf65fbcd0d - Alex
+[01:37:44][Debug]: Alex released lock Update - a7227a17-cb31-4cd8-bd85-a0beea8e68c4 - Alex
+[01:37:44][Debug]: Alex released lock Update - bff7529d-7720-49f6-8fab-6cfc23e59a1a - Alex
+[01:37:45][Debug]: Alex released lock Update - a83414a5-eb93-4cde-8aec-6d5d818ded42 - Alex
+[01:37:45][Debug]: Alex released lock Update - f3157414-3be5-434d-9811-678268f6e1a0 - Alex
+[01:37:45][Debug]: Alex released lock Update - 7d729e3e-2131-4fac-9484-5177a4aac9f7 - Alex
+[01:37:49][Debug]: Performing backups...
+[01:37:49][Debug]: Backups done
+[01:38:19][Debug]: Performing backups...
+[01:38:19][Debug]: Backups done
+[01:38:49][Debug]: Performing backups...
+[01:38:49][Debug]: Backups done
+[01:39:04][Debug]: Alex released lock Kerbal - Wildorf Kerman - Alex
+[01:39:04][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[01:39:04][Debug]: Alex released lock Control - bfc97798-4772-42f0-8d6f-b5ca9d70cc77 - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - f3157414-3be5-434d-9811-678268f6e1a0 - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - 7d729e3e-2131-4fac-9484-5177a4aac9f7 - Alex
+[01:39:04][Debug]: Alex released lock Update - bfc97798-4772-42f0-8d6f-b5ca9d70cc77 - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - bff7529d-7720-49f6-8fab-6cfc23e59a1a - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - a7227a17-cb31-4cd8-bd85-a0beea8e68c4 - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - 703e125f-e078-450a-bc03-6dcf65fbcd0d - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - a83414a5-eb93-4cde-8aec-6d5d818ded42 - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - bfc97798-4772-42f0-8d6f-b5ca9d70cc77 - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:39:04][Debug]: Alex released lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:39:19][Debug]: Performing backups...
+[01:39:19][Debug]: Backups done
+[01:39:24][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[01:39:24][Debug]: Alex acquired lock Kerbal - Wildorf Kerman - Alex
+[01:39:29][Debug]: Alex acquired lock Control - a1873077-340b-42bb-9899-73810e59dc55 - Alex
+[01:39:29][Debug]: Alex acquired lock Update - a1873077-340b-42bb-9899-73810e59dc55 - Alex
+[01:39:29][Debug]: Alex acquired lock UnloadedUpdate - a1873077-340b-42bb-9899-73810e59dc55 - Alex
+[01:39:29][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:39:29][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:39:29][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:39:29][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:39:29][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:39:29][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:39:29][Debug]: Alex acquired lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:39:29][Debug]: Alex acquired lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:39:29][Debug]: Alex acquired lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:39:49][Debug]: Performing backups...
+[01:39:49][Debug]: Backups done
+[01:39:51][Debug]: Alex released lock Kerbal - Wildorf Kerman - Alex
+[01:39:51][Debug]: Alex released lock Control - a1873077-340b-42bb-9899-73810e59dc55 - Alex
+[01:39:51][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[01:39:51][Debug]: Alex released lock Update - a1873077-340b-42bb-9899-73810e59dc55 - Alex
+[01:39:51][Debug]: Alex released lock UnloadedUpdate - a1873077-340b-42bb-9899-73810e59dc55 - Alex
+[01:39:51][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:39:51][Debug]: Alex released lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:39:51][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:39:51][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:39:51][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:39:51][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:39:51][Debug]: Alex released lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:39:51][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:39:51][Debug]: Alex released lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:40:19][Debug]: Performing backups...
+[01:40:19][Debug]: Backups done
+[01:40:49][Debug]: Performing backups...
+[01:40:49][Debug]: Backups done
+[01:41:01][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[01:41:01][Debug]: Alex acquired lock Kerbal - Wildorf Kerman - Alex
+[01:41:06][Debug]: Alex acquired lock Control - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:41:07][Debug]: Alex acquired lock Update - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:41:07][Debug]: Alex acquired lock UnloadedUpdate - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:41:07][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:41:07][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:41:07][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:41:07][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:41:07][Debug]: Alex acquired lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:41:07][Debug]: Alex acquired lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:41:07][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:41:07][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:41:07][Debug]: Alex acquired lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:41:19][Debug]: Performing backups...
+[01:41:19][Debug]: Backups done
+[01:41:49][Debug]: Performing backups...
+[01:41:49][Debug]: Backups done
+[01:42:19][Debug]: Performing backups...
+[01:42:19][Debug]: Backups done
+[01:42:49][Debug]: Performing backups...
+[01:42:49][Debug]: Backups done
+[01:43:19][Debug]: Performing backups...
+[01:43:19][Debug]: Backups done
+[01:43:35][Debug]: Alex acquired lock UnloadedUpdate - 703668b5-4967-47ca-912c-ecbf3f2a6d51 - Alex
+[01:43:35][Debug]: Alex acquired lock Update - 703668b5-4967-47ca-912c-ecbf3f2a6d51 - Alex
+[01:43:35][Debug]: Alex acquired lock UnloadedUpdate - 399d4507-6bfd-4c6f-95d5-98d19d01183b - Alex
+[01:43:35][Debug]: Alex acquired lock Update - 399d4507-6bfd-4c6f-95d5-98d19d01183b - Alex
+[01:43:35][Debug]: Alex acquired lock UnloadedUpdate - 6f63d176-cd3c-45b5-aa0f-547a2da126f9 - Alex
+[01:43:35][Debug]: Alex acquired lock Update - 6f63d176-cd3c-45b5-aa0f-547a2da126f9 - Alex
+[01:43:35][Debug]: Alex acquired lock UnloadedUpdate - ab8b87d2-cb72-4de4-baa0-7cdfd66a904f - Alex
+[01:43:35][Debug]: Alex acquired lock Update - ab8b87d2-cb72-4de4-baa0-7cdfd66a904f - Alex
+[01:43:35][Debug]: Alex acquired lock UnloadedUpdate - b99f3114-6502-463f-85ad-f00a282e6c4e - Alex
+[01:43:35][Debug]: Alex acquired lock Update - b99f3114-6502-463f-85ad-f00a282e6c4e - Alex
+[01:43:35][Debug]: Alex acquired lock UnloadedUpdate - 3a7820c4-6f09-409d-aa8d-8fd3184f4588 - Alex
+[01:43:35][Debug]: Alex acquired lock Update - 3a7820c4-6f09-409d-aa8d-8fd3184f4588 - Alex
+[01:43:49][Debug]: Performing backups...
+[01:43:49][Debug]: Backups done
+[01:44:19][Debug]: Performing backups...
+[01:44:19][Debug]: Backups done
+[01:44:49][Debug]: Performing backups...
+[01:44:49][Debug]: Backups done
+[01:45:01][Debug]: Alex released lock Update - 399d4507-6bfd-4c6f-95d5-98d19d01183b - Alex
+[01:45:01][Debug]: Alex released lock Update - 6f63d176-cd3c-45b5-aa0f-547a2da126f9 - Alex
+[01:45:02][Debug]: Alex released lock Update - 703668b5-4967-47ca-912c-ecbf3f2a6d51 - Alex
+[01:45:02][Debug]: Alex released lock Update - ab8b87d2-cb72-4de4-baa0-7cdfd66a904f - Alex
+[01:45:02][Debug]: Alex released lock Update - b99f3114-6502-463f-85ad-f00a282e6c4e - Alex
+[01:45:02][Debug]: Alex released lock Update - 3a7820c4-6f09-409d-aa8d-8fd3184f4588 - Alex
+[01:45:19][Debug]: Performing backups...
+[01:45:19][Debug]: Backups done
+[01:45:49][Debug]: Performing backups...
+[01:45:49][Debug]: Backups done
+[01:46:19][Debug]: Performing backups...
+[01:46:19][Debug]: Backups done
+[01:46:49][Debug]: Performing backups...
+[01:46:49][Debug]: Backups done
+[01:47:19][Debug]: Performing backups...
+[01:47:19][Debug]: Backups done
+[01:47:49][Debug]: Performing backups...
+[01:47:49][Debug]: Backups done
+[01:48:19][Debug]: Performing backups...
+[01:48:19][Debug]: Backups done
+[01:48:49][Debug]: Performing backups...
+[01:48:49][Debug]: Backups done
+[01:49:19][Debug]: Performing backups...
+[01:49:19][Debug]: Backups done
+[01:49:22][Debug]: Alex released lock Control - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:49:22][Debug]: Alex acquired lock Control - 692ec190-da39-4547-ad7c-42a618833117 - Alex
+[01:49:22][Debug]: Alex acquired lock Update - 692ec190-da39-4547-ad7c-42a618833117 - Alex
+[01:49:22][Debug]: Alex acquired lock UnloadedUpdate - 692ec190-da39-4547-ad7c-42a618833117 - Alex
+[01:49:30][Debug]: Alex released lock UnloadedUpdate - 6f63d176-cd3c-45b5-aa0f-547a2da126f9 - Alex
+[01:49:30][Debug]: Alex released lock UnloadedUpdate - 399d4507-6bfd-4c6f-95d5-98d19d01183b - Alex
+[01:49:30][Debug]: Alex released lock UnloadedUpdate - ab8b87d2-cb72-4de4-baa0-7cdfd66a904f - Alex
+[01:49:30][Debug]: Alex released lock UnloadedUpdate - 703668b5-4967-47ca-912c-ecbf3f2a6d51 - Alex
+[01:49:30][Debug]: Alex released lock UnloadedUpdate - b99f3114-6502-463f-85ad-f00a282e6c4e - Alex
+[01:49:30][Debug]: Alex released lock UnloadedUpdate - 3a7820c4-6f09-409d-aa8d-8fd3184f4588 - Alex
+[01:49:42][Debug]: Alex acquired lock Control - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:49:42][Debug]: Alex failed to release lock Control - 692ec190-da39-4547-ad7c-42a618833117 - Alex
+[01:49:42][Debug]: Alex released lock UnloadedUpdate - 692ec190-da39-4547-ad7c-42a618833117 - Alex
+[01:49:42][Debug]: Alex released lock Update - 692ec190-da39-4547-ad7c-42a618833117 - Alex
+[01:49:49][Debug]: Performing backups...
+[01:49:49][Debug]: Backups done
+[01:50:19][Debug]: Performing backups...
+[01:50:19][Debug]: Backups done
+[01:50:49][Debug]: Performing backups...
+[01:50:49][Debug]: Backups done
+[01:50:57][Debug]: Alex released lock Control - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:50:57][Debug]: Alex acquired lock Control - 984c9eed-8c96-4e60-a503-bff88845c810 - Alex
+[01:50:57][Debug]: Alex acquired lock Update - 984c9eed-8c96-4e60-a503-bff88845c810 - Alex
+[01:50:57][Debug]: Alex acquired lock UnloadedUpdate - 984c9eed-8c96-4e60-a503-bff88845c810 - Alex
+[01:51:05][Debug]: Science experiment received: evaReport@KerbinInSpaceLowWater
+[01:51:19][Debug]: Performing backups...
+[01:51:19][Debug]: Backups done
+[01:51:20][Debug]: Alex released lock Control - 984c9eed-8c96-4e60-a503-bff88845c810 - Alex
+[01:51:20][Debug]: Alex acquired lock Control - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:51:20][Debug]: Alex released lock Update - 984c9eed-8c96-4e60-a503-bff88845c810 - Alex
+[01:51:20][Debug]: Alex released lock UnloadedUpdate - 984c9eed-8c96-4e60-a503-bff88845c810 - Alex
+[01:51:49][Debug]: Performing backups...
+[01:51:49][Debug]: Backups done
+[01:52:19][Debug]: Performing backups...
+[01:52:19][Debug]: Backups done
+[01:52:44][Debug]: Alex is warping
+[01:52:46][Debug]: Alex created the new subspace '298'
+[01:52:46][Debug]: Removing abandoned subspace '297'
+[01:52:49][Debug]: Performing backups...
+[01:52:49][Debug]: Backups done
+[01:53:19][Debug]: Performing backups...
+[01:53:19][Debug]: Backups done
+[01:53:35][Debug]: Alex released lock Kerbal - Wildorf Kerman - Alex
+[01:53:35][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[01:53:35][Debug]: Alex released lock Control - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:53:35][Debug]: Alex released lock Update - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:53:35][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:53:35][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:53:35][Debug]: Alex released lock UnloadedUpdate - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:53:35][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:53:35][Debug]: Alex released lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:53:35][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:53:35][Debug]: Alex released lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:53:35][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:53:35][Debug]: Alex released lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:53:35][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:53:45][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:53:45][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:53:45][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:53:45][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:53:45][Debug]: Alex acquired lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:53:45][Debug]: Alex acquired lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:53:45][Debug]: Alex acquired lock UnloadedUpdate - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:53:45][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:53:45][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:53:45][Debug]: Alex acquired lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:53:49][Debug]: Performing backups...
+[01:53:49][Debug]: Backups done
+[01:54:02][Debug]: Alex acquired lock Update - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:54:03][Debug]: Alex acquired lock Control - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:54:03][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[01:54:03][Debug]: Alex acquired lock Kerbal - Wildorf Kerman - Alex
+[01:54:19][Debug]: Performing backups...
+[01:54:19][Debug]: Backups done
+[01:54:49][Debug]: Performing backups...
+[01:54:49][Debug]: Backups done
+[01:55:19][Debug]: Performing backups...
+[01:55:19][Debug]: Backups done
+[01:55:31][Debug]: Alex released lock Kerbal - Wildorf Kerman - Alex
+[01:55:31][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[01:55:31][Debug]: Alex released lock Control - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:55:31][Debug]: Alex released lock Update - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:55:31][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:55:31][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:55:31][Debug]: Alex released lock UnloadedUpdate - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:55:31][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:55:31][Debug]: Alex released lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:55:31][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:55:31][Debug]: Alex released lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:55:31][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:55:31][Debug]: Alex released lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:55:31][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:55:49][Debug]: Performing backups...
+[01:55:49][Debug]: Backups done
+[01:55:57][Debug]: Alex acquired lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:55:57][Debug]: Alex acquired lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:55:57][Debug]: Alex acquired lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:55:57][Debug]: Alex acquired lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:55:57][Debug]: Alex acquired lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:55:57][Debug]: Alex acquired lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:55:57][Debug]: Alex acquired lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:55:57][Debug]: Alex acquired lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:55:57][Debug]: Alex acquired lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:55:57][Debug]: Alex acquired lock UnloadedUpdate - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:56:16][Debug]: Alex is warping
+[01:56:19][Debug]: Performing backups...
+[01:56:19][Debug]: Backups done
+[01:56:20][Debug]: Alex created the new subspace '299'
+[01:56:20][Debug]: Removing abandoned subspace '298'
+[01:56:31][Debug]: Alex acquired lock Update - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:56:31][Debug]: Alex acquired lock Control - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:56:32][Debug]: Alex acquired lock Kerbal - Irly Kerman - Alex
+[01:56:32][Debug]: Alex acquired lock Kerbal - Wildorf Kerman - Alex
+[01:56:49][Debug]: Performing backups...
+[01:56:49][Debug]: Backups done
+[01:56:54][Debug]: Alex released lock Kerbal - Wildorf Kerman - Alex
+[01:56:54][Debug]: Alex released lock Kerbal - Irly Kerman - Alex
+[01:56:54][Debug]: Alex released lock Control - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:56:54][Debug]: Alex released lock Update - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:56:54][Debug]: Alex released lock UnloadedUpdate - 6b29bc18-7320-4277-8fc0-d7300938e5a0 - Alex
+[01:56:54][Debug]: Alex released lock UnloadedUpdate - 9098e246-ed0a-448d-8fcc-080e7059082c - Alex
+[01:56:54][Debug]: Alex released lock UnloadedUpdate - e708b0b8-6407-47d3-b0f2-f07dbd2e6968 - Alex
+[01:56:54][Debug]: Alex released lock UnloadedUpdate - 19a2861c-bd30-4dca-bd7c-be74198e0c23 - Alex
+[01:56:54][Debug]: Alex released lock UnloadedUpdate - ac6981fd-1e67-4df7-b63e-942a0aa1f98f - Alex
+[01:56:54][Debug]: Alex released lock UnloadedUpdate - 9b39d042-463e-4382-840f-4ec641e3dee3 - Alex
+[01:56:54][Debug]: Alex released lock UnloadedUpdate - 1a30d28f-681f-4563-8364-7d2f24fd8f78 - Alex
+[01:56:54][Debug]: Alex released lock UnloadedUpdate - f71cadc5-72dc-4a3b-9ad8-9a51278c520a - Alex
+[01:56:54][Debug]: Alex released lock UnloadedUpdate - 5d25553f-50a9-4047-865e-220e30a329c1 - Alex
+[01:56:54][Debug]: Alex released lock UnloadedUpdate - 6cbb5606-edf0-41c7-be9f-8f4fe73cc291 - Alex
+[01:57:05][Debug]: Alex sent Connection end message, reason: Quit to main menu
+[01:57:05][Debug]: Online Players: 0, connected: 0
+[01:57:05][Debug]: Alex released lock AsteroidComet - Alex
+[01:57:05][Debug]: Performing backups...
+[01:57:05][Debug]: Backups done

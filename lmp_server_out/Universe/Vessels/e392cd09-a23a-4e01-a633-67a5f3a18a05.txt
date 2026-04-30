@@ -1,0 +1,131 @@
+pid = e392cd09a23a4e01a63367a5f3a18a05
+persistentId = 4064497765
+name = Ast. MEC-380
+type = SpaceObject
+sit = ORBITING
+landed = False
+skipGroundPositioning = False
+skipGroundPositioningForDroppedPart = False
+vesselSpawning = True
+launchedFrom = AST-OPMSarnus
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 25789365.395233683
+lct = 25789365.395233683
+lastUT = -1
+distanceTraveled = 0
+root = 0
+lat = -3.3408340932466758
+lon = -107.43291735100699
+alt = 14452002.977861308
+hgt = -1
+nrm = 0,1,0
+rot = -0.0503984466,0.370290339,-0.681118309,0.629621148
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+PQSMin = 0
+PQSMax = 0
+GroupOverride = 0
+OverrideDefault = False,False,False,False
+OverrideActionControl = 0,0,0,0
+OverrideAxisControl = 0,0,0,0
+OverrideGroupNames = ,,,
+altDispState = DEFAULT
+ORBIT
+{
+	SMA = 21928592
+	ECC = 0.13612434267997742
+	INC = 3.6716485023498535
+	LPE = 196.68426513671875
+	LAN = 327.5101318359375
+	MNA = 295.025146484375
+	EPH = 0.99911230802536011
+	REF = 21
+	IDENT = Sarnus
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 1691468004
+	mid = 1691468004
+	persistentId = 2251342194
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	sameVesselCollision = False
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	staticPressureAtm = 0
+	expt = 1
+	state = 0
+	PreFailState = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+	modMass = 0
+	moduleVariantName = 
+	moduleCargoStackableQuantity = 1
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 25789365.395233683
+	lifetime = 8553600
+	refTime = 8553600
+	size = 1
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	AxisGroupsModule
+	{
+	}
+	SuspensionLoadBalancer
+	{
+	}
+	AtmoFxModule
+	{
+	}
+	RPMVesselComputer
+	{
+		PERSISTENT_VARS
+		{
+		}
+	}
+	ShipEffects
+	{
+	}
+}

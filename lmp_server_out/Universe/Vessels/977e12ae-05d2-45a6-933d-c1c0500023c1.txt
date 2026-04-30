@@ -1,0 +1,131 @@
+pid = 977e12ae05d245a6933dc1c0500023c1
+persistentId = 1058761893
+name = Ast. DCV-958
+type = SpaceObject
+sit = ORBITING
+landed = False
+skipGroundPositioning = False
+skipGroundPositioningForDroppedPart = False
+vesselSpawning = True
+launchedFrom = AST-OPMUrlum
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 25789325.095234584
+lct = 25789325.095234584
+lastUT = -1
+distanceTraveled = 0
+root = 0
+lat = 0.00094393467029223101
+lon = -53.526852154413241
+alt = 9552563.6066048481
+hgt = -1
+nrm = 0,1,0
+rot = -0.528831363,-0.568754375,0.442559808,0.448326617
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+PQSMin = 0
+PQSMax = 0
+GroupOverride = 0
+OverrideDefault = False,False,False,False
+OverrideActionControl = 0,0,0,0
+OverrideAxisControl = 0,0,0,0
+OverrideGroupNames = ,,,
+altDispState = DEFAULT
+ORBIT
+{
+	SMA = 11727895
+	ECC = 0.00015392161731142551
+	INC = 0.00098039652220904827
+	LPE = 276.75164794921875
+	LAN = 40
+	MNA = 1.5209000110626221
+	EPH = 1.0007059574127197
+	REF = 27
+	IDENT = Urlum
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 767470825
+	mid = 767470825
+	persistentId = 3596511085
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	sameVesselCollision = False
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	staticPressureAtm = 0
+	expt = 1
+	state = 0
+	PreFailState = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+	modMass = 0
+	moduleVariantName = 
+	moduleCargoStackableQuantity = 1
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 25789325.095234584
+	lifetime = 8553600
+	refTime = 8553600
+	size = 6
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	AxisGroupsModule
+	{
+	}
+	SuspensionLoadBalancer
+	{
+	}
+	AtmoFxModule
+	{
+	}
+	RPMVesselComputer
+	{
+		PERSISTENT_VARS
+		{
+		}
+	}
+	ShipEffects
+	{
+	}
+}

@@ -1,0 +1,62 @@
+name = TRScenario
+scene = 5
+personaliseSuit = False
+hideBackpack = False
+reflectionType = Real
+Kerbals
+{
+	Aldvey Kerman = GENERIC GENERIC
+	Kermon Kerman = GENERIC GENERIC
+	Bartzor Kerman = GENERIC GENERIC
+	Linfrey Kerman = GENERIC GENERIC
+	Tebree Kerman = GENERIC GENERIC
+	Jergar Kerman = GENERIC GENERIC
+	Barfield Kerman = GENERIC GENERIC
+	Lemrigh Kerman = GENERIC GENERIC
+	Wildorf Kerman = GENERIC GENERIC
+	Joeemone Kerman = GENERIC GENERIC
+	Wiltrey Kerman = GENERIC GENERIC
+	Corney Kerman = GENERIC GENERIC
+	Nelul Kerman = GENERIC GENERIC
+	Nagar Kerman = GENERIC GENERIC
+	Kerly Kerman = GENERIC GENERIC
+	Sidfred Kerman = GENERIC GENERIC
+	Mitmund Kerman = GENERIC GENERIC
+	Samcott Kerman = GENERIC GENERIC
+	Roger Kerman = GENERIC GENERIC
+	Germin Kerman = GENERIC GENERIC
+	Shelfrid Kerman = GENERIC GENERIC
+	Munger Kerman = GENERIC GENERIC
+	Elike Kerman = GENERIC GENERIC
+	Linkin Kerman = GENERIC GENERIC
+	Lola Kerman = GENERIC GENERIC
+	Hanley Kerman = GENERIC GENERIC
+	Claubur Kerman = GENERIC GENERIC
+	Tedgar Kerman = GENERIC GENERIC
+	Corman Kerman = GENERIC GENERIC
+	Fredfield Kerman = GENERIC GENERIC
+	Henke Kerman = GENERIC GENERIC
+	Dudnie Kerman = GENERIC GENERIC
+	Macbald Kerman = GENERIC GENERIC
+	Doodly Kerman = GENERIC GENERIC
+	Tedny Kerman = GENERIC GENERIC
+	Megbart Kerman = GENERIC GENERIC
+	Bartbart Kerman = GENERIC GENERIC
+	Maxden Kerman = GENERIC GENERIC
+	Natadred Kerman = GENERIC GENERIC
+	Aldry Kerman = GENERIC GENERIC
+	Jesbree Kerman = GENERIC GENERIC
+	Trarod Kerman = GENERIC GENERIC
+	Lebles Kerman = GENERIC GENERIC
+	Barler Kerman = GENERIC GENERIC
+	Jonbert Kerman = GENERIC GENERIC
+	Armon Kerman = GENERIC GENERIC
+	Valentina Kerman = TR/Female10.f TR/Orange
+	Bob Kerman = TR/Male50.m TR/Orange
+	Jebediah Kerman = TR/Male40.m TR/Orange
+	Bill Kerman = TR/Male20.m TR/Orange
+	Irly Kerman = GENERIC GENERIC
+}
+ClassSuits
+{
+}

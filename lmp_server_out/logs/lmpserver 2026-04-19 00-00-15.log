@@ -1,0 +1,33 @@
+[05:00:15][Info]: Continued from logfile 2026-04-19 00-00-15.log
+[21:52:38][LMP]: New client Connection from ::ffff:50.24.127.31:62698
+[21:52:38][Debug]: Online Players: 0, connected: 1
+[21:52:38][Warning]: Connection received unhandled library message: NatPunchMessage
+[21:52:38][Warning]: Connection received unhandled library message: NatPunchMessage
+[21:52:38][LMP]: Client Froggo28 (0d6fa93b8aa2173a00fbfb303d60eed8badb087f) handshake successful, LMP Version: 0.29.0, KSP Version: 1.12.5
+[21:52:38][Debug]: Online Players: 1, connected: 1
+[21:52:38][Debug]: Froggo28 sent Connection end message, reason: Disconnected
+[21:52:38][Debug]: Online Players: 0, connected: 0
+[21:52:38][Debug]: Removing abandoned subspace '-2147483648'
+[21:52:38][Debug]: Performing backups...
+[21:52:38][Debug]: Backups done
+[21:53:23][LMP]: New client Connection from ::ffff:50.24.127.31:58503
+[21:53:23][Debug]: Online Players: 0, connected: 1
+[21:53:23][LMP]: Client Froggo28 (0d6fa93b8aa2173a00fbfb303d60eed8badb087f) handshake successful, LMP Version: 0.29.0, KSP Version: 1.12.5
+[21:53:23][Debug]: Online Players: 1, connected: 1
+[21:53:23][Debug]: Sending Froggo28 51 kerbals...
+[21:53:23][Debug]: Sending Froggo28 9 possible subspaces
+[21:53:26][Debug]: Froggo28 acquired lock AsteroidComet - Froggo28
+[21:53:26][Debug]: Froggo28 synced with subspace '299' created by Alex
+[21:53:26][Debug]: Removing abandoned subspace '-2147483648'
+[21:53:50][Debug]: Performing backups...
+[21:53:50][Debug]: Backups done
+[21:53:53][Debug]: Saving 8 scenario modules from Froggo28
+[21:53:56][Debug]: Saving vessel 60ddf1e9-7ced-4e3d-b5e2-ca64e20b9855 (2.474 KB) from Froggo28.
+[21:54:20][Debug]: Performing backups...
+[21:54:20][Debug]: Backups done
+[21:54:26][Debug]: Saving vessel b8320dcc-4dc5-4225-b794-4a6dc388e1aa (1.964 KB) from Froggo28.
+[21:54:36][Debug]: Froggo28 sent Connection end message, reason: Quit to main menu
+[21:54:36][Debug]: Online Players: 0, connected: 0
+[21:54:36][Debug]: Froggo28 released lock AsteroidComet - Froggo28
+[21:54:36][Debug]: Performing backups...
+[21:54:36][Debug]: Backups done

@@ -1,0 +1,242 @@
+[19:14:50][Info]: Remember! Quit the server by using 'Control + C' so a backup is properly made before closing!
+[19:14:50][Info]: Documentation available at https://github.com/LunaMultiplayer/LunaMultiplayer/wiki
+[19:14:50][LMP]: Luna Server version: 0.29.0 (/home/alex/Documents/ksp_server/lmp_server_out/)
+[19:14:50][Debug]: Loading universe... 0.632KB
+[19:14:50][Debug]: Loading groups...
+[19:14:50][Debug]: Loading settings...
+[19:14:50][Debug]: Loading mod control...
+[19:14:50][Debug]: Loading plugins...
+[19:14:50][LMP]: Starting 'Luna Server' on Address :: Port 8800... 
+[19:14:51][Debug]: UPnP active. Port: 8800 Udp opened!
+[19:14:51][Debug]: UPnP for website active. Port: 8900 Tcp opened!
+[19:14:51][LMP]: All systems up and running. Поехали!
+[19:14:51][LMP]: Master server registration is active
+[19:14:51][LMP]: End of stdin, stopping command listener
+[19:14:53][Debug]: Detected NAT addresses: 46.110.37.2:34836
+[19:15:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:15:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:15:31][LMP]: New client Connection from ::ffff:127.200.212.88:51823
+[19:15:31][Debug]: Online Players: 0, connected: 1
+[19:15:31][LMP]: Client Alex (9cb5cf425960fd77d2ef347c2cc4c5361badc866) handshake successful, LMP Version: 0.29.0, KSP Version: Unknown
+[19:15:31][Debug]: Online Players: 1, connected: 1
+[19:15:34][Debug]: Sending Alex 1 vessels
+[19:15:34][Debug]: Sending Alex 51 kerbals...
+[19:15:36][Debug]: Sending Alex 1 possible subspaces
+[19:15:44][Debug]: Sending Alex 1 vessels
+[19:15:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:15:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:15:51][Debug]: Performing backups...
+[19:15:51][Debug]: Backups done
+[19:15:53][Debug]: Alex acquired lock UnloadedUpdate - b8320dcc-4dc5-4225-b794-4a6dc388e1aa - Alex
+[19:15:53][Debug]: Alex acquired lock AsteroidComet - Alex
+[19:15:53][Debug]: Alex synced with subspace '370' created by Server
+[19:16:02][Debug]: Removing vessel b8320dcc-4dc5-4225-b794-4a6dc388e1aa from Alex
+[19:16:02][Debug]: Alex released lock UnloadedUpdate - b8320dcc-4dc5-4225-b794-4a6dc388e1aa - Alex
+[19:16:12][Debug]: Alex acquired lock UnloadedUpdate - f44114f6-2f19-4e95-b6c0-a0be09678d5f - Alex
+[19:16:20][Debug]: Alex released lock UnloadedUpdate - f44114f6-2f19-4e95-b6c0-a0be09678d5f - Alex
+[19:16:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:16:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:16:21][Debug]: Performing backups...
+[19:16:21][Debug]: Backups done
+[19:16:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:16:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:16:51][Debug]: Performing backups...
+[19:16:51][Debug]: Backups done
+[19:17:08][Debug]: Alex acquired lock Kerbal - Aldvey Kerman - Alex
+[19:17:14][Debug]: Alex acquired lock Control - aabf9675-e09a-400e-a080-f3a0da415d0c - Alex
+[19:17:14][Debug]: Alex acquired lock Update - aabf9675-e09a-400e-a080-f3a0da415d0c - Alex
+[19:17:14][Debug]: Alex acquired lock UnloadedUpdate - aabf9675-e09a-400e-a080-f3a0da415d0c - Alex
+[19:17:14][Debug]: Alex acquired lock UnloadedUpdate - f44114f6-2f19-4e95-b6c0-a0be09678d5f - Alex
+[19:17:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:17:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:17:21][Debug]: Performing backups...
+[19:17:21][Debug]: Backups done
+[19:17:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:17:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:17:51][Debug]: Performing backups...
+[19:17:51][Debug]: Backups done
+[19:18:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:18:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:18:21][Debug]: Performing backups...
+[19:18:21][Debug]: Backups done
+[19:18:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:18:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:18:51][Debug]: Performing backups...
+[19:18:51][Debug]: Backups done
+[19:19:20][Debug]: Alex acquired lock UnloadedUpdate - 97379205-3c07-4f46-8d7f-7e8eb78979e9 - Alex
+[19:19:20][Debug]: Alex acquired lock Update - 97379205-3c07-4f46-8d7f-7e8eb78979e9 - Alex
+[19:19:20][Debug]: Alex acquired lock Update - 49fcfcd8-9b82-403d-a894-e8c348b96aac - Alex
+[19:19:20][Debug]: Alex acquired lock UnloadedUpdate - 49fcfcd8-9b82-403d-a894-e8c348b96aac - Alex
+[19:19:20][Debug]: Alex acquired lock UnloadedUpdate - 7dd011f2-ea62-496c-b7ef-d4df6915eb27 - Alex
+[19:19:20][Debug]: Alex acquired lock Update - 7dd011f2-ea62-496c-b7ef-d4df6915eb27 - Alex
+[19:19:20][Debug]: Alex acquired lock UnloadedUpdate - 6f67d324-39c1-470f-9fca-cb0d4d437364 - Alex
+[19:19:20][Debug]: Alex acquired lock Update - 6f67d324-39c1-470f-9fca-cb0d4d437364 - Alex
+[19:19:20][Debug]: Alex acquired lock UnloadedUpdate - 3402aea6-228b-4018-9188-8033b8d6ad5a - Alex
+[19:19:20][Debug]: Alex acquired lock Update - 3402aea6-228b-4018-9188-8033b8d6ad5a - Alex
+[19:19:20][Debug]: Alex acquired lock UnloadedUpdate - 65be9995-3421-4d98-a323-1acd6f320fa8 - Alex
+[19:19:20][Debug]: Alex acquired lock Update - 65be9995-3421-4d98-a323-1acd6f320fa8 - Alex
+[19:19:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:19:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:19:21][Debug]: Performing backups...
+[19:19:21][Debug]: Backups done
+[19:19:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:19:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:19:51][Debug]: Performing backups...
+[19:19:51][Debug]: Backups done
+[19:20:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:20:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:20:21][Debug]: Performing backups...
+[19:20:21][Debug]: Backups done
+[19:20:51][Debug]: Alex released lock Update - 7dd011f2-ea62-496c-b7ef-d4df6915eb27 - Alex
+[19:20:51][Debug]: Alex released lock Update - 6f67d324-39c1-470f-9fca-cb0d4d437364 - Alex
+[19:20:51][Debug]: Alex released lock Update - 49fcfcd8-9b82-403d-a894-e8c348b96aac - Alex
+[19:20:51][Debug]: Alex released lock Update - 3402aea6-228b-4018-9188-8033b8d6ad5a - Alex
+[19:20:51][Debug]: Alex released lock Update - 97379205-3c07-4f46-8d7f-7e8eb78979e9 - Alex
+[19:20:51][Debug]: Alex released lock Update - 65be9995-3421-4d98-a323-1acd6f320fa8 - Alex
+[19:20:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:20:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:20:51][Debug]: Performing backups...
+[19:20:51][Debug]: Backups done
+[19:21:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:21:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:21:21][Debug]: Performing backups...
+[19:21:21][Debug]: Backups done
+[19:21:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:21:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:21:51][Debug]: Performing backups...
+[19:21:51][Debug]: Backups done
+[19:22:07][Debug]: Alex is warping
+[19:22:11][Debug]: Alex released lock UnloadedUpdate - 97379205-3c07-4f46-8d7f-7e8eb78979e9 - Alex
+[19:22:11][Debug]: Alex released lock UnloadedUpdate - 49fcfcd8-9b82-403d-a894-e8c348b96aac - Alex
+[19:22:11][Debug]: Alex released lock UnloadedUpdate - 7dd011f2-ea62-496c-b7ef-d4df6915eb27 - Alex
+[19:22:11][Debug]: Alex released lock UnloadedUpdate - 6f67d324-39c1-470f-9fca-cb0d4d437364 - Alex
+[19:22:11][Debug]: Alex released lock UnloadedUpdate - 65be9995-3421-4d98-a323-1acd6f320fa8 - Alex
+[19:22:11][Debug]: Alex released lock UnloadedUpdate - 3402aea6-228b-4018-9188-8033b8d6ad5a - Alex
+[19:22:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:22:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:22:21][Debug]: Performing backups...
+[19:22:21][Debug]: Backups done
+[19:22:27][Debug]: Alex created the new subspace '371'
+[19:22:27][Debug]: Removing abandoned subspace '370'
+[19:22:38][Debug]: Alex is warping
+[19:22:39][Debug]: Alex created the new subspace '372'
+[19:22:39][Debug]: Removing abandoned subspace '371'
+[19:22:40][Debug]: Alex is warping
+[19:22:43][Debug]: Alex created the new subspace '373'
+[19:22:43][Debug]: Removing abandoned subspace '372'
+[19:22:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:22:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:22:51][Debug]: Performing backups...
+[19:22:51][Debug]: Backups done
+[19:23:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:23:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:23:21][Debug]: Performing backups...
+[19:23:21][Debug]: Backups done
+[19:23:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:23:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:23:51][Debug]: Performing backups...
+[19:23:51][Debug]: Backups done
+[19:24:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:24:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:24:21][Debug]: Performing backups...
+[19:24:21][Debug]: Backups done
+[19:24:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:24:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:24:51][Debug]: Performing backups...
+[19:24:51][Debug]: Backups done
+[19:25:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:25:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:25:21][Debug]: Performing backups...
+[19:25:21][Debug]: Backups done
+[19:25:38][Debug]: Alex is warping
+[19:25:49][Debug]: Alex created the new subspace '374'
+[19:25:49][Debug]: Removing abandoned subspace '373'
+[19:25:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:25:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:25:51][Debug]: Performing backups...
+[19:25:51][Debug]: Backups done
+[19:25:52][Debug]: Alex is warping
+[19:26:00][Debug]: Alex created the new subspace '375'
+[19:26:00][Debug]: Removing abandoned subspace '374'
+[19:26:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:26:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:26:21][Debug]: Performing backups...
+[19:26:21][Debug]: Backups done
+[19:26:22][Debug]: Alex acquired lock Update - b876838b-8887-4c18-bf7e-5cfc52df4112 - Alex
+[19:26:22][Debug]: Alex acquired lock UnloadedUpdate - b876838b-8887-4c18-bf7e-5cfc52df4112 - Alex
+[19:26:48][Debug]: Alex acquired lock UnloadedUpdate - 5dee7fac-3fad-4e1f-b535-6a9634477d4c - Alex
+[19:26:48][Debug]: Alex acquired lock UnloadedUpdate - 9f5cf187-85f6-4544-bb13-d0007d270b3d - Alex
+[19:26:48][Debug]: Alex acquired lock UnloadedUpdate - 1be9c258-92b0-45c6-a796-0fca5f224276 - Alex
+[19:26:48][Debug]: Alex released lock Control - aabf9675-e09a-400e-a080-f3a0da415d0c - Alex
+[19:26:48][Debug]: Alex released lock Update - aabf9675-e09a-400e-a080-f3a0da415d0c - Alex
+[19:26:48][Debug]: Alex released lock Update - b876838b-8887-4c18-bf7e-5cfc52df4112 - Alex
+[19:26:48][Debug]: Alex released lock UnloadedUpdate - f44114f6-2f19-4e95-b6c0-a0be09678d5f - Alex
+[19:26:48][Debug]: Alex released lock UnloadedUpdate - aabf9675-e09a-400e-a080-f3a0da415d0c - Alex
+[19:26:48][Debug]: Alex released lock UnloadedUpdate - b876838b-8887-4c18-bf7e-5cfc52df4112 - Alex
+[19:26:48][Debug]: Alex acquired lock UnloadedUpdate - 00eeda0d-8b59-4bd7-92de-368e2cfdc649 - Alex
+[19:26:48][Debug]: Alex released lock Kerbal - Aldvey Kerman - Alex
+[19:26:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:26:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:26:51][Debug]: Performing backups...
+[19:26:51][Debug]: Backups done
+[19:27:03][Debug]: Alex acquired lock UnloadedUpdate - b876838b-8887-4c18-bf7e-5cfc52df4112 - Alex
+[19:27:03][Debug]: Alex acquired lock UnloadedUpdate - f44114f6-2f19-4e95-b6c0-a0be09678d5f - Alex
+[19:27:03][Debug]: Alex acquired lock UnloadedUpdate - aabf9675-e09a-400e-a080-f3a0da415d0c - Alex
+[19:27:12][Debug]: Alex released lock UnloadedUpdate - 1be9c258-92b0-45c6-a796-0fca5f224276 - Alex
+[19:27:12][Debug]: Alex released lock UnloadedUpdate - f44114f6-2f19-4e95-b6c0-a0be09678d5f - Alex
+[19:27:12][Debug]: Alex released lock UnloadedUpdate - 5dee7fac-3fad-4e1f-b535-6a9634477d4c - Alex
+[19:27:12][Debug]: Alex released lock UnloadedUpdate - 00eeda0d-8b59-4bd7-92de-368e2cfdc649 - Alex
+[19:27:12][Debug]: Alex released lock UnloadedUpdate - aabf9675-e09a-400e-a080-f3a0da415d0c - Alex
+[19:27:12][Debug]: Alex released lock UnloadedUpdate - b876838b-8887-4c18-bf7e-5cfc52df4112 - Alex
+[19:27:12][Debug]: Alex released lock UnloadedUpdate - 9f5cf187-85f6-4544-bb13-d0007d270b3d - Alex
+[19:27:17][Debug]: Alex sent Connection end message, reason: Quit to main menu
+[19:27:17][Debug]: Online Players: 0, connected: 0
+[19:27:17][Debug]: Alex released lock AsteroidComet - Alex
+[19:27:17][Debug]: Performing backups...
+[19:27:17][Debug]: Backups done
+[19:27:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:27:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:27:29][LMP]: New client Connection from ::ffff:127.200.212.88:45779
+[19:27:29][Debug]: Online Players: 0, connected: 1
+[19:27:30][LMP]: Client Alex (9cb5cf425960fd77d2ef347c2cc4c5361badc866) handshake successful, LMP Version: 0.29.0, KSP Version: Unknown
+[19:27:30][Debug]: Online Players: 1, connected: 1
+[19:27:33][Debug]: Sending Alex 51 kerbals...
+[19:27:34][Debug]: Sending Alex 1 possible subspaces
+[19:27:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:27:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:27:51][Debug]: Performing backups...
+[19:27:51][Debug]: Backups done
+[19:27:52][Debug]: Alex acquired lock AsteroidComet - Alex
+[19:27:58][Debug]: Alex acquired lock UnloadedUpdate - 56d9087d-0e3f-44fe-ae85-9a9a9986f178 - Alex
+[19:28:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:28:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:28:21][Debug]: Performing backups...
+[19:28:21][Debug]: Backups done
+[19:28:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:28:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:28:51][Debug]: Performing backups...
+[19:28:51][Debug]: Backups done
+[19:29:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:29:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:29:21][Debug]: Performing backups...
+[19:29:21][Debug]: Backups done
+[19:29:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:29:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:29:51][Debug]: Performing backups...
+[19:29:51][Debug]: Backups done
+[19:30:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:30:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:30:21][Debug]: Performing backups...
+[19:30:21][Debug]: Backups done
+[19:30:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:30:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:30:51][Debug]: Performing backups...
+[19:30:51][Debug]: Backups done
+[19:31:21][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:31:21][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:31:21][Debug]: Performing backups...
+[19:31:21][Debug]: Backups done
+[19:31:51][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[19:31:51][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[19:31:51][Debug]: Performing backups...
+[19:31:51][Debug]: Backups done

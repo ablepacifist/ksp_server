@@ -1,0 +1,143 @@
+pid = 44addfddb27d4414b6fccde3e9be4e9b
+persistentId = 3901492034
+name = Tebree Kerman
+type = EVA
+sit = LANDED
+landed = True
+skipGroundPositioning = False
+skipGroundPositioningForDroppedPart = False
+vesselSpawning = False
+launchedFrom = 
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 3.6999999172985554
+lct = 28331226.612633165
+lastUT = 28331230.332633082
+distanceTraveled = 0.00082522473275330123
+root = 0
+lat = -0.92056956965776737
+lon = 60.714533589876993
+alt = 1528.2042903210968
+hgt = 1.92228413
+nrm = -0.00222795457,0.995915532,0.0902637243
+rot = -0.32706219,0.25679478,0.668504298,-0.616594613
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = True
+PQSMin = 0
+PQSMax = 0
+GroupOverride = 0
+OverrideDefault = False,False,False,False
+OverrideActionControl = 0,0,0,0
+OverrideAxisControl = 0,0,0,0
+OverrideGroupNames = ,,,
+altDispState = DEFAULT
+ORBIT
+{
+SMA = 0
+ECC = 1
+INC = 90.920569569657772
+LPE = 90.000000000000014
+LAN = 34.605960338356681
+MNA = 0
+EPH = 33378502.796930958
+REF = 1
+}
+PART
+{
+name = sensorBarometer
+cid = 0
+uid = 1
+mid = 0
+persistentId = 1243352088
+launchID = 0
+parent = 0
+position = 0,0,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 0
+resPri = 0
+dstg = 0
+sqor = 0
+sepI = 0
+sidx = 0
+attm = 0
+sameVesselCollision = False
+srfN = None, -1
+mass = 0.800000012
+shielded = False
+temp = 300
+tempExt = 0
+tempExtUnexp = 0
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = False
+autostrutMode = Off
+rigidAttachment = False
+flag = 
+rTrf = 
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+}
+}
+ACTIONGROUPS
+{
+Stage = False, 0
+Gear = False, 0
+Light = False, 0
+RCS = False, 0
+SAS = False, 0
+Brakes = False, 0
+Abort = False, 0
+}
+DISCOVERY
+{
+state = -1
+lastObservedTime = 0
+lifetime = Infinity
+refTime = Infinity
+size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+pitch = 0
+yaw = 0
+roll = 0
+trimPitch = 0
+trimYaw = 0
+trimRoll = 0
+mainThrottle = 0
+}
+VESSELMODULES
+{
+FlightIntegrator
+{
+}
+AxisGroupsModule
+{
+}
+SuspensionLoadBalancer
+{
+}
+CommNetVessel
+{
+	controlState = None
+	canComm = True
+}
+}

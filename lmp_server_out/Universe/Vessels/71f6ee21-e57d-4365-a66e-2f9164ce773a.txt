@@ -1,0 +1,131 @@
+pid = 71f6ee21e57d4365a66e2f9164ce773a
+persistentId = 935990832
+name = Ast. QYT-643
+type = SpaceObject
+sit = ORBITING
+landed = False
+skipGroundPositioning = False
+skipGroundPositioningForDroppedPart = False
+vesselSpawning = True
+launchedFrom = AST-OPMSarnus
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 25789304.615235042
+lct = 25789304.615235042
+lastUT = -1
+distanceTraveled = 0
+root = 0
+lat = 3.1974841135733043
+lon = 154.95256860309402
+alt = 17430847.930364799
+hgt = -1
+nrm = 0,1,0
+rot = -0.689656913,-0.577143431,0.183595717,0.396952659
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+PQSMin = 0
+PQSMax = 0
+GroupOverride = 0
+OverrideDefault = False,False,False,False
+OverrideActionControl = 0,0,0,0
+OverrideAxisControl = 0,0,0,0
+OverrideGroupNames = ,,,
+altDispState = DEFAULT
+ORBIT
+{
+	SMA = 22475288
+	ECC = 0.06440328061580658
+	INC = 4.0692524909973145
+	LPE = 155.59831237792969
+	LAN = 62.845016479492188
+	MNA = 186.70584106445313
+	EPH = 0.99991071224212646
+	REF = 21
+	IDENT = Sarnus
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 90030994
+	mid = 90030994
+	persistentId = 2343855089
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	sameVesselCollision = False
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	staticPressureAtm = 0
+	expt = 1
+	state = 0
+	PreFailState = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+	modMass = 0
+	moduleVariantName = 
+	moduleCargoStackableQuantity = 1
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 25789304.615235042
+	lifetime = 8553600
+	refTime = 8553600
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	AxisGroupsModule
+	{
+	}
+	SuspensionLoadBalancer
+	{
+	}
+	AtmoFxModule
+	{
+	}
+	RPMVesselComputer
+	{
+		PERSISTENT_VARS
+		{
+		}
+	}
+	ShipEffects
+	{
+	}
+}

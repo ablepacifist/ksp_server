@@ -1,0 +1,37 @@
+[05:00:36][Info]: Continued from logfile 2026-04-21 00-00-36.log
+[17:34:52][LMP]: New client Connection from ::ffff:95.62.20.5:49683
+[17:34:52][Debug]: Online Players: 0, connected: 1
+[17:34:52][LMP]: Client ffaweew (1e03c1d1fd1b10801f00a27d8233eaa47f748737) handshake successful, LMP Version: 0.29.0, KSP Version: 1.12.5
+[17:34:52][Debug]: Online Players: 1, connected: 1
+[17:34:52][Debug]: Sending ffaweew 2 vessels
+[17:34:52][Debug]: Sending ffaweew 51 kerbals...
+[17:34:52][Debug]: Sending ffaweew 9 possible subspaces
+[17:34:59][Debug]: ffaweew acquired lock UnloadedUpdate - 60ddf1e9-7ced-4e3d-b5e2-ca64e20b9855 - ffaweew
+[17:34:59][Debug]: ffaweew acquired lock UnloadedUpdate - b8320dcc-4dc5-4225-b794-4a6dc388e1aa - ffaweew
+[17:34:59][Debug]: ffaweew acquired lock AsteroidComet - ffaweew
+[17:34:59][Debug]: ffaweew synced with subspace '299' created by Alex
+[17:34:59][Debug]: Removing abandoned subspace '-2147483648'
+[17:35:15][Debug]: ffaweew acquired lock UnloadedUpdate - e3e7d742-73bd-4295-b773-91b5ac22c45a - ffaweew
+[17:35:15][Debug]: Saving vessel e3e7d742-73bd-4295-b773-91b5ac22c45a (1.982 KB) from ffaweew.
+[17:35:21][Debug]: Performing backups...
+[17:35:21][Debug]: Backups done
+[17:35:23][Debug]: Saving 8 scenario modules from ffaweew
+[17:35:28][Chat]: ffaweew: jfhgbsdoñhjep´tr
+[17:35:29][Debug]: Saving vessel c0376bc1-4f89-4cfd-a990-ca172b9225ca (1.987 KB) from ffaweew.
+[17:35:47][Chat]: ffaweew: cdvszfg
+[17:35:51][Debug]: Performing backups...
+[17:35:51][Debug]: Backups done
+[17:35:55][Debug]: Saving 1 scenario modules from ffaweew
+[17:35:55][Debug]: ffaweew acquired lock UnloadedUpdate - 068607b7-c8cb-4b09-9c36-37f9571814d3 - ffaweew
+[17:35:55][Debug]: ffaweew acquired lock UnloadedUpdate - c0376bc1-4f89-4cfd-a990-ca172b9225ca - ffaweew
+[17:35:55][Debug]: ffaweew released lock UnloadedUpdate - b8320dcc-4dc5-4225-b794-4a6dc388e1aa - ffaweew
+[17:35:55][Debug]: ffaweew released lock UnloadedUpdate - e3e7d742-73bd-4295-b773-91b5ac22c45a - ffaweew
+[17:35:55][Debug]: ffaweew released lock UnloadedUpdate - 60ddf1e9-7ced-4e3d-b5e2-ca64e20b9855 - ffaweew
+[17:35:55][Debug]: Saving vessel 068607b7-c8cb-4b09-9c36-37f9571814d3 (1.981 KB) from ffaweew.
+[17:36:01][Debug]: ffaweew sent Connection end message, reason: Quit to main menu
+[17:36:01][Debug]: Online Players: 0, connected: 0
+[17:36:01][Debug]: ffaweew released lock UnloadedUpdate - c0376bc1-4f89-4cfd-a990-ca172b9225ca - ffaweew
+[17:36:01][Debug]: ffaweew released lock UnloadedUpdate - 068607b7-c8cb-4b09-9c36-37f9571814d3 - ffaweew
+[17:36:01][Debug]: ffaweew released lock AsteroidComet - ffaweew
+[17:36:01][Debug]: Performing backups...
+[17:36:01][Debug]: Backups done

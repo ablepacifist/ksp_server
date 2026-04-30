@@ -1,0 +1,10462 @@
+pid = 773dfd1548c64fa8bad87eb8f3529fdc
+persistentId = 2940665646
+name = reaserch 4
+type = Ship
+sit = ESCAPING
+landed = False
+skipGroundPositioning = False
+skipGroundPositioningForDroppedPart = False
+vesselSpawning = False
+launchedFrom = LaunchPad
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 3657232.8378631733
+lct = 29564560.724651963
+lastUT = 33221793.582515135
+distanceTraveled = 2023362.0184342652
+root = 0
+lat = 34.232115147679771
+lon = 132.37497693666589
+alt = 1472442.3971569194
+hgt = 1472442.38
+nrm = 0.3752262,0.791459203,0.482491195
+rot = 0.00922489725,-0.442633033,-0.722803712,-0.530608833
+CoM = 3.57627869E-06,-14.7272472,0.000735759735
+stg = 4
+prst = False
+ref = 1943362457
+ctrl = True
+PQSMin = 2
+PQSMax = 10
+GroupOverride = 0
+OverrideDefault = False,False,False,False
+OverrideActionControl = 0,0,0,0
+OverrideAxisControl = 0,0,0,0
+OverrideGroupNames = ,,,
+altDispState = ASL
+cPch = 0.2699993
+cHdg = -4.125998
+cMod = 0
+ORBIT
+{
+SMA = 8395106.1401728019
+ECC = 0.19558679144652538
+INC = 7.3417664768282362
+LPE = 178.67521576438767
+LAN = 128.52362839322257
+MNA = 4.5790927355417903
+EPH = 33390381.289058518
+REF = 1
+}
+PART
+{
+name = Mk2Pod
+cid = 4294431034
+uid = 1943362457
+mid = 1360783935
+persistentId = 2967904521
+launchID = 4
+parent = 0
+position = 0,0,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = , -1
+attN = top, 1
+attN = bottom, 14
+mass = 1.47599995
+shielded = False
+temp = 176.04129531605022
+tempExt = 175.96196314733191
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = _default
+modCost = 160
+modMass = 0.00999999978
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+crew = Tebree Kerman
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCommand
+	isEnabled = True
+	hibernation = False
+	hibernateOnWarp = False
+	activeControlPointName = _default
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		MakeReferenceToggle
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		HibernateToggle
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleReactionWheel
+	isEnabled = True
+	actuatorModeCycle = 0
+	authorityLimiter = 100
+	stateString = Running
+	stagingEnabled = True
+	WheelState = Active
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		CycleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		Activate
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		Deactivate
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		Toggle
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleScienceExperiment
+	isEnabled = True
+	Deployed = False
+	Inoperable = False
+	cooldownToGo = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = Custom01
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ResetAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleScienceContainer
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		CollectAllAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	ScienceData
+	{
+		data = 8
+		scienceValueRatio = 1
+		subjectID = evaReport@MinmusInSpaceLowHighlands
+		xmit = 1
+		xmitBonus = 1
+		title = EVA Report from space just above Minmus' Highlands
+		triggered = False
+		container = 1943362457
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleDataTransmitter
+	isEnabled = True
+	xmitIncomplete = False
+	stagingEnabled = True
+	canComm = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		StartTransmissionAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleColorChanger
+	isEnabled = True
+	animState = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = Light
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = FlagDecal
+	isEnabled = True
+	flagDisplayed = True
+	isMirrored = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleInventoryPart
+	isEnabled = True
+	stagingEnabled = True
+	inventory = batteryPack,batteryPack
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	STOREDPARTS
+	{
+		STOREDPART
+		{
+			slotIndex = 0
+			partName = batteryPack
+			quantity = 1
+			stackCapacity = 1
+			variantName = 
+			PART
+			{
+				name = batteryPack
+				cid = 4293095384
+				uid = 0
+				mid = 0
+				persistentId = 3698769511
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,0
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 0.00499999989
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 0.5
+				state = 0
+				PreFailState = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = batteryPack
+				modCost = 0
+				modMass = 0
+				moduleVariantName = 
+				moduleCargoStackableQuantity = 1
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+					ToggleSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+					SetSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+					RemoveSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleCargoPart
+					isEnabled = True
+					beingAttached = False
+					beingSettled = False
+					reinitResourcesOnStoreInVessel = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 100
+					maxAmount = 100
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+		}
+		STOREDPART
+		{
+			slotIndex = 1
+			partName = batteryPack
+			quantity = 1
+			stackCapacity = 1
+			variantName = 
+			PART
+			{
+				name = batteryPack
+				cid = 4293094950
+				uid = 0
+				mid = 0
+				persistentId = 3513481382
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,0
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 0.00499999989
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 0.5
+				state = 0
+				PreFailState = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = batteryPack
+				modCost = 0
+				modMass = 0
+				moduleVariantName = 
+				moduleCargoStackableQuantity = 1
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+					ToggleSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+					SetSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+					RemoveSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleCargoPart
+					isEnabled = True
+					beingAttached = False
+					beingSettled = False
+					reinitResourcesOnStoreInVessel = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 100
+					maxAmount = 100
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTripLogger
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+	Log
+	{
+		flight = 0
+		0 = Land,Kerbin
+		0 = Flight,Kerbin
+		0 = Suborbit,Kerbin
+		0 = Orbit,Kerbin
+		0 = Flyby,Mun
+		0 = Escape,Mun
+		0 = Flyby,Kerbin
+		0 = Flyby,Minmus
+		0 = Escape,Minmus
+		0 = Orbit,Minmus
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 30.613033225602187
+	maxAmount = 200
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = sasModule
+cid = 4294336476
+uid = 2431420382
+mid = 1360783935
+persistentId = 805831126
+launchID = 4
+parent = 0
+position = 0,1.0911102294921875,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = , -1
+attN = bottom, 0
+attN = top, 2
+mass = 0.0500000007
+shielded = False
+temp = 176.0232389949216
+tempExt = 175.94133451312948
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = sasModule
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleReactionWheel
+	isEnabled = True
+	actuatorModeCycle = 0
+	authorityLimiter = 100
+	stateString = Running
+	stagingEnabled = True
+	WheelState = Active
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		CycleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		Activate
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		Deactivate
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		Toggle
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = batteryBankMini
+cid = 4294334660
+uid = 297033084
+mid = 1360783935
+persistentId = 2368162134
+launchID = 4
+parent = 1
+position = 0,1.2822189331054688,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 3
+attN = bottom, 1
+mass = 0.00999999978
+shielded = False
+temp = 176.00678603890208
+tempExt = 175.91588689989877
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = batteryBankMini
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 30.613033225602187
+	maxAmount = 200
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = batteryBankMini
+cid = 4294371998
+uid = 3780718009
+mid = 1360783935
+persistentId = 2562014985
+launchID = 4
+parent = 2
+position = 0,1.4822158813476563,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 4
+attN = bottom, 2
+mass = 0.00999999978
+shielded = False
+temp = 175.9883675396571
+tempExt = 175.89630155907216
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = batteryBankMini
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 30.613033225602187
+	maxAmount = 200
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = batteryBankMini
+cid = 4293123632
+uid = 495615047
+mid = 1360783935
+persistentId = 2080568466
+launchID = 4
+parent = 3
+position = 0,1.6822128295898438,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 5
+attN = bottom, 3
+mass = 0.00999999978
+shielded = False
+temp = 175.9743014716515
+tempExt = 175.87963966480069
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = batteryBankMini
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 30.613033225602187
+	maxAmount = 200
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = batteryBankMini
+cid = 4293123328
+uid = 1114358919
+mid = 1360783935
+persistentId = 1606687765
+launchID = 4
+parent = 4
+position = 0,1.8822097778320313,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 6
+attN = bottom, 4
+mass = 0.00999999978
+shielded = False
+temp = 175.96466871345831
+tempExt = 175.86343261559759
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = batteryBankMini
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 30.613033225602187
+	maxAmount = 200
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = batteryBankMini
+cid = 4293389786
+uid = 2403329683
+mid = 1360783935
+persistentId = 4170168036
+launchID = 4
+parent = 5
+position = 0,2.0822067260742188,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 7
+attN = bottom, 5
+mass = 0.00999999978
+shielded = False
+temp = 175.95273916708817
+tempExt = 175.84210418668346
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = batteryBankMini
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 30.613033225602187
+	maxAmount = 200
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = parachuteSingle
+cid = 4294357284
+uid = 1818946716
+mid = 1360783935
+persistentId = 2556744763
+launchID = 4
+parent = 6
+position = 0,2.1972846984863281,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 0
+resPri = 0
+dstg = 0
+sqor = 0
+sepI = -1
+sidx = 1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = bottom, 6
+mass = 0.100000001
+shielded = False
+temp = 175.95509584327195
+tempExt = 175.81341001395904
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = parachuteSingle
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleParachute
+	isEnabled = True
+	persistentState = STOWED
+	animTime = 0
+	minAirPressureToOpen = 0.0399999991
+	deployAltitude = 1000
+	spreadAngle = 7
+	automateSafeDeploy = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		CutAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTestSubject
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleDragModifier
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleDragModifier
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4294333718
+uid = 3528472394
+mid = 1360783935
+persistentId = 2744449691
+launchID = 4
+parent = 0
+position = -0.41604384779930115,0.74369430541992188,2.9802322387695313E-08
+rotation = -0.137620628,-0.693585277,-0.137620628,0.693585336
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 9
+sym = 10
+sym = 11
+srfN = srfAttach, 0,COL
+mass = 0.00499999989
+shielded = False
+temp = 176.03763018988079
+tempExt = 175.95560166099614
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4294333208
+uid = 2297594116
+mid = 1360783935
+persistentId = 811267362
+launchID = 4
+parent = 0
+position = 0,0.74369430541992188,0.41604381799697876
+rotation = -0.19462496,4.21468478E-08,0,0.980877757
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 8
+sym = 10
+sym = 11
+srfN = srfAttach, 0,COL
+mass = 0.00499999989
+shielded = False
+temp = 176.03763018988079
+tempExt = 175.95560166099614
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4294333174
+uid = 3371446
+mid = 1360783935
+persistentId = 1771033119
+launchID = 4
+parent = 0
+position = 0.41604384779930115,0.74369430541992188,-5.9604644775390625E-08
+rotation = -0.137620628,0.693585396,0.137620628,0.693585217
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 8
+sym = 9
+sym = 11
+srfN = srfAttach, 0,COL
+mass = 0.00499999989
+shielded = False
+temp = 176.03763018988079
+tempExt = 175.95560166099614
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4294333140
+uid = 46913599
+mid = 1360783935
+persistentId = 1857180706
+launchID = 4
+parent = 0
+position = -4.8428773880004883E-08,0.74369430541992188,-0.41604381799697876
+rotation = 0,0.980877757,0.19462496,-4.21468478E-08
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 8
+sym = 9
+sym = 10
+srfN = srfAttach, 0,COL
+mass = 0.00499999989
+shielded = False
+temp = 176.03763044134155
+tempExt = 175.95560726280877
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = parachuteRadial
+cid = 4294326668
+uid = 3466391849
+mid = 1360783935
+persistentId = 2477245231
+launchID = 4
+parent = 0
+position = 0.67279863357543945,0.1283111572265625,4.4703483581542969E-08
+rotation = -0.13762036,0.693585396,-0.13762036,-0.693585277
+mirror = 1,1,1
+symMethod = Radial
+istg = 0
+resPri = 0
+dstg = 0
+sqor = 0
+sepI = -1
+sidx = 0
+attm = 1
+sameVesselCollision = False
+sym = 13
+srfN = srfAttach, 0,COL
+mass = 0.100000001
+shielded = False
+temp = 176.03524639270358
+tempExt = 175.93045906487328
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = parachuteRadial
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleParachute
+	isEnabled = True
+	persistentState = STOWED
+	animTime = 0
+	minAirPressureToOpen = 0.0399999991
+	deployAltitude = 1000
+	spreadAngle = 7
+	automateSafeDeploy = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		CutAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTestSubject
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleDragModifier
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleDragModifier
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = parachuteRadial
+cid = 4294325830
+uid = 626410758
+mid = 1360783935
+persistentId = 21776105
+launchID = 4
+parent = 0
+position = -0.67279863357543945,0.1283111572265625,1.4901161193847656E-08
+rotation = -0.13762036,-0.693585336,0.13762036,-0.693585336
+mirror = 1,1,1
+symMethod = Radial
+istg = 0
+resPri = 0
+dstg = 0
+sqor = 0
+sepI = -1
+sidx = 0
+attm = 1
+sameVesselCollision = False
+sym = 12
+srfN = srfAttach, 0,COL
+mass = 0.100000001
+shielded = False
+temp = 176.03525005440028
+tempExt = 175.93046037879347
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = parachuteRadial
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleParachute
+	isEnabled = True
+	persistentState = STOWED
+	animTime = 0
+	minAirPressureToOpen = 0.0399999991
+	deployAltitude = 1000
+	spreadAngle = 7
+	automateSafeDeploy = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		CutAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTestSubject
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleDragModifier
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleDragModifier
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = Size1p5.Size2.Adapter.01
+cid = 4294344540
+uid = 1355143948
+mid = 1360783935
+persistentId = 2475720741
+launchID = 4
+parent = 0
+position = 0,-1.4375,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = , -1
+attN = top, 0
+attN = bottom, 15
+mass = 0.75
+shielded = False
+temp = 176.05138023823633
+tempExt = 175.98694209286163
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Size1p5.Size2.Adapter.01
+modCost = 0
+modMass = 0
+moduleVariantName = Basic
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 540
+	maxAmount = 540
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 660
+	maxAmount = 660
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Rockomax32.BW
+cid = 4294343790
+uid = 3074665323
+mid = 1360783935
+persistentId = 3829859382
+launchID = 4
+parent = 14
+position = 0,-4.2350006103515625,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 14
+attN = bottom, 16
+mass = 2
+shielded = False
+temp = 176.05347229454335
+tempExt = 176.02483208140745
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Rockomax32.BW
+modCost = 0
+modMass = 0
+moduleVariantName = BlackAndWhite
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 1440
+	maxAmount = 1440
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 1760
+	maxAmount = 1760
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Decoupler.2
+cid = 4294342504
+uid = 1190364722
+mid = 1360783935
+persistentId = 1848497498
+launchID = 4
+parent = 15
+position = 0,-6.1949996948242188,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 1
+sqor = 1
+sepI = 1
+sidx = 0
+attm = 0
+sameVesselCollision = False
+srfN = , -1
+attN = top, 15
+attN = bottom, 17
+mass = 0.159999996
+shielded = False
+temp = 176.04742799626936
+tempExt = 175.99275785939824
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Decoupler.2
+modCost = 0
+modMass = 0
+moduleVariantName = Basic
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDecouple
+	isEnabled = True
+	ejectionForcePercent = 100
+	isDecoupled = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DecoupleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleToggleCrossfeed
+	isEnabled = True
+	crossfeedStatus = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		EnableAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		DisableAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTestSubject
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = Large.Crewed.Lab
+cid = 4294352596
+uid = 1194920117
+mid = 1360783935
+persistentId = 3111091222
+launchID = 4
+parent = 16
+position = 0,-8.1199989318847656,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = , -1
+attN = top, 16
+attN = bottom, 18
+mass = 3.52400017
+shielded = False
+temp = 176.0424213419399
+tempExt = 175.96922368724549
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Large.Crewed.Lab
+modCost = 720
+modMass = 0.0199999996
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+crew = Munger Kerman
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleScienceContainer
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		CollectAllAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleScienceLab
+	isEnabled = True
+	dataStored = 282.02417
+	storedScience = 0.00294434163
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	EXPERIMENT_DATA
+	{
+		experiment = temperatureScan@KerbinFlyingHigh
+		experiment = crewReport@KerbinFlyingHigh
+		experiment = mysteryGoo@KerbinFlyingHigh
+		experiment = barometerScan@KerbinFlyingHigh
+		experiment = temperatureScan@KerbinInSpaceLow
+		experiment = crewReport@KerbinInSpaceLow
+		experiment = barometerScan@KerbinInSpaceLow
+		experiment = temperatureScan@KerbinInSpaceHigh
+		experiment = crewReport@KerbinInSpaceHigh
+		experiment = barometerScan@KerbinInSpaceHigh
+		experiment = temperatureScan@MunInSpaceHigh
+		experiment = crewReport@MunInSpaceHigh
+		experiment = barometerScan@MunInSpaceHigh
+		experiment = temperatureScan@MinmusInSpaceHigh
+		experiment = crewReport@MinmusInSpaceHigh
+		experiment = barometerScan@MinmusInSpaceHigh
+		experiment = temperatureScan@MinmusInSpaceLow
+		experiment = crewReport@MinmusInSpaceLow
+		experiment = barometerScan@MinmusInSpaceLow
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleScienceConverter
+	isEnabled = True
+	EfficiencyBonus = 1
+	IsActivated = True
+	stagingEnabled = True
+	lastUpdateTime = 33221793.582515135
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		StopResourceConverterAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		StartResourceConverterAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleResourceConverterAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleKerbNetAccess
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		OpenKerbNetAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleExperienceManagement
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = FlagDecal
+	isEnabled = True
+	flagDisplayed = True
+	isMirrored = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleColorChanger
+	isEnabled = True
+	animState = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = Light
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleInventoryPart
+	isEnabled = True
+	stagingEnabled = True
+	inventory = batteryBankMini,batteryBankMini
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	STOREDPARTS
+	{
+		STOREDPART
+		{
+			slotIndex = 0
+			partName = batteryBankMini
+			quantity = 1
+			stackCapacity = 1
+			variantName = 
+			PART
+			{
+				name = batteryBankMini
+				cid = 4293364070
+				uid = 0
+				mid = 0
+				persistentId = 1794901008
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,0
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 0.00999999978
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 0.5
+				state = 0
+				PreFailState = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = batteryBankMini
+				modCost = 0
+				modMass = 0
+				moduleVariantName = 
+				moduleCargoStackableQuantity = 1
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+					ToggleSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+					SetSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+					RemoveSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleCargoPart
+					isEnabled = True
+					beingAttached = False
+					beingSettled = False
+					reinitResourcesOnStoreInVessel = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 200
+					maxAmount = 200
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+		}
+		STOREDPART
+		{
+			slotIndex = 1
+			partName = batteryBankMini
+			quantity = 1
+			stackCapacity = 1
+			variantName = 
+			PART
+			{
+				name = batteryBankMini
+				cid = 4293363604
+				uid = 0
+				mid = 0
+				persistentId = 2200214266
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,0
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 0.00999999978
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 0.5
+				state = 0
+				PreFailState = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = batteryBankMini
+				modCost = 0
+				modMass = 0
+				moduleVariantName = 
+				moduleCargoStackableQuantity = 1
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+					ToggleSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+					SetSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+					RemoveSameVesselInteraction
+					{
+						actionGroup = None
+						wasActiveBeforePartWasAdjusted = False
+					}
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleCargoPart
+					isEnabled = True
+					beingAttached = False
+					beingSettled = False
+					reinitResourcesOnStoreInVessel = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 200
+					maxAmount = 200
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTripLogger
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+	Log
+	{
+		flight = 0
+		0 = Land,Kerbin
+		0 = Flight,Kerbin
+		0 = Suborbit,Kerbin
+		0 = Orbit,Kerbin
+		0 = Flyby,Mun
+		0 = Escape,Mun
+		0 = Flyby,Kerbin
+		0 = Flyby,Minmus
+		0 = Escape,Minmus
+		0 = Orbit,Minmus
+	}
+}
+}
+PART
+{
+name = Decoupler.2
+cid = 4294330734
+uid = 3063450801
+mid = 1360783935
+persistentId = 130657670
+launchID = 4
+parent = 17
+position = 0,-10.050998687744141,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 3
+resPri = 0
+dstg = 3
+sqor = 3
+sepI = 3
+sidx = 0
+attm = 0
+sameVesselCollision = False
+srfN = , -1
+attN = top, 17
+attN = bottom, 19
+mass = 0.159999996
+shielded = False
+temp = 176.04652669466913
+tempExt = 175.97844926717826
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Decoupler.2
+modCost = 0
+modMass = 0
+moduleVariantName = Basic
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDecouple
+	isEnabled = True
+	ejectionForcePercent = 100
+	isDecoupled = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DecoupleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleToggleCrossfeed
+	isEnabled = True
+	crossfeedStatus = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		EnableAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		DisableAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTestSubject
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = Rockomax32.BW
+cid = 4291299754
+uid = 1816261183
+mid = 1360783935
+persistentId = 2722447296
+launchID = 4
+parent = 18
+position = 0,-12.011001586914063,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 3
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = 3
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 18
+attN = bottom, 20
+mass = 2
+shielded = False
+temp = 176.05176777420326
+tempExt = 175.99188926958911
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Rockomax32.BW
+modCost = 0
+modMass = 0
+moduleVariantName = Orange
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	selectedVariant = Orange
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 598.91160651367989
+	maxAmount = 1440
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 732.00302511390748
+	maxAmount = 1760
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Rockomax32.BW
+cid = 4291299456
+uid = 1969199426
+mid = 1360783935
+persistentId = 1605838845
+launchID = 4
+parent = 19
+position = 0,-15.731002807617188,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 3
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = 3
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 19
+attN = bottom, 21
+mass = 2
+shielded = False
+temp = 176.0546790125002
+tempExt = 176.03020852088289
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Rockomax32.BW
+modCost = 0
+modMass = 0
+moduleVariantName = Orange
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	selectedVariant = Orange
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 598.91160651367989
+	maxAmount = 1440
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 732.00302511390748
+	maxAmount = 1760
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Rockomax32.BW
+cid = 4291299156
+uid = 3644929981
+mid = 1360783935
+persistentId = 2423759667
+launchID = 4
+parent = 20
+position = 0,-19.451004028320313,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 3
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = 3
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 20
+attN = bottom, 22
+mass = 2
+shielded = False
+temp = 176.05470697193425
+tempExt = 175.99985508267685
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Rockomax32.BW
+modCost = 0
+modMass = 0
+moduleVariantName = Orange
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	selectedVariant = Orange
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 598.91160651367989
+	maxAmount = 1440
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 732.00302511390748
+	maxAmount = 1760
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Rockomax32.BW
+cid = 4291298858
+uid = 2969810171
+mid = 1360783935
+persistentId = 3809045553
+launchID = 4
+parent = 21
+position = 0,-23.171005249023438,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 3
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = 3
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 21
+attN = bottom, 23
+mass = 2
+shielded = False
+temp = 176.05686013956819
+tempExt = 176.02703258073316
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Rockomax32.BW
+modCost = 0
+modMass = 0
+moduleVariantName = Orange
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	selectedVariant = Orange
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 598.91160651367989
+	maxAmount = 1440
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 732.00302511390748
+	maxAmount = 1760
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Rockomax32.BW
+cid = 4291298564
+uid = 2051234782
+mid = 1360783935
+persistentId = 2490295025
+launchID = 4
+parent = 22
+position = 0,-26.891006469726563,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 3
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = 3
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 22
+attN = bottom, 24
+mass = 2
+shielded = False
+temp = 176.06029246700678
+tempExt = 176.04253252829747
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Rockomax32.BW
+modCost = 0
+modMass = 0
+moduleVariantName = Orange
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	selectedVariant = Orange
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 598.91160651367989
+	maxAmount = 1440
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 732.00302511390748
+	maxAmount = 1760
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Rockomax32.BW
+cid = 4291298270
+uid = 2582451956
+mid = 1360783935
+persistentId = 3712764462
+launchID = 4
+parent = 23
+position = 0,-30.611007690429688,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 3
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = 3
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 23
+attN = bottom, 25
+mass = 2
+shielded = False
+temp = 176.07336750777463
+tempExt = 176.15056843409283
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Rockomax32.BW
+modCost = 0
+modMass = 0
+moduleVariantName = Orange
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	selectedVariant = Orange
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 598.91160651367989
+	maxAmount = 1440
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 732.00302511390748
+	maxAmount = 1760
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = LiquidEngineRE-I2
+cid = 4291294656
+uid = 1511635850
+mid = 1360783935
+persistentId = 1830341863
+launchID = 4
+parent = 24
+position = 0,-34.276218414306641,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 4
+resPri = 0
+dstg = 4
+sqor = 4
+sepI = 3
+sidx = 0
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 24
+attN = bottom, -1
+mass = 1.60000002
+shielded = False
+temp = 176.09643067155579
+tempExt = 176.41757526782686
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 1
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = LiquidEngineRE-I2
+modCost = 0
+modMass = 0
+moduleVariantName = Shroud
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleEngines
+	isEnabled = True
+	independentThrottle = False
+	independentThrottlePercentage = 0
+	staged = True
+	flameout = False
+	EngineIgnited = True
+	engineShutdown = False
+	currentThrottle = 0
+	thrustPercentage = 100
+	manuallyOverridden = False
+	includeinDVCalcs = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		OnAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ShutdownAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ActivateAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleThrottle
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	AXISGROUPS
+	{
+		independentThrottlePercentage
+		{
+			axisGroup = None
+			axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			axisSpeedMultiplier = 0
+			axisInverted = None
+			overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+		}
+		thrustPercentage
+		{
+			axisGroup = None
+			axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			axisSpeedMultiplier = 0
+			axisInverted = None
+			overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleAlternator
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleGimbal
+	isEnabled = True
+	gimbalLock = False
+	gimbalLimiter = 100
+	currentShowToggles = False
+	enableYaw = True
+	enablePitch = True
+	enableRoll = True
+	gimbalActive = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		LockAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		FreeAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		TogglePitchAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleYawAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleRollAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = FXModuleLookAtConstraint
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleJettison
+	isEnabled = True
+	activejettisonName = Shroud2x3
+	isJettisoned = True
+	shroudHideOverride = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		JettisonAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleSurfaceFX
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTestSubject
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = sensorBarometer
+cid = 4294329890
+uid = 2157556689
+mid = 1360783935
+persistentId = 244870854
+launchID = 4
+parent = 17
+position = -0.60976213216781616,-7.1053581237792969,-1.0561387538909912
+rotation = 0,-0.258819103,0,-0.965925813
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 17,ColliderMain
+mass = 0.00499999989
+shielded = False
+temp = 176.03613858151778
+tempExt = 175.96024815597383
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = sensorBarometer
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleEnviroSensor
+	isEnabled = True
+	sensorActive = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleScienceExperiment
+	isEnabled = True
+	Deployed = False
+	Inoperable = False
+	cooldownToGo = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = Custom01
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ResetAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = sensorThermometer
+cid = 4294329366
+uid = 960427653
+mid = 1360783935
+persistentId = 37141934
+launchID = 4
+parent = 17
+position = 0.61737984418869019,-7.1553115844726563,-1.0693330764770508
+rotation = 0,0.258819103,0,-0.965925813
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 17,ColliderMain
+mass = 0.00499999989
+shielded = False
+temp = 176.03841302424703
+tempExt = 175.96385843657191
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = sensorThermometer
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 3
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleEnviroSensor
+	isEnabled = True
+	sensorActive = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleScienceExperiment
+	isEnabled = True
+	Deployed = True
+	Inoperable = False
+	cooldownToGo = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = Custom01
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ResetAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	ScienceData
+	{
+		data = 8
+		scienceValueRatio = 1
+		subjectID = temperatureScan@MinmusInSpaceLow
+		xmit = 0.5
+		xmitBonus = 1
+		title = Temperature Scan while in space near Minmus
+		triggered = False
+		container = 960427653
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = GooExperiment
+cid = 4294329072
+uid = 1762347977
+mid = 1360783935
+persistentId = 3111391100
+launchID = 4
+parent = 17
+position = 3.7252902984619141E-09,-7.1150321960449219,1.1482820510864258
+rotation = 0,1,0,2.21068301E-08
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 17,ColliderMain
+mass = 0.0500000007
+shielded = False
+temp = 176.04686708500179
+tempExt = 176.08509908894018
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = GooExperiment
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleAnimateGeneric
+	isEnabled = True
+	aniState = LOCKED
+	animSwitch = False
+	animTime = 1
+	animSpeed = 0
+	deployPercent = 100
+	animationIsDisabled = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	AXISGROUPS
+	{
+		deployPercent
+		{
+			axisGroup = None
+			axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			axisSpeedMultiplier = 0
+			axisInverted = None
+			overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleScienceExperiment
+	isEnabled = True
+	Deployed = True
+	Inoperable = True
+	cooldownToGo = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = Custom01
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ResetAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = HighGainAntenna5.v2
+cid = 4294278264
+uid = 4210379056
+mid = 1360783935
+persistentId = 3958241538
+launchID = 4
+parent = 17
+position = -0.86013859510421753,-7.840240478515625,0.8601384162902832
+rotation = 0.653281569,-0.270597994,0.270597994,0.653281569
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 30
+sym = 31
+sym = 32
+srfN = srfAttach, 17,ColliderMain
+attN = bottom, -1
+mass = 0.0700000003
+shielded = False
+temp = 176.05598617275135
+tempExt = 176.2393405125068
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = HighGainAntenna5.v2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableAntenna
+	isEnabled = True
+	currentRotation = (0, 0, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom02
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleDataTransmitter
+	isEnabled = True
+	xmitIncomplete = False
+	stagingEnabled = True
+	canComm = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		StartTransmissionAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTripLogger
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+	Log
+	{
+		flight = 0
+		0 = Land,Kerbin
+		0 = Flight,Kerbin
+		0 = Suborbit,Kerbin
+		0 = Orbit,Kerbin
+		0 = Flyby,Mun
+		0 = Escape,Mun
+		0 = Flyby,Kerbin
+		0 = Flyby,Minmus
+		0 = Escape,Minmus
+		0 = Orbit,Minmus
+	}
+}
+}
+PART
+{
+name = HighGainAntenna5.v2
+cid = 4294276690
+uid = 426373510
+mid = 1360783935
+persistentId = 1106983777
+launchID = 4
+parent = 17
+position = 0.86013829708099365,-7.840240478515625,0.86013859510421753
+rotation = 0.65328145,0.270598114,-0.270598114,0.65328145
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 29
+sym = 31
+sym = 32
+srfN = srfAttach, 17,ColliderMain
+attN = bottom, -1
+mass = 0.0700000003
+shielded = False
+temp = 176.042229268955
+tempExt = 176.02897363500944
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = HighGainAntenna5.v2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableAntenna
+	isEnabled = True
+	currentRotation = (0, 0, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom02
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleDataTransmitter
+	isEnabled = True
+	xmitIncomplete = False
+	stagingEnabled = True
+	canComm = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		StartTransmissionAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTripLogger
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+	Log
+	{
+		flight = 0
+		0 = Land,Kerbin
+		0 = Flight,Kerbin
+		0 = Suborbit,Kerbin
+		0 = Orbit,Kerbin
+		0 = Flyby,Mun
+		0 = Escape,Mun
+		0 = Flyby,Kerbin
+		0 = Flyby,Minmus
+		0 = Escape,Minmus
+		0 = Orbit,Minmus
+	}
+}
+}
+PART
+{
+name = HighGainAntenna5.v2
+cid = 4294276584
+uid = 3727308506
+mid = 1360783935
+persistentId = 2132579843
+launchID = 4
+parent = 17
+position = 0.86013853549957275,-7.840240478515625,-0.86013847589492798
+rotation = 0.270597965,0.653281569,-0.653281569,0.270597965
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 29
+sym = 30
+sym = 32
+srfN = srfAttach, 17,ColliderMain
+attN = bottom, -1
+mass = 0.0700000003
+shielded = False
+temp = 176.03772093515479
+tempExt = 175.96069540444651
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = HighGainAntenna5.v2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableAntenna
+	isEnabled = True
+	currentRotation = (0, 0, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom02
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleDataTransmitter
+	isEnabled = True
+	xmitIncomplete = False
+	stagingEnabled = True
+	canComm = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		StartTransmissionAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTripLogger
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+	Log
+	{
+		flight = 0
+		0 = Land,Kerbin
+		0 = Flight,Kerbin
+		0 = Suborbit,Kerbin
+		0 = Orbit,Kerbin
+		0 = Flyby,Mun
+		0 = Escape,Mun
+		0 = Flyby,Kerbin
+		0 = Flyby,Minmus
+		0 = Escape,Minmus
+		0 = Orbit,Minmus
+	}
+}
+}
+PART
+{
+name = HighGainAntenna5.v2
+cid = 4294276478
+uid = 2336343167
+mid = 1360783935
+persistentId = 3596980654
+launchID = 4
+parent = 17
+position = -0.8601384162902832,-7.840240478515625,-0.86013847589492798
+rotation = -0.270598114,0.65328145,-0.65328145,-0.270598114
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 29
+sym = 30
+sym = 31
+srfN = srfAttach, 17,ColliderMain
+attN = bottom, -1
+mass = 0.0700000003
+shielded = False
+temp = 176.0468447369924
+tempExt = 176.10003493838468
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = HighGainAntenna5.v2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableAntenna
+	isEnabled = True
+	currentRotation = (0, 0, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom02
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleDataTransmitter
+	isEnabled = True
+	xmitIncomplete = False
+	stagingEnabled = True
+	canComm = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		StartTransmissionAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTripLogger
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+	Log
+	{
+		flight = 0
+		0 = Land,Kerbin
+		0 = Flight,Kerbin
+		0 = Suborbit,Kerbin
+		0 = Orbit,Kerbin
+		0 = Flyby,Mun
+		0 = Escape,Mun
+		0 = Flyby,Kerbin
+		0 = Flyby,Minmus
+		0 = Escape,Minmus
+		0 = Orbit,Minmus
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4293806468
+uid = 2998350841
+mid = 1360783935
+persistentId = 1085340462
+launchID = 4
+parent = 17
+position = -0.85442888736724854,-7.5027427673339844,-0.85442882776260376
+rotation = 0,0.923879504,0,-0.382683605
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 34
+sym = 35
+sym = 36
+srfN = srfAttach, 17,ColliderMain
+mass = 0.00499999989
+shielded = False
+temp = 176.03892791715705
+tempExt = 175.96108896656918
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4293805468
+uid = 1279846631
+mid = 1360783935
+persistentId = 236044353
+launchID = 4
+parent = 17
+position = -0.85442882776260376,-7.5027427673339844,0.85442876815795898
+rotation = 0,0.382683277,0,-0.923879623
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 33
+sym = 35
+sym = 36
+srfN = srfAttach, 17,ColliderMain
+mass = 0.00499999989
+shielded = False
+temp = 176.03892791715705
+tempExt = 175.96108896656918
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4293805434
+uid = 2431790097
+mid = 1360783935
+persistentId = 827915786
+launchID = 4
+parent = 17
+position = 0.85442894697189331,-7.5027427673339844,0.85442876815795898
+rotation = 0,-0.382683635,0,-0.923879504
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 33
+sym = 34
+sym = 36
+srfN = srfAttach, 17,ColliderMain
+mass = 0.00499999989
+shielded = False
+temp = 176.03892791715705
+tempExt = 175.96108896656918
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4293805400
+uid = 3653676635
+mid = 1360783935
+persistentId = 3232194553
+launchID = 4
+parent = 17
+position = 0.85442870855331421,-7.5027427673339844,-0.85442888736724854
+rotation = 0,-0.923879623,0,-0.382683277
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 33
+sym = 34
+sym = 35
+srfN = srfAttach, 17,ColliderMain
+mass = 0.00499999989
+shielded = False
+temp = 176.03892791715705
+tempExt = 175.96108896656918
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4293807150
+uid = 3315172351
+mid = 1360783935
+persistentId = 3459041682
+launchID = 4
+parent = 17
+position = -0.85485845804214478,-6.93255615234375,-0.85485833883285522
+rotation = 0,0.923879504,0,-0.382683605
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 38
+sym = 39
+sym = 40
+srfN = srfAttach, 17,ColliderMain
+mass = 0.00499999989
+shielded = False
+temp = 176.03892791715705
+tempExt = 175.96108896656918
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4293805236
+uid = 1374698678
+mid = 1360783935
+persistentId = 1652355379
+launchID = 4
+parent = 17
+position = -0.8548583984375,-6.93255615234375,0.85485833883285522
+rotation = 0,0.382683277,0,-0.923879623
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 37
+sym = 39
+sym = 40
+srfN = srfAttach, 17,ColliderMain
+mass = 0.00499999989
+shielded = False
+temp = 176.03892791715705
+tempExt = 175.96108896656918
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4293805202
+uid = 2298030112
+mid = 1360783935
+persistentId = 3258598357
+launchID = 4
+parent = 17
+position = 0.85485851764678955,-6.93255615234375,0.85485833883285522
+rotation = 0,-0.382683635,0,-0.923879504
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 37
+sym = 38
+sym = 40
+srfN = srfAttach, 17,ColliderMain
+mass = 0.00499999989
+shielded = False
+temp = 176.03892791715705
+tempExt = 175.96108896656918
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4293805168
+uid = 700963301
+mid = 1360783935
+persistentId = 4092238655
+launchID = 4
+parent = 17
+position = 0.85485827922821045,-6.93255615234375,-0.85485845804214478
+rotation = 0,-0.923879623,0,-0.382683277
+mirror = 1,1,1
+symMethod = Radial
+istg = 1
+resPri = 0
+dstg = 2
+sqor = -1
+sepI = 1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 37
+sym = 38
+sym = 39
+srfN = srfAttach, 17,ColliderMain
+mass = 0.00499999989
+shielded = False
+temp = 176.03892791715705
+tempExt = 175.96108896656918
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = radialLiquidEngine1-2
+cid = 4294340378
+uid = 1963050207
+mid = 1360783935
+persistentId = 3301068380
+launchID = 4
+parent = 15
+position = 0.85690271854400635,-5.3945274353027344,-0.85690265893936157
+rotation = -4.38285452E-09,0.923879325,1.05811306E-08,0.382683933
+mirror = 1,1,1
+symMethod = Radial
+istg = 2
+resPri = 0
+dstg = 0
+sqor = 2
+sepI = -1
+sidx = 0
+attm = 1
+sameVesselCollision = False
+sym = 42
+sym = 43
+sym = 44
+srfN = srfAttach, 15,collider
+mass = 0.899999976
+shielded = False
+temp = 176.0327644735894
+tempExt = 175.97384678475234
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = radialLiquidEngine1-2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleEngines
+	isEnabled = True
+	independentThrottle = False
+	independentThrottlePercentage = 0
+	staged = False
+	flameout = False
+	EngineIgnited = False
+	engineShutdown = False
+	currentThrottle = 0
+	thrustPercentage = 100
+	manuallyOverridden = False
+	includeinDVCalcs = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		OnAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ShutdownAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ActivateAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleThrottle
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	AXISGROUPS
+	{
+		independentThrottlePercentage
+		{
+			axisGroup = None
+			axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			axisSpeedMultiplier = 0
+			axisInverted = None
+		}
+		thrustPercentage
+		{
+			axisGroup = None
+			axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			axisSpeedMultiplier = 0
+			axisInverted = None
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleGimbal
+	isEnabled = True
+	gimbalLock = False
+	gimbalLimiter = 100
+	currentShowToggles = False
+	enableYaw = True
+	enablePitch = True
+	enableRoll = True
+	gimbalActive = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		LockAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		FreeAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		TogglePitchAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleYawAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleRollAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = FXModuleAnimateThrottle
+	isEnabled = True
+	animState = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTestSubject
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleSurfaceFX
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = radialLiquidEngine1-2
+cid = 4294340084
+uid = 673723036
+mid = 1360783935
+persistentId = 1452752274
+launchID = 4
+parent = 15
+position = -0.85690253973007202,-5.3945274353027344,-0.85690277814865112
+rotation = 4.38284298E-09,0.923879743,1.05811351E-08,-0.38268292
+mirror = 1,1,1
+symMethod = Radial
+istg = 2
+resPri = 0
+dstg = 0
+sqor = 2
+sepI = -1
+sidx = 0
+attm = 1
+sameVesselCollision = False
+sym = 41
+sym = 43
+sym = 44
+srfN = srfAttach, 15,collider
+mass = 0.899999976
+shielded = False
+temp = 176.03288446636634
+tempExt = 175.97437970858897
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = radialLiquidEngine1-2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleEngines
+	isEnabled = True
+	independentThrottle = False
+	independentThrottlePercentage = 0
+	staged = False
+	flameout = False
+	EngineIgnited = False
+	engineShutdown = False
+	currentThrottle = 0
+	thrustPercentage = 100
+	manuallyOverridden = False
+	includeinDVCalcs = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		OnAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ShutdownAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ActivateAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleThrottle
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	AXISGROUPS
+	{
+		independentThrottlePercentage
+		{
+			axisGroup = None
+			axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			axisSpeedMultiplier = 0
+			axisInverted = None
+		}
+		thrustPercentage
+		{
+			axisGroup = None
+			axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			axisSpeedMultiplier = 0
+			axisInverted = None
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleGimbal
+	isEnabled = True
+	gimbalLock = False
+	gimbalLimiter = 100
+	currentShowToggles = False
+	enableYaw = True
+	enablePitch = True
+	enableRoll = True
+	gimbalActive = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		LockAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		FreeAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		TogglePitchAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleYawAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleRollAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = FXModuleAnimateThrottle
+	isEnabled = True
+	animState = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTestSubject
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleSurfaceFX
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = radialLiquidEngine1-2
+cid = 4294339990
+uid = 2113904751
+mid = 1360783935
+persistentId = 1813747356
+launchID = 4
+parent = 15
+position = -0.85690265893936157,-5.3945274353027344,0.85690271854400635
+rotation = 1.05811306E-08,0.382683903,4.38285408E-09,-0.923879325
+mirror = 1,1,1
+symMethod = Radial
+istg = 2
+resPri = 0
+dstg = 0
+sqor = 2
+sepI = -1
+sidx = 0
+attm = 1
+sameVesselCollision = False
+sym = 41
+sym = 42
+sym = 44
+srfN = srfAttach, 15,collider
+mass = 0.899999976
+shielded = False
+temp = 176.08406234281298
+tempExt = 176.23756309803667
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = radialLiquidEngine1-2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleEngines
+	isEnabled = True
+	independentThrottle = False
+	independentThrottlePercentage = 0
+	staged = False
+	flameout = False
+	EngineIgnited = False
+	engineShutdown = False
+	currentThrottle = 0
+	thrustPercentage = 100
+	manuallyOverridden = False
+	includeinDVCalcs = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		OnAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ShutdownAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ActivateAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleThrottle
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	AXISGROUPS
+	{
+		independentThrottlePercentage
+		{
+			axisGroup = None
+			axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			axisSpeedMultiplier = 0
+			axisInverted = None
+		}
+		thrustPercentage
+		{
+			axisGroup = None
+			axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			axisSpeedMultiplier = 0
+			axisInverted = None
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleGimbal
+	isEnabled = True
+	gimbalLock = False
+	gimbalLimiter = 100
+	currentShowToggles = False
+	enableYaw = True
+	enablePitch = True
+	enableRoll = True
+	gimbalActive = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		LockAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		FreeAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		TogglePitchAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleYawAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleRollAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = FXModuleAnimateThrottle
+	isEnabled = True
+	animState = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTestSubject
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleSurfaceFX
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = radialLiquidEngine1-2
+cid = 4294339896
+uid = 3771771540
+mid = 1360783935
+persistentId = 2686053774
+launchID = 4
+parent = 15
+position = 0.85690265893936157,-5.3945274353027344,0.8569025993347168
+rotation = 1.05811351E-08,-0.38268292,-4.38284298E-09,-0.923879743
+mirror = 1,1,1
+symMethod = Radial
+istg = 2
+resPri = 0
+dstg = 0
+sqor = 2
+sepI = -1
+sidx = 0
+attm = 1
+sameVesselCollision = False
+sym = 41
+sym = 42
+sym = 43
+srfN = srfAttach, 15,collider
+mass = 0.899999976
+shielded = False
+temp = 176.0327644735894
+tempExt = 175.97384678475234
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = radialLiquidEngine1-2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleEngines
+	isEnabled = True
+	independentThrottle = False
+	independentThrottlePercentage = 0
+	staged = False
+	flameout = False
+	EngineIgnited = False
+	engineShutdown = False
+	currentThrottle = 0
+	thrustPercentage = 100
+	manuallyOverridden = False
+	includeinDVCalcs = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		OnAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ShutdownAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ActivateAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleThrottle
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	AXISGROUPS
+	{
+		independentThrottlePercentage
+		{
+			axisGroup = None
+			axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			axisSpeedMultiplier = 0
+			axisInverted = None
+		}
+		thrustPercentage
+		{
+			axisGroup = None
+			axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			axisSpeedMultiplier = 0
+			axisInverted = None
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleGimbal
+	isEnabled = True
+	gimbalLock = False
+	gimbalLimiter = 100
+	currentShowToggles = False
+	enableYaw = True
+	enablePitch = True
+	enableRoll = True
+	gimbalActive = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		LockAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		FreeAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		TogglePitchAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleYawAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ToggleRollAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = FXModuleAnimateThrottle
+	isEnabled = True
+	animState = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleTestSubject
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleSurfaceFX
+	isEnabled = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294133380
+uid = 3202369415
+mid = 1360783935
+persistentId = 1484559545
+launchID = 4
+parent = 15
+position = -1.0803341865539551E-07,-6.0532951354980469,-1.2310218811035156
+rotation = -1.10626956E-08,0.707106769,1.10626965E-08,-0.707106888
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 15,collider
+mass = 0.00499999989
+shielded = False
+temp = 176.04802100329928
+tempExt = 176.00272207076793
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294133022
+uid = 1780177978
+mid = 1360783935
+persistentId = 1474397732
+launchID = 4
+parent = 15
+position = -1.0803341865539551E-07,-5.5934715270996094,-1.2409682273864746
+rotation = -1.10626956E-08,0.707106769,1.10626965E-08,-0.707106888
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 15,collider
+mass = 0.00499999989
+shielded = False
+temp = 176.04802100329928
+tempExt = 176.00272207076793
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294132484
+uid = 2720932056
+mid = 1360783935
+persistentId = 1307103777
+launchID = 4
+parent = 15
+position = -1.0803341865539551E-07,-5.0875129699707031,-1.2415015697479248
+rotation = -1.10626956E-08,0.707106769,1.10626965E-08,-0.707106888
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 15,collider
+mass = 0.00499999989
+shielded = False
+temp = 176.04802100329928
+tempExt = 176.00272207076793
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294132258
+uid = 1774753610
+mid = 1360783935
+persistentId = 3271781739
+launchID = 4
+parent = 15
+position = -1.0803341865539551E-07,-4.6256790161132813,-1.2352850437164307
+rotation = -1.10626956E-08,0.707106769,1.10626965E-08,-0.707106888
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 15,collider
+mass = 0.00499999989
+shielded = False
+temp = 176.04802100329928
+tempExt = 176.00272207076793
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294132030
+uid = 20875933
+mid = 1360783935
+persistentId = 1544900912
+launchID = 4
+parent = 15
+position = -1.0803341865539551E-07,-4.2343864440917969,-1.2398865222930908
+rotation = -1.10626956E-08,0.707106769,1.10626965E-08,-0.707106888
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 15,collider
+mass = 0.00499999989
+shielded = False
+temp = 176.04802100329928
+tempExt = 176.00272207076793
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294131802
+uid = 964236537
+mid = 1360783935
+persistentId = 2962781712
+launchID = 4
+parent = 15
+position = -1.0803341865539551E-07,-3.7652740478515625,-1.2267427444458008
+rotation = -1.10626956E-08,0.707106769,1.10626965E-08,-0.707106888
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 15,collider
+mass = 0.00499999989
+shielded = False
+temp = 176.04802100329928
+tempExt = 176.00272207076793
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294131576
+uid = 1725014211
+mid = 1360783935
+persistentId = 2489552065
+launchID = 4
+parent = 15
+position = -1.0803341865539551E-07,-3.282684326171875,-1.241466760635376
+rotation = -1.10626956E-08,0.707106769,1.10626965E-08,-0.707106888
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 15,collider
+mass = 0.00499999989
+shielded = False
+temp = 176.04802100329928
+tempExt = 176.00272207076793
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294131224
+uid = 3854057967
+mid = 1360783935
+persistentId = 3187594331
+launchID = 4
+parent = 15
+position = -1.0803341865539551E-07,-2.8421974182128906,-1.2224006652832031
+rotation = -1.10626956E-08,0.707106769,1.10626965E-08,-0.707106888
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 15,collider
+mass = 0.00499999989
+shielded = False
+temp = 176.04802100329928
+tempExt = 176.00272207076793
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294130994
+uid = 2360128693
+mid = 1360783935
+persistentId = 1197906144
+launchID = 4
+parent = 15
+position = 1.0803341865539551E-07,-2.4114646911621094,-1.2460708618164063
+rotation = -2.21253984E-08,0.707106888,2.21253966E-08,-0.707106769
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 15,collider
+mass = 0.00499999989
+shielded = False
+temp = 176.04802100329928
+tempExt = 176.00272207076793
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels2
+cid = 4291306804
+uid = 2034226899
+mid = 1360783935
+persistentId = 3975650268
+launchID = 4
+parent = 15
+position = -0.85400599241256714,-2.7508201599121094,-0.85400593280792236
+rotation = -6.57428023E-09,0.382683456,1.58717182E-08,-0.923879564
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 55
+sym = 56
+sym = 57
+srfN = srfAttach, 15,collider
+mass = 0.0250000004
+shielded = False
+temp = 176.22415284656392
+tempExt = 176.98430362944819
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (-0.10450466, 0.699353755, -0.699330389, 0.104499742)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom03
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels2
+cid = 4291306106
+uid = 3953670139
+mid = 1360783935
+persistentId = 2570253916
+launchID = 4
+parent = 15
+position = -0.85400593280792236,-2.7508201599121094,0.85400587320327759
+rotation = 6.57428068E-09,-0.382683426,1.58717182E-08,-0.923879564
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 54
+sym = 56
+sym = 57
+srfN = srfAttach, 15,collider
+mass = 0.0250000004
+shielded = False
+temp = 176.18453298805784
+tempExt = 176.75815646448882
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (-0.00764480233, -0.707108557, 0.707022548, 0.00762599707)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom03
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels2
+cid = 4291305984
+uid = 2994247086
+mid = 1360783935
+persistentId = 1256818993
+launchID = 4
+parent = 15
+position = 0.85400605201721191,-2.7508201599121094,0.85400587320327759
+rotation = 1.58717182E-08,-0.923879564,6.57427934E-09,-0.382683426
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 54
+sym = 55
+sym = 57
+srfN = srfAttach, 15,collider
+mass = 0.0250000004
+shielded = False
+temp = 176.20372443515046
+tempExt = 176.87418902628755
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (-0.104500905, -0.699353993, 0.69933027, 0.104502991)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom03
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels2
+cid = 4291305862
+uid = 1228350852
+mid = 1360783935
+persistentId = 767846702
+launchID = 4
+parent = 15
+position = 0.85400581359863281,-2.7508201599121094,-0.85400599241256714
+rotation = 1.58717182E-08,-0.923879564,-6.57428068E-09,0.382683426
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 54
+sym = 55
+sym = 56
+srfN = srfAttach, 15,collider
+mass = 0.0250000004
+shielded = False
+temp = 176.01004640981046
+tempExt = 175.81832164918634
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels2
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (-0.0076272171, 0.707045734, -0.707085431, 0.00764438417)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom03
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ksp.r.largeBatteryPack
+cid = 4291305610
+uid = 2263054172
+mid = 1360783935
+persistentId = 1255208369
+launchID = 4
+parent = 15
+position = -0.85415357351303101,-4.037750244140625,-0.85415351390838623
+rotation = -1.58717164E-08,-0.382683426,6.57428023E-09,-0.923879564
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 59
+sym = 60
+sym = 61
+srfN = srfAttach, 15,collider
+mass = 0.0199999996
+shielded = False
+temp = 176.04932897252618
+tempExt = 176.00219062354222
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ksp.r.largeBatteryPack
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 61.226066451204375
+	maxAmount = 400
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = ksp.r.largeBatteryPack
+cid = 4291305396
+uid = 1708928991
+mid = 1360783935
+persistentId = 2901799061
+launchID = 4
+parent = 15
+position = -0.85415351390838623,-4.037750244140625,0.85415345430374146
+rotation = -6.57428023E-09,-0.923879564,1.58717164E-08,-0.382683456
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 58
+sym = 60
+sym = 61
+srfN = srfAttach, 15,collider
+mass = 0.0199999996
+shielded = False
+temp = 176.04932897252897
+tempExt = 176.00219062354347
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ksp.r.largeBatteryPack
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 61.226066451204375
+	maxAmount = 400
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = ksp.r.largeBatteryPack
+cid = 4291305368
+uid = 3209770967
+mid = 1360783935
+persistentId = 2725118671
+launchID = 4
+parent = 15
+position = 0.85415363311767578,-4.037750244140625,0.85415345430374146
+rotation = 6.57428112E-09,-0.923879564,1.58717164E-08,0.382683456
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 58
+sym = 59
+sym = 61
+srfN = srfAttach, 15,collider
+mass = 0.0199999996
+shielded = False
+temp = 176.04932897252618
+tempExt = 176.00219062354222
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ksp.r.largeBatteryPack
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 61.226066451204375
+	maxAmount = 400
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = ksp.r.largeBatteryPack
+cid = 4291305340
+uid = 548658635
+mid = 1360783935
+persistentId = 4016966586
+launchID = 4
+parent = 15
+position = 0.85415339469909668,-4.037750244140625,-0.85415357351303101
+rotation = 1.58717164E-08,-0.382683456,6.57428023E-09,0.923879564
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 58
+sym = 59
+sym = 60
+srfN = srfAttach, 15,collider
+mass = 0.0199999996
+shielded = False
+temp = 176.04932897252618
+tempExt = 176.00219062354222
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ksp.r.largeBatteryPack
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 61.226066451204375
+	maxAmount = 400
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = ksp.r.largeBatteryPack
+cid = 4291305284
+uid = 2442995288
+mid = 1360783935
+persistentId = 2096718677
+launchID = 4
+parent = 15
+position = -0.85397952795028687,-3.4620285034179688,-0.85397946834564209
+rotation = -1.58717164E-08,-0.382683426,6.57428023E-09,-0.923879564
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 63
+sym = 64
+sym = 65
+srfN = srfAttach, 15,collider
+mass = 0.0199999996
+shielded = False
+temp = 176.04932897252618
+tempExt = 176.00219062354222
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ksp.r.largeBatteryPack
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 61.226066451204375
+	maxAmount = 400
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = ksp.r.largeBatteryPack
+cid = 4291304680
+uid = 1123956583
+mid = 1360783935
+persistentId = 3270186837
+launchID = 4
+parent = 15
+position = -0.85397946834564209,-3.4620285034179688,0.85397940874099731
+rotation = -6.57428023E-09,-0.923879564,1.58717164E-08,-0.382683456
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 62
+sym = 64
+sym = 65
+srfN = srfAttach, 15,collider
+mass = 0.0199999996
+shielded = False
+temp = 176.04932897252627
+tempExt = 176.00219062354228
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ksp.r.largeBatteryPack
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 61.226066451204375
+	maxAmount = 400
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = ksp.r.largeBatteryPack
+cid = 4291304652
+uid = 354821195
+mid = 1360783935
+persistentId = 1802067233
+launchID = 4
+parent = 15
+position = 0.85397958755493164,-3.4620285034179688,0.85397940874099731
+rotation = 6.57428112E-09,-0.923879564,1.58717164E-08,0.382683456
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 62
+sym = 63
+sym = 65
+srfN = srfAttach, 15,collider
+mass = 0.0199999996
+shielded = False
+temp = 176.04932897252618
+tempExt = 176.00219062354222
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ksp.r.largeBatteryPack
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 61.226066451204375
+	maxAmount = 400
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = ksp.r.largeBatteryPack
+cid = 4291304624
+uid = 231484784
+mid = 1360783935
+persistentId = 2397681618
+launchID = 4
+parent = 15
+position = 0.85397934913635254,-3.4620285034179688,-0.85397952795028687
+rotation = 1.58717164E-08,-0.382683456,6.57428023E-09,0.923879564
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 62
+sym = 63
+sym = 64
+srfN = srfAttach, 15,collider
+mass = 0.0199999996
+shielded = False
+temp = 176.04932897252618
+tempExt = 176.00219062354222
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ksp.r.largeBatteryPack
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = ElectricCharge
+	amount = 61.226066451204375
+	maxAmount = 400
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = solarPanels1
+cid = 4291241358
+uid = 1862470691
+mid = 1360783935
+persistentId = 1156328584
+launchID = 4
+parent = 15
+position = -1.2304642200469971,-2.7535209655761719,7.4505805969238281E-08
+rotation = 0,0,2.09603002E-09,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 67
+sym = 68
+sym = 69
+srfN = srfAttach, 15,collider
+mass = 0.0250000004
+shielded = False
+temp = 176.08810973081634
+tempExt = 176.22433411857767
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (-0.069977425, 0.70365721, -0.703615129, 0.0699677691)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom03
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels1
+cid = 4291239454
+uid = 148540543
+mid = 1360783935
+persistentId = 1467112302
+launchID = 4
+parent = 15
+position = 0,-2.7535209655761719,1.230463981628418
+rotation = 1.4821171E-09,0.707106829,1.4821171E-09,0.707106829
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 66
+sym = 68
+sym = 69
+srfN = srfAttach, 15,collider
+mass = 0.0250000004
+shielded = False
+temp = 176.02699577711357
+tempExt = 175.88383474230852
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (-0.0802320465, -0.7025702, 0.702509582, 0.0802398846)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom03
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels1
+cid = 4291239332
+uid = 837345443
+mid = 1360783935
+persistentId = 315094800
+launchID = 4
+parent = 15
+position = 1.2304642200469971,-2.7535209655761719,-1.7881393432617188E-07
+rotation = 2.09603002E-09,1,-9.16203841E-17,-4.37113883E-08
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 66
+sym = 67
+sym = 69
+srfN = srfAttach, 15,collider
+mass = 0.0250000004
+shielded = False
+temp = 176.00958616596932
+tempExt = 175.81614228696412
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (-0.0699715167, -0.703645051, 0.703627288, 0.0699728578)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom03
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels1
+cid = 4291239210
+uid = 4293872715
+mid = 1360783935
+persistentId = 1312619137
+launchID = 4
+parent = 15
+position = -1.4901161193847656E-07,-2.7535209655761719,-1.2304642200469971
+rotation = 1.4821171E-09,0.707106829,-1.4821171E-09,-0.707106829
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+sym = 66
+sym = 67
+sym = 68
+srfN = srfAttach, 15,collider
+mass = 0.0250000004
+shielded = False
+temp = 176.00962011063231
+tempExt = 175.81632260790221
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (-0.0802352801, 0.702537239, -0.702542841, 0.0802326277)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 1
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = Custom03
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294130744
+uid = 4065308764
+mid = 1360783935
+persistentId = 881143295
+launchID = 4
+parent = 14
+position = -1.0430812835693359E-07,-2.0060615539550781,-1.1812241077423096
+rotation = -0.0563737117,0.704855978,0.0563737191,-0.704856098
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 14,COL
+mass = 0.00499999989
+shielded = False
+temp = 176.04378400276676
+tempExt = 175.96907685090611
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294130542
+uid = 246579655
+mid = 1360783935
+persistentId = 95445617
+launchID = 4
+parent = 14
+position = -9.6857547760009766E-08,-1.5554580688476563,-1.0978288650512695
+rotation = -0.0563737117,0.704855978,0.0563737191,-0.704856098
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 14,COL
+mass = 0.00499999989
+shielded = False
+temp = 176.04378400276676
+tempExt = 175.96907685090611
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294130340
+uid = 1220672201
+mid = 1360783935
+persistentId = 2560424976
+launchID = 4
+parent = 14
+position = -8.9406967163085938E-08,-1.1238746643066406,-1.0283184051513672
+rotation = -0.0563737117,0.704855978,0.0563737191,-0.704856098
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 14,COL
+mass = 0.00499999989
+shielded = False
+temp = 176.04378402768248
+tempExt = 175.96907685433251
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294130112
+uid = 2230965923
+mid = 1360783935
+persistentId = 1563237950
+launchID = 4
+parent = 14
+position = -8.1956386566162109E-08,-0.686431884765625,-0.94877523183822632
+rotation = -0.0563737117,0.704855978,0.0563737191,-0.704856098
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 14,COL
+mass = 0.00499999989
+shielded = False
+temp = 176.04378400276676
+tempExt = 175.96907685090611
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = ladder1
+cid = 4294129908
+uid = 3922758368
+mid = 1360783935
+persistentId = 4127966154
+launchID = 4
+parent = 14
+position = 8.1956386566162109E-08,-0.50060272216796875,-0.93320518732070923
+rotation = -0.056373734,0.704856098,0.0563737303,-0.704856038
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 14,COL
+mass = 0.00499999989
+shielded = False
+temp = 176.04378401196249
+tempExt = 175.96907685217084
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = ladder1
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4293805096
+uid = 278446872
+mid = 1360783935
+persistentId = 2636397065
+launchID = 4
+parent = 0
+position = 0.34403914213180542,0.087978363037109375,0.5958932638168335
+rotation = -0.187993571,0.253869861,0.0503727235,0.947455108
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 0,COL
+mass = 0.00499999989
+shielded = False
+temp = 176.03763018988079
+tempExt = 175.95560166099614
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+PART
+{
+name = solarPanels5
+cid = 4293804902
+uid = 191889021
+mid = 1360783935
+persistentId = 282786818
+launchID = 4
+parent = 0
+position = -0.34454607963562012,0.09276580810546875,0.59677129983901978
+rotation = -0.187993497,-0.253869832,-0.0503727049,0.947455108
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 1
+sameVesselCollision = False
+srfN = srfAttach, 0,COL
+mass = 0.00499999989
+shielded = False
+temp = 176.03763018988079
+tempExt = 175.95560166099614
+tempExtUnexp = 4
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = solarPanels5
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 4
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleDeployableSolarPanel
+	isEnabled = True
+	efficiencyMult = 1
+	launchUT = 29564560.724651963
+	currentRotation = (0, -6.057208E-07, 0, 1)
+	storedAnimationTime = 0
+	storedAnimationSpeed = 0
+	deployState = EXTENDED
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ExtendPanelsAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ExtendAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RetractAction
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+ACTIONGROUPS
+{
+Stage = False, 29564884.9044717
+Gear = False, 0
+Light = False, 0
+RCS = False, 0
+SAS = True, 29564568.7646518
+Brakes = False, 0
+Abort = False, 0
+Custom01 = True, 33221777.8025155
+Custom02 = True, 33221673.8425178
+Custom03 = True, 33221686.2425175
+Custom04 = False, 0
+Custom05 = False, 0
+Custom06 = False, 0
+Custom07 = False, 0
+Custom08 = False, 0
+Custom09 = False, 0
+Custom10 = False, 0
+}
+DISCOVERY
+{
+state = -1
+lastObservedTime = 0
+lifetime = Infinity
+refTime = Infinity
+size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+pitch = -0.053676039
+yaw = 0
+roll = -0.00279072649
+trimPitch = 0
+trimYaw = 0
+trimRoll = 0
+mainThrottle = 0
+}
+VESSELMODULES
+{
+FlightIntegrator
+{
+}
+AxisGroupsModule
+{
+}
+SuspensionLoadBalancer
+{
+}
+CommNetVessel
+{
+	controlState = KerbalFull
+	canComm = True
+}
+}

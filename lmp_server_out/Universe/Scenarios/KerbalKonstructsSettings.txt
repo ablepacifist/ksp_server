@@ -1,0 +1,104 @@
+name = KerbalKonstructsSettings
+scene = 5, 6, 7, 8
+initialized = False
+savetime = 25789443.775231931
+useUUID = True
+KKSettings
+{
+	mapShowOpen = True
+	mapShowClosed = True
+	mapShowGroundStation = False
+	mapShowHelipads = True
+	mapShowRunways = True
+	mapShowRocketbases = True
+	mapShowWaterLaunch = True
+	mapShowOther = False
+	mapShowRecovery = False
+	defaultVABlaunchsite = LaunchPad
+	defaultSPHlaunchsite = Runway
+	lastLaunchSiteUsed = LaunchPad
+}
+Facilities
+{
+	ae75a4d0-44d6-4301-a888-8ad388a324da
+	{
+		FacilityName = IslandAirfield_Builtin_OKC_Prefab8x8_3
+		FacilityType = Merchant
+		Merchant
+		{
+			Index = 0
+			isOpen = True
+		}
+	}
+	3ed08f16-ce57-4222-9bb8-6ac1fc55ef92
+	{
+		FacilityName = IslandAirfield_Builtin_SQUAD_ksp_pad_cylTank_0
+		FacilityType = Merchant
+		Merchant
+		{
+			Index = 0
+			isOpen = True
+		}
+	}
+}
+LaunchSites
+{
+	KSC_-_LARGE_HELIPAD_1
+	{
+		favouriteSite = No
+		MissionCount = 0
+		MissionLog = No Log
+		isOpen = False
+	}
+	KSC_RUNWAY_2
+	{
+		favouriteSite = No
+		MissionCount = 0
+		MissionLog = No Log
+		isOpen = False
+	}
+	LAUNCH_PAD_2
+	{
+		favouriteSite = No
+		MissionCount = 0
+		MissionLog = No Log
+		isOpen = False
+	}
+	LAUNCH_PAD_3
+	{
+		favouriteSite = No
+		MissionCount = 0
+		MissionLog = No Log
+		isOpen = False
+	}
+	KSC2
+	{
+		favouriteSite = No
+		MissionCount = 0
+		MissionLog = No Log
+		isOpen = False
+	}
+	LAUNCHPAD
+	{
+		favouriteSite = No
+		MissionCount = 0
+		MissionLog = No Log
+		isOpen = True
+	}
+	RUNWAY
+	{
+		favouriteSite = No
+		MissionCount = 0
+		MissionLog = No Log
+		isOpen = True
+	}
+}
+KKMapDecals
+{
+}
+KKGroups
+{
+}
+KKBuildings
+{
+}

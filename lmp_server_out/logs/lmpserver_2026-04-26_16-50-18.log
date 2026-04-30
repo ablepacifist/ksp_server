@@ -1,0 +1,75 @@
+[21:50:18][Info]: Remember! Quit the server by using 'Control + C' so a backup is properly made before closing!
+[21:50:18][Info]: Documentation available at https://github.com/LunaMultiplayer/LunaMultiplayer/wiki
+[21:50:18][LMP]: Luna Server version: 0.29.0 (/home/alex/Documents/ksp_server/lmp_server_out/)
+[21:50:18][Debug]: Loading universe... 0.632KB
+[21:50:18][Debug]: Loading groups...
+[21:50:18][Debug]: Loading settings...
+[21:50:18][Debug]: Loading mod control...
+[21:50:18][Debug]: Loading plugins...
+[21:50:18][LMP]: Starting 'Luna Server' on Address :: Port 8800... 
+[21:50:19][Debug]: UPnP active. Port: 8800 Udp opened!
+[21:50:19][Debug]: UPnP for website active. Port: 8900 Tcp opened!
+[21:50:19][Debug]: Performing backups...
+[21:50:19][LMP]: All systems up and running. Поехали!
+[21:50:19][LMP]: Master server registration is active
+[21:50:19][LMP]: End of stdin, stopping command listener
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Lidgren: ERRORMESSAGE -- Packet parsing error: Value cannot be null. (Parameter 'key') from [::ffff:127.200.212.88]:35031
+[21:50:19][Debug]: Backups done
+[21:50:19][Fatal]: ERROR in thread receive! Details: System.Exception: Cannot deserialize this type of message!
+   at LmpCommon.Message.Base.FactoryBase.GetMessageByType(UInt16 messageType) in /home/alex/Documents/ksp_server/LunaMultiplayer/LmpCommon/Message/Base/FactoryBase.cs:line 133
+   at LmpCommon.Message.Base.FactoryBase.Deserialize(NetIncomingMessage lidgrenMsg, Int64 receiveTime) in /home/alex/Documents/ksp_server/LunaMultiplayer/LmpCommon/Message/Base/FactoryBase.cs:line 64
+   at Server.Server.LidgrenServer.StartReceivingMessagesAsync() in /home/alex/Documents/ksp_server/LunaMultiplayer/Server/Server/LidgrenServer.cs:line 154
+[21:50:24][Debug]: Performing backups...
+[21:50:24][Debug]: Backups done
+[21:50:29][Debug]: Performing backups...
+[21:50:29][Debug]: Backups done
+[21:50:34][Debug]: Performing backups...
+[21:50:34][Debug]: Backups done
+[21:50:39][Debug]: Performing backups...
+[21:50:39][Debug]: Backups done
+[21:50:44][Debug]: Performing backups...
+[21:50:44][Debug]: Backups done
+[21:50:49][Warning]: There is a new version of LMP! Please download it! Current: 0.29.0 Latest: 0.29.1
+[21:50:49][Debug]: Your version is compatible with the latest version so you will still be listed in the master servers.
+[21:50:49][Debug]: Performing backups...
+[21:50:49][Debug]: Backups done
+[21:50:54][Debug]: Performing backups...
+[21:50:54][Debug]: Backups done
+[21:50:59][Debug]: Performing backups...
+[21:50:59][Debug]: Backups done
+[21:51:04][Debug]: Performing backups...
+[21:51:04][Debug]: Backups done

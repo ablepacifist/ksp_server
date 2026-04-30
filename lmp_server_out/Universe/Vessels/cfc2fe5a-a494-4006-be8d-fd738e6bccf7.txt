@@ -1,0 +1,118 @@
+pid = cfc2fe5aa4944006be8dfd738e6bccf7
+persistentId = 3462790831
+name = Ast. DJN-224
+type = SpaceObject
+sit = ORBITING
+landed = False
+skipGroundPositioning = False
+skipGroundPositioningForDroppedPart = False
+vesselSpawning = True
+launchedFrom = 
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 32927440.780348629
+lct = 32927440.780348629
+lastUT = -1
+distanceTraveled = 0
+root = 0
+lat = 0.4168559481868101
+lon = -53.045479907834142
+alt = 13401407430.154182
+hgt = -1
+nrm = 0,1,0
+rot = -0.313762844,-0.722653687,-0.608326554,0.0962461233
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+PQSMin = 0
+PQSMax = 0
+GroupOverride = 0
+OverrideDefault = False,False,False,False
+OverrideActionControl = 0,0,0,0
+OverrideAxisControl = 0,0,0,0
+OverrideGroupNames = ,,,
+altDispState = DEFAULT
+ORBIT
+{
+SMA = 14032893487.092276
+ECC = 0.034115242394909644
+INC = 0.43609901880069984
+LPE = 147.75100637314347
+LAN = 279.40408556206233
+MNA = 5.9168208358015892
+EPH = 33387723.235500555
+REF = 0
+}
+PART
+{
+name = PotatoRoid
+cid = 0
+uid = 756253861
+mid = 756253861
+persistentId = 4085612491
+launchID = 0
+parent = 0
+position = 0,0,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = 0
+resPri = 0
+dstg = 0
+sqor = 0
+sepI = 0
+sidx = 0
+attm = 0
+sameVesselCollision = False
+srfN = None, -1
+mass = 150
+shielded = False
+temp = -1
+tempExt = 0
+tempExtUnexp = 0
+staticPressureAtm = 0
+expt = 1
+state = 0
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = 
+rTrf = 
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+state = 1
+lastObservedTime = 32927440.780348629
+lifetime = 1197639.7613525391
+refTime = 1728000
+size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+FlightIntegrator
+{
+}
+AxisGroupsModule
+{
+}
+SuspensionLoadBalancer
+{
+}
+}

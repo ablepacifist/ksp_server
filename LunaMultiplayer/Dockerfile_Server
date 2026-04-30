@@ -1,0 +1,73 @@
+#Build this image with: docker build --file Dockerfile_Server -t lmpsrv:latest .
+#Delete the image with the command: docker image rm lmpsrv:latest
+
+#Create a container with: docker run -td -p 8800:8800 -p 8900:8900 --name lmpsrv lmpsrv:latest
+# the -t (tty) flag is needed so docker can send SIGINT for proper shutdown.
+#Attach to a container with: docker exec -it lmpsrv /bin/ash
+#When inside a container, you can dettach with: CONTROL+P+Q
+#Check logs with: docker logs -f lmpsrv
+
+#Stop a container with: docker stop lmpsrv
+#Start a container with: docker start lmpsrv
+#Remove a container with: docker container rm lmpsrv
+
+ARG OS_BASE=alpine
+ARG OS_VERSION=3.20
+
+# SDK image: 10.0-alpine (10.0-alpine3.20 is not published on MCR for .NET 10).
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0-alpine AS base
+
+COPY .nuget                           /LunaMultiplayer/.nuget
+COPY LmpCommon/LmpCommon.csproj       /LunaMultiplayer/LmpCommon/LmpCommon.csproj
+COPY LmpGlobal/LmpGlobal.csproj       /LunaMultiplayer/LmpGlobal/LmpGlobal.csproj
+COPY Lidgren/Lidgren.projitems        /LunaMultiplayer/Lidgren/Lidgren.projitems
+COPY Lidgren.Core/Lidgren.Core.csproj /LunaMultiplayer/Lidgren.Core/Lidgren.Core.csproj
+COPY Lidgren.Net/Lidgren.Net.csproj   /LunaMultiplayer/Lidgren.Net/Lidgren.Net.csproj
+COPY uhttpsharp/uhttpsharp.csproj     /LunaMultiplayer/uhttpsharp/uhttpsharp.csproj
+COPY LmpUpdater/LmpUpdater.csproj     /LunaMultiplayer/LmpUpdater/LmpUpdater.csproj
+COPY Server/Server.csproj             /LunaMultiplayer/Server/Server.csproj
+
+ARG OS_BASE
+ARG OS_VERSION
+ARG TARGETARCH
+ARG TARGETVARIANT
+# Portable musl RIDs (.NET 8+); versioned alpine.* RIDs are not recognized (NETSDK1083).
+RUN case "${TARGETARCH}" in \
+    amd64) DOTNET_RID=linux-musl-x64 ;; \
+    arm64) DOTNET_RID=linux-musl-arm64 ;; \
+    arm) DOTNET_RID=linux-musl-arm ;; \
+    *) echo "Unsupported TARGETARCH=${TARGETARCH}"; exit 1 ;; \
+  esac && \
+  cd /LunaMultiplayer/Server && \
+  dotnet restore -r ${DOTNET_RID}
+
+COPY . /LunaMultiplayer
+
+FROM base AS debug
+WORKDIR /LunaMultiplayer/Server
+ENV DOTNET_PerfMapEnabled=1
+ENV COMPlus_PerfMapEnabled=1
+CMD [ "/bin/ash" ]
+
+FROM --platform=$BUILDPLATFORM base AS builder
+WORKDIR /LunaMultiplayer/Server
+ARG OS_BASE
+ARG OS_VERSION
+ARG TARGETARCH
+ARG TARGETVARIANT
+RUN case "${TARGETARCH}" in \
+    amd64) DOTNET_RID=linux-musl-x64 ;; \
+    arm64) DOTNET_RID=linux-musl-arm64 ;; \
+    arm) DOTNET_RID=linux-musl-arm ;; \
+    *) echo "Unsupported TARGETARCH=${TARGETARCH}"; exit 1 ;; \
+  esac && \
+  dotnet publish -c Release -r ${DOTNET_RID} -o Publish
+
+FROM ${OS_BASE}:${OS_VERSION}
+RUN apk add icu-libs libstdc++ libgcc
+COPY --from=builder /LunaMultiplayer/Server/Publish/ /LMPServer/
+EXPOSE 8800/udp 8900/tcp
+VOLUME "/LMPServer/Config" "/LMPServer/Plugins" "/LMPServer/Universe" "/LMPServer/logs"
+STOPSIGNAL SIGINT
+WORKDIR /LMPServer
+CMD ./Server

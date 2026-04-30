@@ -1,0 +1,70 @@
+#Build this image with: docker build --file Dockerfile_MasterServer -t lmpms:latest .
+#Delete the image with the command: docker image rm lmpms:latest
+
+#Create a container with: docker run -d -p 8700:8700/udp -p 8701:8701/tcp --restart=unless-stopped --name lmpms lmpms:latest
+#Create a container with with specific ports: docker run -d -p 8700:8700 -p 8701:8701 -e PORT=8700 -e HTTP_PORT=8701 --name lmpms lmpms:latest
+#Attach to a container with: docker exec -it lmpms /bin/ash
+#When inside a container, you can dettach with: CONTROL+P+Q
+#Check logs with: docker logs -f lmpms
+
+#Stop a container with: docker stop lmpms
+#Start a container with: docker start lmpms
+#Remove a container with: docker container rm lmpms
+
+ARG OS_BASE=alpine
+ARG OS_VERSION=3.20
+
+# SDK image: 10.0-alpine (10.0-alpine3.20 is not published on MCR for .NET 10).
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0-alpine AS base
+
+COPY .nuget                                 /LunaMultiplayer/.nuget
+COPY LunaMultiPlayer.sln                    /LunaMultiplayer/LunaMultiPlayer.sln
+COPY LmpCommon/LmpCommon.csproj             /LunaMultiplayer/LmpCommon/LmpCommon.csproj
+COPY LmpGlobal/LmpGlobal.csproj             /LunaMultiplayer/LmpGlobal/LmpGlobal.csproj
+COPY Lidgren/Lidgren.projitems              /LunaMultiplayer/Lidgren/Lidgren.projitems
+COPY Lidgren.Core/Lidgren.Core.csproj       /LunaMultiplayer/Lidgren.Core/Lidgren.Core.csproj
+COPY Lidgren.Net/Lidgren.Net.csproj         /LunaMultiplayer/Lidgren.Net/Lidgren.Net.csproj
+COPY uhttpsharp/uhttpsharp.csproj           /LunaMultiplayer/uhttpsharp/uhttpsharp.csproj
+COPY LmpUpdater/LmpUpdater.csproj           /LunaMultiplayer/LmpUpdater/LmpUpdater.csproj
+COPY LmpMasterServer/LmpMasterServer.csproj /LunaMultiplayer/LmpMasterServer/LmpMasterServer.csproj
+COPY MasterServer/MasterServer.csproj       /LunaMultiplayer/MasterServer/MasterServer.csproj
+COPY LmpUpdater/packages.config             /LunaMultiplayer/LmpUpdater/packages.config
+COPY uhttpsharp/packages.config             /LunaMultiplayer/uhttpsharp/packages.config
+
+ARG OS_BASE
+ARG OS_VERSION
+ARG TARGETARCH
+ARG TARGETVARIANT
+RUN case "${TARGETARCH}" in \
+    amd64) DOTNET_RID=linux-musl-x64 ;; \
+    arm64) DOTNET_RID=linux-musl-arm64 ;; \
+    arm) DOTNET_RID=linux-musl-arm ;; \
+    *) echo "Unsupported TARGETARCH=${TARGETARCH}"; exit 1 ;; \
+  esac && \
+  cd /LunaMultiplayer && \
+  dotnet restore MasterServer -r ${DOTNET_RID}
+
+FROM --platform=$BUILDPLATFORM base AS builder
+COPY . /LunaMultiplayer
+WORKDIR /LunaMultiplayer/MasterServer
+ARG OS_BASE
+ARG OS_VERSION
+ARG TARGETARCH
+ARG TARGETVARIANT
+# No PublishTrimmed: shared libs still build netstandard2.0; trimming fails with NETSDK1124.
+RUN case "${TARGETARCH}" in \
+    amd64) DOTNET_RID=linux-musl-x64 ;; \
+    arm64) DOTNET_RID=linux-musl-arm64 ;; \
+    arm) DOTNET_RID=linux-musl-arm ;; \
+    *) echo "Unsupported TARGETARCH=${TARGETARCH}"; exit 1 ;; \
+  esac && \
+  dotnet publish -c Release -r ${DOTNET_RID} --self-contained true -o Publish
+
+FROM ${OS_BASE}:${OS_VERSION}
+# icu-data-full is needed to cross-reference server country codes with a list of allowed CCs
+RUN apk update && apk add icu-libs icu-data-full libstdc++ libgcc
+COPY --from=builder /LunaMultiplayer/MasterServer/Publish/ /LmpMasterServer/
+EXPOSE 8700/udp 8701/tcp
+STOPSIGNAL SIGINT
+WORKDIR /LmpMasterServer
+CMD [ "./MasterServer" ]

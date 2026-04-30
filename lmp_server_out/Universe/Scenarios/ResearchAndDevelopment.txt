@@ -1,0 +1,1514 @@
+name = ResearchAndDevelopment
+scene = 7, 8, 5, 6
+sci = 24.456726
+Tech
+{
+	id = start
+	state = Available
+	cost = 0
+	part = basicFin
+	part = mk1pod
+	part = solidBooster.sm
+	part = GooExperiment
+	part = trussPiece1x
+	part = parachuteSingle
+}
+Science
+{
+	id = mysteryGoo@KerbinFlyingLow
+	title = Mystery Goo™ Observation while flying at Kerbin
+	dsc = 1
+	scv = 0.0122895092
+	sbv = 0.699999988
+	sci = 8.9881649
+	asc = True
+	cap = 9.09999943
+}
+Science
+{
+	id = crewReport@KerbinSrfSplashedShores
+	title = Crew Report from Kerbin's Shores
+	dsc = 1
+	scv = 0
+	sbv = 0.400000006
+	sci = 2
+	asc = True
+	cap = 2
+}
+Science
+{
+	id = evaReport@KerbinSrfSplashedShores
+	title = EVA Report from Kerbin's Shores
+	dsc = 1
+	scv = 0
+	sbv = 0.400000006
+	sci = 3.20000005
+	asc = True
+	cap = 3.20000005
+}
+Science
+{
+	id = recovery@KerbinFlew
+	title = Recovery of a vessel that survived a flight.
+	dsc = 1
+	scv = 6.35782897E-07
+	sbv = 5
+	sci = 5.99999619
+	asc = True
+	cap = 6
+}
+Tech
+{
+	id = engineering101
+	state = Available
+	cost = 5
+	part = SurfAntenna
+	part = longAntenna
+	part = sensorThermometer
+	part = Decoupler.1
+}
+Tech
+{
+	id = basicRocketry
+	state = Available
+	cost = 5
+	part = fuelTankSmallFlat
+	part = solidBooster.v2
+	part = liquidEngine2.v2
+	part = liquidEngine2
+}
+Science
+{
+	id = crewReport@KerbinSrfLandedGrasslands
+	title = Crew Report from Kerbin's Grasslands
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 1.5
+	asc = True
+	cap = 1.5
+}
+Science
+{
+	id = mysteryGoo@KerbinSrfLandedGrasslands
+	title = Mystery Goo™ Observation from Kerbin's Grasslands
+	dsc = 1
+	scv = 0.0532544553
+	sbv = 0.300000012
+	sci = 3.69230771
+	asc = True
+	cap = 3.9000001
+}
+Science
+{
+	id = temperatureScan@KerbinSrfLandedGrasslands
+	title = Temperature Scan from Kerbin's Grasslands
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = evaReport@KerbinSrfLandedGrasslands
+	title = EVA Report from Kerbin's Grasslands
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = surfaceSample@KerbinSrfLandedGrasslands
+	title = Surface Sample from Kerbin's Grasslands
+	dsc = 1
+	scv = 0.0625
+	sbv = 0.300000012
+	sci = 11.25
+	asc = True
+	cap = 12
+}
+Tech
+{
+	id = stability
+	state = Available
+	cost = 18
+	part = radialDecoupler
+	part = winglet
+	part = noseCone
+}
+Science
+{
+	id = evaReport@KerbinInSpaceLowShores
+	title = EVA Report from space just above Kerbin's Shores
+	dsc = 1
+	scv = 0
+	sbv = 1
+	sci = 8
+	asc = True
+	cap = 8
+}
+Science
+{
+	id = mysteryGoo@KerbinInSpaceLow
+	title = Mystery Goo™ Observation while in space near Kerbin
+	dsc = 1
+	scv = 0.0532544218
+	sbv = 1
+	sci = 12.3076925
+	asc = True
+	cap = 13
+}
+Science
+{
+	id = temperatureScan@KerbinInSpaceLow
+	title = Temperature Scan while in space near Kerbin
+	dsc = 1
+	scv = 0
+	sbv = 1
+	sci = 8
+	asc = True
+	cap = 8
+}
+Science
+{
+	id = crewReport@KerbinInSpaceLow
+	title = Crew Report while in space near Kerbin
+	dsc = 1
+	scv = 0
+	sbv = 1
+	sci = 5
+	asc = True
+	cap = 5
+}
+Science
+{
+	id = evaReport@KerbinSrfLandedHighlands
+	title = EVA Report from Kerbin's Highlands
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = recovery@KerbinSubOrbited
+	title = Recovery of a vessel after a sub-orbital flight.
+	dsc = 1
+	scv = 0.00462959195
+	sbv = 8
+	sci = 9.5555563
+	asc = True
+	cap = 9.60000038
+}
+Tech
+{
+	id = survivability
+	state = Available
+	cost = 15
+	part = ServiceBay.125.v2
+	part = parachuteRadial
+	part = radialDrogue
+	part = miniLandingLeg
+	part = radPanelSm
+	part = sensorBarometer
+	part = HeatShield1
+	part = HeatShield0
+}
+Tech
+{
+	id = generalRocketry
+	state = Available
+	cost = 20
+	part = fuelTankSmall
+	part = solidBooster1-1
+	part = liquidEngine.v2
+	part = liquidEngine
+}
+Science
+{
+	id = barometerScan@KerbinInSpaceLow
+	title = Atmospheric Pressure Scan while in space near Kerbin
+	dsc = 1
+	scv = 0
+	sbv = 1
+	sci = 12
+	asc = True
+	cap = 12
+}
+Science
+{
+	id = temperatureScan@KerbinInSpaceHigh
+	title = Temperature Scan while in space high over Kerbin
+	dsc = 1
+	scv = 0
+	sbv = 1.5
+	sci = 12
+	asc = True
+	cap = 12
+}
+Science
+{
+	id = mysteryGoo@KerbinInSpaceHigh
+	title = Mystery Goo™ Observation while in space high over Kerbin
+	dsc = 1
+	scv = 0.0532544442
+	sbv = 1.5
+	sci = 18.4615383
+	asc = True
+	cap = 19.5
+}
+Science
+{
+	id = barometerScan@KerbinInSpaceHigh
+	title = Atmospheric Pressure Scan while in space high over Kerbin
+	dsc = 1
+	scv = 0
+	sbv = 1.5
+	sci = 18
+	asc = True
+	cap = 18
+}
+Science
+{
+	id = crewReport@KerbinInSpaceHigh
+	title = Crew Report while in space high over Kerbin
+	dsc = 1
+	scv = 0
+	sbv = 1.5
+	sci = 7.5
+	asc = True
+	cap = 7.5
+}
+Science
+{
+	id = recovery@KerbinOrbited
+	title = Recovery of a vessel returned from Kerbin orbit.
+	dsc = 1
+	scv = 2.14576721E-05
+	sbv = 10
+	sci = 11.9997425
+	asc = True
+	cap = 12
+}
+Tech
+{
+	id = basicScience
+	state = Available
+	cost = 45
+	part = HighGainAntenna5.v2
+	part = HighGainAntenna5
+	part = radPanelLg
+	part = radPanelEdge
+	part = ScienceBox
+	part = science.module
+	part = batteryPack
+	part = probeCoreSphere.v2
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinFlyingLow
+	title = Materials Study while flying at Kerbin
+	dsc = 1
+	scv = 0.218749985
+	sbv = 0.699999988
+	sci = 17.5
+	asc = True
+	cap = 22.3999996
+}
+Science
+{
+	id = crewReport@KerbinFlyingLowShores
+	title = Crew Report while flying over Kerbin's Shores
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 3.5
+	asc = True
+	cap = 3.5
+}
+Science
+{
+	id = barometerScan@KerbinFlyingLow
+	title = Atmospheric Pressure Scan while flying at Kerbin
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 8.39999962
+	asc = True
+	cap = 8.39999962
+}
+Science
+{
+	id = temperatureScan@KerbinFlyingLowShores
+	title = Scan de température au-dessus de Côtes de Kerbin
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 5.5999999
+	asc = True
+	cap = 5.5999999
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinInSpaceLow
+	title = Materials Study while in space near Kerbin
+	dsc = 1
+	scv = 0.0478515625
+	sbv = 1
+	sci = 30.46875
+	asc = True
+	cap = 32
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinInSpaceHigh
+	title = Materials Study while in space high over Kerbin
+	dsc = 1
+	scv = 0.21875
+	sbv = 1.5
+	sci = 37.5
+	asc = True
+	cap = 48
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinFlyingHigh
+	title = Materials Study from Kerbin's upper atmosphere
+	dsc = 1
+	scv = 0.218749985
+	sbv = 0.899999976
+	sci = 22.5
+	asc = True
+	cap = 28.7999992
+}
+Science
+{
+	id = crewReport@KerbinFlyingHigh
+	title = Crew Report from Kerbin's upper atmosphere
+	dsc = 1
+	scv = 0
+	sbv = 0.899999976
+	sci = 4.5
+	asc = True
+	cap = 4.5
+}
+Science
+{
+	id = barometerScan@KerbinFlyingHigh
+	title = Atmospheric Pressure Scan from Kerbin's upper atmosphere
+	dsc = 1
+	scv = 0
+	sbv = 0.899999976
+	sci = 10.7999992
+	asc = True
+	cap = 10.7999992
+}
+Science
+{
+	id = temperatureScan@KerbinFlyingHigh
+	title = Temperature Scan from Kerbin's upper atmosphere
+	dsc = 1
+	scv = 0
+	sbv = 0.899999976
+	sci = 7.19999981
+	asc = True
+	cap = 7.19999981
+}
+Science
+{
+	id = mysteryGoo@KerbinFlyingHigh
+	title = Mystery Goo™ Observation from Kerbin's upper atmosphere
+	dsc = 1
+	scv = 0.230769217
+	sbv = 0.899999976
+	sci = 9
+	asc = True
+	cap = 11.6999998
+}
+Tech
+{
+	id = advRocketry
+	state = Available
+	cost = 45
+	part = Size1p5.Tank.01
+	part = Size1p5.Size1.Adapter.02
+	part = fireworksLauncherSmall
+	part = fireworksLauncherBig
+	part = fuelTank
+	part = radialLiquidEngine1-2
+	part = liquidEngine3.v2
+}
+Tech
+{
+	id = generalConstruction
+	state = Available
+	cost = 45
+	part = EnginePlate5
+	part = Decoupler.1p5
+	part = largeAdapter
+	part = launchClamp1
+	part = flagPartSize1
+	part = Mk1FuselageStructural
+	part = Decoupler.2
+	part = strutConnector
+	part = MK1CrewCabin
+}
+Tech
+{
+	id = aviation
+	state = Available
+	cost = 45
+	part = GearFree
+	part = GearFixed
+	part = navLight1
+	part = MK1Fuselage
+	part = miniFuselage
+	part = miniJetEngine
+	part = Mark1Cockpit
+	part = structuralWing3
+	part = StandardCtrlSrf
+	part = wingConnector5
+	part = wingConnector2
+	part = miniIntake
+	part = airplaneTail
+	part = tailfin
+	part = sweptWing
+}
+Tech
+{
+	id = flightControl
+	state = Available
+	cost = 45
+	part = kv2Pod
+	part = sasModule
+	part = winglet3
+	part = R8winglet
+}
+Science
+{
+	id = evaReport@KerbinSrfLandedNorthernIceShelf
+	title = EVA Report from Kerbin's Northern Ice Shelf
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = surfaceSample@KerbinSrfLandedNorthernIceShelf
+	title = Surface Sample from Kerbin's Northern Ice Shelf
+	dsc = 1
+	scv = 0.0625
+	sbv = 0.300000012
+	sci = 11.25
+	asc = True
+	cap = 12
+}
+Science
+{
+	id = crewReport@KerbinSrfLandedNorthernIceShelf
+	title = Crew Report from Kerbin's Northern Ice Shelf
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 1.5
+	asc = True
+	cap = 1.5
+}
+Science
+{
+	id = temperatureScan@KerbinSrfLandedNorthernIceShelf
+	title = Temperature Scan from Kerbin's Northern Ice Shelf
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = barometerScan@KerbinSrfLandedSouthernIceShelf
+	title = Atmospheric Pressure Scan from Kerbin's Southern Ice Shelf
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 3.60000014
+	asc = True
+	cap = 3.60000014
+}
+Science
+{
+	id = mysteryGoo@KerbinSrfLandedSouthernIceShelf
+	title = Mystery Goo™ Observation from Kerbin's Southern Ice Shelf
+	dsc = 1
+	scv = 0.230769247
+	sbv = 0.300000012
+	sci = 3
+	asc = True
+	cap = 3.9000001
+}
+Science
+{
+	id = temperatureScan@KerbinSrfLandedSouthernIceShelf
+	title = Temperature Scan from Kerbin's Southern Ice Shelf
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = crewReport@KerbinSrfLandedSouthernIceShelf
+	title = Crew Report from Kerbin's Southern Ice Shelf
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 1.5
+	asc = True
+	cap = 1.5
+}
+Science
+{
+	id = surfaceSample@KerbinSrfLandedSouthernIceShelf
+	title = Surface Sample from Kerbin's Southern Ice Shelf
+	dsc = 1
+	scv = 0.25
+	sbv = 0.300000012
+	sci = 9
+	asc = True
+	cap = 12
+}
+Science
+{
+	id = evaReport@KerbinSrfLandedSouthernIceShelf
+	title = EVA Report from Kerbin's Southern Ice Shelf
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinSrfLandedSouthernIceShelf
+	title = Materials Study from Kerbin's Southern Ice Shelf
+	dsc = 1
+	scv = 0.218749985
+	sbv = 0.300000012
+	sci = 7.50000048
+	asc = True
+	cap = 9.60000038
+}
+Tech
+{
+	id = heavyRocketry
+	state = Available
+	cost = 90
+	part = Pollux
+	part = LiquidEngineLV-TX87
+	part = MassiveBooster
+	part = engineLargeSkipper.v2
+	part = liquidEngine2-2.v2
+}
+Science
+{
+	id = barometerScan@MunInSpaceHigh
+	title = Atmospheric Pressure Scan while in space high over The Mun
+	dsc = 1
+	scv = 0
+	sbv = 2
+	sci = 24
+	asc = True
+	cap = 24
+}
+Science
+{
+	id = mobileMaterialsLab@MunInSpaceHigh
+	title = Materials Study while in space high over The Mun
+	dsc = 1
+	scv = 0.21875
+	sbv = 2
+	sci = 50
+	asc = True
+	cap = 64
+}
+Science
+{
+	id = crewReport@MunInSpaceHigh
+	title = Crew Report while in space high over The Mun
+	dsc = 1
+	scv = 0
+	sbv = 2
+	sci = 10
+	asc = True
+	cap = 10
+}
+Science
+{
+	id = temperatureScan@MunInSpaceHigh
+	title = Temperature Scan while in space high over The Mun
+	dsc = 1
+	scv = 0
+	sbv = 2
+	sci = 16
+	asc = True
+	cap = 16
+}
+Science
+{
+	id = mysteryGoo@MunInSpaceHigh
+	title = Mystery Goo™ Observation while in space high over The Mun
+	dsc = 1
+	scv = 0.230769232
+	sbv = 2
+	sci = 20
+	asc = True
+	cap = 26
+}
+Science
+{
+	id = evaReport@MunInSpaceHigh
+	title = EVA Report while in space high over The Mun
+	dsc = 1
+	scv = 0
+	sbv = 2
+	sci = 16
+	asc = True
+	cap = 16
+}
+Science
+{
+	id = surfaceSample@KerbinSrfSplashedWater
+	title = Surface Sample from Kerbin's Water
+	dsc = 1
+	scv = 0.015625
+	sbv = 0.400000006
+	sci = 15.75
+	asc = True
+	cap = 16
+}
+Science
+{
+	id = evaReport@KerbinSrfSplashedWater
+	title = EVA Report from Kerbin's Water
+	dsc = 1
+	scv = 0
+	sbv = 0.400000006
+	sci = 3.20000005
+	asc = True
+	cap = 3.20000005
+}
+Science
+{
+	id = recovery@MunFlewBy
+	title = Recovery of a vessel returned from a fly-by of Mun
+	dsc = 1
+	scv = 0.0277778171
+	sbv = 12
+	sci = 14
+	asc = True
+	cap = 14.4000006
+}
+Science
+{
+	id = mobileMaterialsLab@MunInSpaceLow
+	title = Materials Study while in space near The Mun
+	dsc = 1
+	scv = 1
+	sbv = 3
+	sci = 0
+	asc = True
+	cap = 96
+}
+Science
+{
+	id = crewReport@MunInSpaceLow
+	title = Crew Report while in space near The Mun
+	dsc = 1
+	scv = 0
+	sbv = 3
+	sci = 15
+	asc = True
+	cap = 15
+}
+Science
+{
+	id = temperatureScan@MunInSpaceLow
+	title = Temperature Scan while in space near The Mun
+	dsc = 1
+	scv = 0
+	sbv = 3
+	sci = 24
+	asc = True
+	cap = 24
+}
+Science
+{
+	id = barometerScan@MunInSpaceLow
+	title = Atmospheric Pressure Scan while in space near The Mun
+	dsc = 1
+	scv = 0
+	sbv = 3
+	sci = 36
+	asc = True
+	cap = 36
+}
+Science
+{
+	id = mysteryGoo@MunInSpaceLow
+	title = Mystery Goo™ Observation while in space near The Mun
+	dsc = 1
+	scv = 0.230769232
+	sbv = 3
+	sci = 30
+	asc = True
+	cap = 39
+}
+Science
+{
+	id = evaReport@MunInSpaceLowHighlands
+	title = EVA Report from space just above The Mun's Highlands
+	dsc = 1
+	scv = 0
+	sbv = 3
+	sci = 24
+	asc = True
+	cap = 24
+}
+Science
+{
+	id = surfaceSample@KerbinSrfLandedMountains
+	title = Surface Sample from Kerbin's Mountains
+	dsc = 1
+	scv = 0.25
+	sbv = 0.300000012
+	sci = 9
+	asc = True
+	cap = 12
+}
+Science
+{
+	id = evaReport@KerbinSrfLandedMountains
+	title = EVA Report from Kerbin's Mountains
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Tech
+{
+	id = fuelSystems
+	state = Available
+	cost = 90
+	part = Size1p5.Tank.05
+	part = Size1p5.Tank.03
+	part = Size1p5.Tank.02
+	part = Size1p5.Size2.Adapter.01
+	part = Size1p5.Size1.Adapter.01
+	part = Size1p5.Size0.Adapter.01
+	part = fuelTank.long
+	part = Rockomax8BW
+	part = Rockomax32.BW
+	part = Rockomax16.BW
+	part = ReleaseValve
+	part = fuelLine
+}
+Tech
+{
+	id = advFlightControl
+	state = Available
+	cost = 90
+	part = Mk2Pod
+	part = kv3Pod
+	part = RCSLinearSmall
+	part = RCSblock.01.small
+	part = RCSBlock.v2
+	part = linearRcs
+	part = radialRCSTank
+	part = landerCabinSmall
+	part = advSasModule
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinSrfLandedLaunchPad
+	title = Materials Study from LaunchPad
+	dsc = 1
+	scv = 0.218749985
+	sbv = 0.300000012
+	sci = 7.50000048
+	asc = True
+	cap = 9.60000038
+}
+Science
+{
+	id = crewReport@KerbinSrfLandedLaunchPad
+	title = Crew Report from LaunchPad
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 1.5
+	asc = True
+	cap = 1.5
+}
+Science
+{
+	id = evaReport@KerbinSrfLandedLaunchPad
+	title = EVA Report from LaunchPad
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = surfaceSample@KerbinSrfLandedLaunchPad
+	title = Surface Sample from LaunchPad
+	dsc = 1
+	scv = 0.25
+	sbv = 0.300000012
+	sci = 9
+	asc = True
+	cap = 12
+}
+Science
+{
+	id = mysteryGoo@KerbinSrfLandedLaunchPad
+	title = Mystery Goo™ Observation from LaunchPad
+	dsc = 1
+	scv = 0.230769247
+	sbv = 0.300000012
+	sci = 3
+	asc = True
+	cap = 3.9000001
+}
+Science
+{
+	id = temperatureScan@KerbinSrfLandedLaunchPad
+	title = Temperature Scan from LaunchPad
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = barometerScan@KerbinSrfLandedLaunchPad
+	title = Atmospheric Pressure Scan from LaunchPad
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 3.60000014
+	asc = True
+	cap = 3.60000014
+}
+Science
+{
+	id = mysteryGoo@KerbinSrfLandedHighlands
+	title = Mystery Goo™ Observation from Kerbin's Highlands
+	dsc = 1
+	scv = 0.230769247
+	sbv = 0.300000012
+	sci = 3
+	asc = True
+	cap = 3.9000001
+}
+Science
+{
+	id = barometerScan@KerbinSrfLandedHighlands
+	title = Atmospheric Pressure Scan from Kerbin's Highlands
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 3.60000014
+	asc = True
+	cap = 3.60000014
+}
+Science
+{
+	id = temperatureScan@KerbinSrfLandedHighlands
+	title = Temperature Scan from Kerbin's Highlands
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = surfaceSample@KerbinSrfLandedHighlands
+	title = Surface Sample from Kerbin's Highlands
+	dsc = 1
+	scv = 0.0625
+	sbv = 0.300000012
+	sci = 11.25
+	asc = True
+	cap = 12
+}
+Science
+{
+	id = temperatureScan@MinmusInSpaceLow
+	title = Temperature Scan while in space near Minmus
+	dsc = 1
+	scv = 1
+	sbv = 4
+	sci = 0
+	asc = True
+	cap = 32
+}
+Science
+{
+	id = barometerScan@MinmusInSpaceLow
+	title = Atmospheric Pressure Scan while in space near Minmus
+	dsc = 1
+	scv = 0
+	sbv = 4
+	sci = 48
+	asc = True
+	cap = 48
+}
+Science
+{
+	id = crewReport@MinmusInSpaceLow
+	title = Crew Report while in space near Minmus
+	dsc = 1
+	scv = 0
+	sbv = 4
+	sci = 20
+	asc = True
+	cap = 20
+}
+Science
+{
+	id = evaReport@MinmusInSpaceLowLowlands
+	title = EVA Report from space just above Minmus' Lowlands
+	dsc = 1
+	scv = 0
+	sbv = 4
+	sci = 32
+	asc = True
+	cap = 32
+}
+Science
+{
+	id = mobileMaterialsLab@MinmusInSpaceLow
+	title = Materials Study while in space near Minmus
+	dsc = 1
+	scv = 1
+	sbv = 4
+	sci = 0
+	asc = True
+	cap = 128
+}
+Science
+{
+	id = recovery@MinmusOrbited
+	title = Recovery of a vessel returned from orbit around Minmus
+	dsc = 1
+	scv = 0.166666672
+	sbv = 20
+	sci = 20
+	asc = True
+	cap = 24
+}
+Tech
+{
+	id = spaceExploration
+	state = Available
+	cost = 90
+	part = DeployedCentralStation
+	part = roverWheel2
+	part = groundLight2
+	part = groundLight1
+	part = ladder1
+	part = crewCabin
+	part = ConformalStorageUnit
+	part = evaRepairKit
+	part = smallCargoContainer
+}
+Tech
+{
+	id = electrics
+	state = Available
+	cost = 90
+	part = DeployedSolarPanel
+	part = spotLight2.v2
+	part = spotLight2
+	part = spotLight1.v2
+	part = spotLight1
+	part = spotLight3
+	part = domeLight1
+	part = foldingRadSmall
+	part = batteryBankMini
+	part = solarPanels5
+	part = probeCoreOcto.v2
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinSrfLandedGrasslands
+	title = Materials Study from Kerbin's Grasslands
+	dsc = 1
+	scv = 1
+	sbv = 0.300000012
+	sci = 0
+	asc = True
+	cap = 9.60000038
+}
+Science
+{
+	id = barometerScan@KerbinSrfLandedGrasslands
+	title = Atmospheric Pressure Scan from Kerbin's Grasslands
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 3.60000014
+	asc = True
+	cap = 3.60000014
+}
+Science
+{
+	id = temperatureScan@KerbinFlyingLowMountains
+	title = Temperature Scan while flying over Kerbin's Mountains
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 5.5999999
+	asc = True
+	cap = 5.5999999
+}
+Science
+{
+	id = mysteryGoo@KerbinSrfLandedMountains
+	title = Mystery Goo™ Observation from Kerbin's Mountains
+	dsc = 1
+	scv = 0.230769247
+	sbv = 0.300000012
+	sci = 3
+	asc = True
+	cap = 3.9000001
+}
+Science
+{
+	id = barometerScan@KerbinSrfLandedMountains
+	title = Atmospheric Pressure Scan from Kerbin's Mountains
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 3.60000014
+	asc = True
+	cap = 3.60000014
+}
+Science
+{
+	id = barometerScan@MunSrfLandedMidlands
+	title = Atmospheric Pressure Scan from The Mun's Midlands
+	dsc = 1
+	scv = 0.299999803
+	sbv = 4
+	sci = 33.6000099
+	asc = True
+	cap = 48
+}
+Science
+{
+	id = temperatureScan@MunSrfLandedMidlands
+	title = Temperature Scan from The Mun's Midlands
+	dsc = 1
+	scv = 0.299999774
+	sbv = 4
+	sci = 22.4000072
+	asc = True
+	cap = 32
+}
+Science
+{
+	id = mysteryGoo@MunSrfLandedMidlands
+	title = Mystery Goo™ Observation from The Mun's Midlands
+	dsc = 1
+	scv = 0.676922917
+	sbv = 4
+	sci = 16.8000069
+	asc = True
+	cap = 52
+}
+Science
+{
+	id = temperatureScan@MunSrfLandedHighlands
+	title = Scan de température de Hautes-terres de La Mune
+	dsc = 1
+	scv = 0
+	sbv = 4
+	sci = 32
+	asc = True
+	cap = 32
+}
+Science
+{
+	id = barometerScan@MunSrfLandedHighlands
+	title = Scan de pression atmosphérique de Hautes-terres de La Mune
+	dsc = 1
+	scv = 0
+	sbv = 4
+	sci = 48
+	asc = True
+	cap = 48
+}
+Science
+{
+	id = mysteryGoo@MunSrfLandedHighlands
+	title = Observation de la glairine™ mystérieuse de Hautes-terres de La Mune
+	dsc = 1
+	scv = 0.230769232
+	sbv = 4
+	sci = 40
+	asc = True
+	cap = 52
+}
+Science
+{
+	id = recovery@MunSurfaced
+	title = Récupération d'un vaisseau de retour de la surface de Mun
+	dsc = 1
+	scv = 0.027777778
+	sbv = 30
+	sci = 35
+	asc = True
+	cap = 36
+}
+Tech
+{
+	id = aerodynamicSystems
+	state = Available
+	cost = 90
+	part = nacelleBody
+	part = JetEngine
+	part = Mark2Cockpit
+	part = sweptWing2
+	part = structuralWing2
+	part = wingConnector3
+	part = wingConnector
+	part = airplaneTailB
+	part = standardNoseCone
+	part = noseConeAdapter
+	part = CircularIntake
+	part = airScoop
+}
+Tech
+{
+	id = advConstruction
+	state = Available
+	cost = 90
+	part = stackTriCoupler.v2
+	part = largeAdapter2
+	part = flagPartSize0
+	part = radialDecoupler2
+	part = radialDecoupler1-2
+	part = Separator.1
+	part = fairingSize1
+	part = rocketNoseCone.v3
+	part = rocketNoseCone.v2
+	part = pointyNoseConeA
+}
+Science
+{
+	id = crewReport@KerbinFlyingLowBadlands
+	title = Crew Report while flying over Kerbin's Badlands
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 3.5
+	asc = True
+	cap = 3.5
+}
+Science
+{
+	id = temperatureScan@KerbinFlyingLowBadlands
+	title = Temperature Scan while flying over Kerbin's Badlands
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 5.5999999
+	asc = True
+	cap = 5.5999999
+}
+Science
+{
+	id = surfaceSample@KerbinSrfLandedBadlands
+	title = Surface Sample from Kerbin's Badlands
+	dsc = 1
+	scv = 0.25
+	sbv = 0.300000012
+	sci = 9
+	asc = True
+	cap = 12
+}
+Science
+{
+	id = evaReport@KerbinSrfLandedBadlands
+	title = EVA Report from Kerbin's Badlands
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = mysteryGoo@MinmusInSpaceHigh
+	title = Mystery Goo™ Observation while in space high over Minmus
+	dsc = 1
+	scv = 0.230769232
+	sbv = 2.5
+	sci = 25
+	asc = True
+	cap = 32.5
+}
+Science
+{
+	id = crewReport@MinmusInSpaceHigh
+	title = Crew Report while in space high over Minmus
+	dsc = 1
+	scv = 0
+	sbv = 2.5
+	sci = 12.5
+	asc = True
+	cap = 12.5
+}
+Science
+{
+	id = barometerScan@MinmusInSpaceHigh
+	title = Atmospheric Pressure Scan while in space high over Minmus
+	dsc = 1
+	scv = 0
+	sbv = 2.5
+	sci = 30
+	asc = True
+	cap = 30
+}
+Science
+{
+	id = temperatureScan@MinmusInSpaceHigh
+	title = Temperature Scan while in space high over Minmus
+	dsc = 1
+	scv = 0
+	sbv = 2.5
+	sci = 20
+	asc = True
+	cap = 20
+}
+Science
+{
+	id = evaReport@MinmusInSpaceHigh
+	title = EVA Report while in space high over Minmus
+	dsc = 1
+	scv = 0
+	sbv = 2.5
+	sci = 20
+	asc = True
+	cap = 20
+}
+Science
+{
+	id = recovery@MinmusFlewBy
+	title = Recovery of a vessel returned from a fly-by of Minmus
+	dsc = 1
+	scv = 0.166666672
+	sbv = 15
+	sci = 15
+	asc = True
+	cap = 18
+}
+Tech
+{
+	id = advExploration
+	state = Available
+	cost = 160
+	part = RobotArmScanner.S1
+	part = telescopicLadderBay
+	part = telescopicLadder
+	part = Large.Crewed.Lab
+	part = CargoStorageUnit
+	part = evaCylinder
+	part = cargoContainer
+}
+Science
+{
+	id = evaReport@KerbinInSpaceLowWater
+	title = EVA Report from space just above Kerbin's Water
+	dsc = 1
+	scv = 1
+	sbv = 1
+	sci = 0
+	asc = True
+	cap = 8
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinSrfLandedDeserts
+	title = Materials Study from Kerbin's Deserts
+	dsc = 1
+	scv = 0.218749985
+	sbv = 0.300000012
+	sci = 7.50000048
+	asc = True
+	cap = 9.60000038
+}
+Science
+{
+	id = surfaceSample@KerbinSrfLandedDeserts
+	title = Surface Sample from Kerbin's Deserts
+	dsc = 1
+	scv = 0.25
+	sbv = 0.300000012
+	sci = 9
+	asc = True
+	cap = 12
+}
+Science
+{
+	id = evaReport@KerbinSrfLandedDeserts
+	title = EVA Report from Kerbin's Deserts
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = recovery@MunOrbited
+	title = Recovery of a vessel returned from orbit around Mun
+	dsc = 1
+	scv = 0.00462959195
+	sbv = 16
+	sci = 19.1111126
+	asc = True
+	cap = 19.2000008
+}
+Science
+{
+	id = temperatureScan@KerbinSrfLandedMountains
+	title = Temperature Scan from Kerbin's Mountains
+	dsc = 1
+	scv = 1
+	sbv = 0.300000012
+	sci = 0
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinSrfLandedMountains
+	title = Materials Study from Kerbin's Mountains
+	dsc = 1
+	scv = 1
+	sbv = 0.300000012
+	sci = 0
+	asc = True
+	cap = 9.60000038
+}
+Science
+{
+	id = crewReport@KerbinSrfLandedMountains
+	title = Crew Report from Kerbin's Mountains
+	dsc = 1
+	scv = 1
+	sbv = 0.300000012
+	sci = 0
+	asc = True
+	cap = 1.5
+}
+Science
+{
+	id = crewReport@KerbinSrfLandedDeserts
+	title = Crew Report from Kerbin's Deserts
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 1.5
+	asc = True
+	cap = 1.5
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinSrfLandedNorthernIceShelf
+	title = Materials Study from Kerbin's Northern Ice Shelf
+	dsc = 1
+	scv = 0.218749985
+	sbv = 0.300000012
+	sci = 7.50000048
+	asc = True
+	cap = 9.60000038
+}
+Tech
+{
+	id = advElectrics
+	state = Available
+	cost = 160
+	part = controller1000
+	part = stripLight1
+	part = foldingRadMed
+	part = LgRadialSolarPanel
+	part = ksp.r.largeBatteryPack
+	part = solarPanels3
+	part = solarPanels1
+	part = solarPanels4
+	part = solarPanels2
+}
+Tech
+{
+	id = heavierRocketry
+	state = Available
+	cost = 160
+	part = LiquidEngineRK-7
+	part = LiquidEngineRE-I2
+	part = LiquidEngineLV-T91
+	part = Thoroughbred
+	part = Size2LFB.v2
+	part = Size2LFB
+	part = liquidEngineMainsail.v2
+}
+Science
+{
+	id = evaReport@MinmusInSpaceLowHighlands
+	title = EVA Report from space just above Minmus' Highlands
+	dsc = 1
+	scv = 1
+	sbv = 4
+	sci = 0
+	asc = True
+	cap = 32
+}
+Tech
+{
+	id = veryHeavyRocketry
+	state = Available
+	cost = 550
+	part = LiquidEngineRE-J10
+	part = LiquidEngineKE-1
+	part = Clydesdale
+	part = Size3EngineCluster
+	part = Size3AdvancedEngine
+	part = SSME
+}

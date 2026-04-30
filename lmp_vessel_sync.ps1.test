@@ -1,0 +1,209 @@
+# LMP Vessel Sync Script
+# Watches your KSP save file and automatically uploads vessels to the LMP server
+# Run this on your gaming PC while playing KSP with LMP
+#
+# SETUP:
+# 1. Set $ServerUrl below to your server's web address (port 8900 TCP tunnel)
+# 2. Set $KspSavePath to your KSP save's persistent.sfs file
+# 3. Run this script in PowerShell while playing
+# run with .\lmp_vessel_sync.ps1 -KspSavePath "E:\steam\steamapps\common\Kerbal Space Program\saves\<your save name>\persistent.sfs"
+# The script will watch for changes to the save file and upload any vessels it finds to the server.
+param(
+    [string]$ServerUrl = "https://ksp.alex-dyakin.com",
+    [string]$KspSavePath = ""
+)
+
+# Auto-detect KSP save path if not specified
+if (-not $KspSavePath) {
+    $steamPaths = @(
+        "E:\steam\steamapps\common\Kerbal Space Program\saves",
+        "C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\saves",
+        "C:\Program Files\Steam\steamapps\common\Kerbal Space Program\saves",
+        "D:\SteamLibrary\steamapps\common\Kerbal Space Program\saves"
+    )
+    foreach ($sp in $steamPaths) {
+        if (Test-Path $sp) {
+            $saveDirs = Get-ChildItem $sp -Directory | Sort-Object LastWriteTime -Descending
+            if ($saveDirs.Count -gt 0) {
+                $KspSavePath = Join-Path $saveDirs[0].FullName "persistent.sfs"
+                break
+            }
+        }
+    }
+}
+
+if (-not $KspSavePath -or -not (Test-Path $KspSavePath)) {
+    Write-Host "ERROR: Could not find persistent.sfs. Please set -KspSavePath parameter." -ForegroundColor Red
+    Write-Host "Example: .\lmp_vessel_sync.ps1 -KspSavePath 'E:\steam\steamapps\common\Kerbal Space Program\saves\MySave\persistent.sfs'"
+    exit 1
+}
+
+Write-Host "=== LMP Vessel Sync ===" -ForegroundColor Cyan
+Write-Host "Server: $ServerUrl" -ForegroundColor Green
+Write-Host "Save:   $KspSavePath" -ForegroundColor Green
+Write-Host ""
+
+function Parse-Vessels {
+    param([string]$Content)
+    
+    $vessels = @()
+    # Normalize line endings
+    $Content = $Content -replace "`r`n", "`n"
+    $Content = $Content -replace "`r", "`n"
+    $lines = $Content -split "`n"
+    $i = 0
+    
+    while ($i -lt $lines.Count) {
+        $line = $lines[$i].Trim()
+        
+        # Find VESSEL blocks at the top level of FLIGHTSTATE
+        if ($line -eq "VESSEL") {
+            $i++
+            if ($i -lt $lines.Count -and $lines[$i].Trim() -eq "{") {
+                $i++
+                $depth = 1
+                $vesselLines = [System.Collections.Generic.List[string]]::new()
+                # Detect indent level from the first content line
+                $indentPrefix = ""
+                if ($i -lt $lines.Count -and $lines[$i] -match "^(\t+)") {
+                    $indentPrefix = $Matches[1]
+                }
+                
+                while ($i -lt $lines.Count -and $depth -gt 0) {
+                    $l = $lines[$i]
+                    $trimmed = $l.Trim()
+                    if ($trimmed -eq "{") { $depth++ }
+                    if ($trimmed -eq "}") { $depth-- }
+                    if ($depth -gt 0) {
+                        # Strip the common indent prefix
+                        if ($indentPrefix -and $l.StartsWith($indentPrefix)) {
+                            $vesselLines.Add($l.Substring($indentPrefix.Length))
+                        } else {
+                            $vesselLines.Add($l)
+                        }
+                    }
+                    $i++
+                }
+                
+                $vesselContent = [string]::Join("`n", $vesselLines)
+                
+                # Validate brace balance before accepting
+                $openB = ($vesselContent.ToCharArray() | Where-Object { $_ -eq '{' }).Count
+                $closeB = ($vesselContent.ToCharArray() | Where-Object { $_ -eq '}' }).Count
+                if ($openB -ne $closeB) {
+                    Write-Host "  WARNING: Skipping vessel with unbalanced braces ({=$openB }=$closeB)" -ForegroundColor Yellow
+                    continue
+                }
+                
+                # Extract pid (vessel ID without dashes)
+                if ($vesselContent -match "pid\s*=\s*([0-9a-fA-F]+)") {
+                    $pidNoDash = $Matches[1]
+                    # Convert to GUID format
+                    if ($pidNoDash.Length -eq 32) {
+                        $guid = "$($pidNoDash.Substring(0,8))-$($pidNoDash.Substring(8,4))-$($pidNoDash.Substring(12,4))-$($pidNoDash.Substring(16,4))-$($pidNoDash.Substring(20,12))"
+                        
+                        $vesselName = "Unknown"
+                        if ($vesselContent -match "name\s*=\s*(.+)") {
+                            $vesselName = $Matches[1].Trim()
+                        }
+                        
+                        $vessels += @{
+                            Id = $guid
+                            Name = $vesselName
+                            Content = $vesselContent.TrimEnd()
+                        }
+                    }
+                }
+            }
+        }
+        $i++
+    }
+    
+    return $vessels
+}
+
+function Upload-Vessel {
+    param(
+        [string]$VesselId,
+        [string]$VesselData,
+        [string]$VesselName
+    )
+    
+    try {
+        $url = "$ServerUrl/vesselupload?vesselId=$VesselId"
+        $bytes = [System.Text.Encoding]::UTF8.GetBytes($VesselData)
+        
+        $response = Invoke-WebRequest -Uri $url -Method Post -Body $bytes -ContentType "text/plain" -TimeoutSec 30 -UseBasicParsing -ErrorAction Stop
+        
+        if ($response.StatusCode -eq 200) {
+            Write-Host "  Uploaded: $VesselName ($VesselId) - $($bytes.Length) bytes" -ForegroundColor Green
+            return $true
+        } else {
+            Write-Host "  Failed:   $VesselName - HTTP $($response.StatusCode)" -ForegroundColor Red
+            return $false
+        }
+    }
+    catch {
+        Write-Host "  Error:    $VesselName - $($_.Exception.Message)" -ForegroundColor Red
+        return $false
+    }
+}
+
+# Track last known vessels to detect changes
+$lastHash = ""
+$uploadedVessels = @{}
+
+Write-Host "Watching for vessel changes... (Press Ctrl+C to stop)" -ForegroundColor Yellow
+Write-Host ""
+
+while ($true) {
+    try {
+        if (Test-Path $KspSavePath) {
+            $currentHash = (Get-FileHash $KspSavePath -Algorithm MD5).Hash
+            
+            if ($currentHash -ne $lastHash) {
+                $lastHash = $currentHash
+                
+                # Wait a moment for KSP to finish writing
+                Start-Sleep -Milliseconds 500
+                
+                $content = Get-Content $KspSavePath -Raw -ErrorAction SilentlyContinue
+                if ($content) {
+                    $vessels = Parse-Vessels -Content $content
+                    
+                    if ($vessels.Count -gt 0) {
+                        $timestamp = Get-Date -Format "HH:mm:ss"
+                        Write-Host "[$timestamp] Found $($vessels.Count) vessels in save file" -ForegroundColor Cyan
+                        
+                        $uploaded = 0
+                        foreach ($v in $vessels) {
+                            # Calculate hash of vessel data to detect changes
+                            $vHash = [System.BitConverter]::ToString(
+                                [System.Security.Cryptography.MD5]::Create().ComputeHash(
+                                    [System.Text.Encoding]::UTF8.GetBytes($v.Content)
+                                )
+                            )
+                            
+                            if (-not $uploadedVessels.ContainsKey($v.Id) -or $uploadedVessels[$v.Id] -ne $vHash) {
+                                if (Upload-Vessel -VesselId $v.Id -VesselData $v.Content -VesselName $v.Name) {
+                                    $uploadedVessels[$v.Id] = $vHash
+                                    $uploaded++
+                                }
+                            }
+                        }
+                        
+                        if ($uploaded -eq 0) {
+                            Write-Host "  No vessel changes detected" -ForegroundColor DarkGray
+                        }
+                        Write-Host ""
+                    }
+                }
+            }
+        }
+    }
+    catch {
+        # Ignore transient file access errors
+    }
+    
+    Start-Sleep -Seconds 3
+}

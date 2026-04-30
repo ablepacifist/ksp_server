@@ -1,0 +1,131 @@
+pid = 0f25e3dbb4374191bd7d9a1d5a1c68b3
+persistentId = 1872949074
+name = Ast. XKB-603
+type = SpaceObject
+sit = ORBITING
+landed = False
+skipGroundPositioning = False
+skipGroundPositioningForDroppedPart = False
+vesselSpawning = True
+launchedFrom = AST-OPMNeidon
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 25789258.355236076
+lct = 25789258.355236076
+lastUT = -1
+distanceTraveled = 0
+root = 0
+lat = 71.57829893038091
+lon = -3.0338051913160875
+alt = 706862792.78716314
+hgt = -1
+nrm = 0,1,0
+rot = 0.534432709,0.00639884546,-0.786278248,0.310011715
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+PQSMin = 0
+PQSMax = 0
+GroupOverride = 0
+OverrideDefault = False,False,False,False
+OverrideActionControl = 0,0,0,0
+OverrideAxisControl = 0,0,0,0
+OverrideGroupNames = ,,,
+altDispState = DEFAULT
+ORBIT
+{
+	SMA = 450743776
+	ECC = 0.64122319221496582
+	INC = 98.248992919921875
+	LPE = 273.87835693359375
+	LAN = 52.853935241699219
+	MNA = 232.51237487792969
+	EPH = 1.0007212162017822
+	REF = 33
+	IDENT = Neidon
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 892796959
+	mid = 892796959
+	persistentId = 621528637
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	sameVesselCollision = False
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	staticPressureAtm = 0
+	expt = 1
+	state = 0
+	PreFailState = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+	modMass = 0
+	moduleVariantName = 
+	moduleCargoStackableQuantity = 1
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 25789258.355236076
+	lifetime = 8553600
+	refTime = 8553600
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	AxisGroupsModule
+	{
+	}
+	SuspensionLoadBalancer
+	{
+	}
+	AtmoFxModule
+	{
+	}
+	RPMVesselComputer
+	{
+		PERSISTENT_VARS
+		{
+		}
+	}
+	ShipEffects
+	{
+	}
+}

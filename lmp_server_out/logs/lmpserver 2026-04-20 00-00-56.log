@@ -1,0 +1,40 @@
+[05:00:56][Info]: Continued from logfile 2026-04-20 00-00-56.log
+[04:02:55][LMP]: New client Connection from ::ffff:66.253.180.173:53668
+[04:02:55][Debug]: Online Players: 0, connected: 1
+[04:02:55][LMP]: Client eleding24 (078e6be2392c2482d80631faa9c26fd32f3a1fc9) handshake successful, LMP Version: 0.29.0, KSP Version: 1.12.5
+[04:02:55][Debug]: Online Players: 1, connected: 1
+[04:02:55][Warning]: Connection received unhandled library message: NatPunchMessage
+[04:02:55][Warning]: Connection received unhandled library message: NatPunchMessage
+[04:02:56][Debug]: Sending eleding24 2 vessels
+[04:02:56][Debug]: Sending eleding24 51 kerbals...
+[04:02:56][Debug]: Sending eleding24 9 possible subspaces
+[04:03:03][Debug]: eleding24 acquired lock UnloadedUpdate - b8320dcc-4dc5-4225-b794-4a6dc388e1aa - eleding24
+[04:03:03][Debug]: eleding24 acquired lock UnloadedUpdate - 60ddf1e9-7ced-4e3d-b5e2-ca64e20b9855 - eleding24
+[04:03:03][Debug]: eleding24 acquired lock AsteroidComet - eleding24
+[04:03:03][Debug]: eleding24 synced with subspace '299' created by Alex
+[04:03:03][Debug]: Removing abandoned subspace '-2147483648'
+[04:03:13][Debug]: Saving kerbal Jebediah Kerman from eleding24
+[04:03:13][Debug]: Saving kerbal Bill Kerman from eleding24
+[04:03:14][Debug]: eleding24 released lock UnloadedUpdate - b8320dcc-4dc5-4225-b794-4a6dc388e1aa - eleding24
+[04:03:14][Debug]: eleding24 released lock UnloadedUpdate - 60ddf1e9-7ced-4e3d-b5e2-ca64e20b9855 - eleding24
+[04:03:16][Debug]: Sending eleding24 2 vessels
+[04:03:21][Debug]: Performing backups...
+[04:03:21][Debug]: Backups done
+[04:03:26][Debug]: Saving 8 scenario modules from eleding24
+[04:03:51][Debug]: Performing backups...
+[04:03:51][Debug]: Backups done
+[04:04:21][Debug]: Performing backups...
+[04:04:21][Debug]: Backups done
+[04:04:51][Debug]: Performing backups...
+[04:04:51][Debug]: Backups done
+[04:05:21][Debug]: Performing backups...
+[04:05:21][Debug]: Backups done
+[04:05:51][Debug]: Performing backups...
+[04:05:51][Debug]: Backups done
+[04:06:21][Debug]: Performing backups...
+[04:06:21][Debug]: Backups done
+[04:06:35][Debug]: eleding24 sent Connection end message, reason: Quit
+[04:06:35][Debug]: Online Players: 0, connected: 0
+[04:06:35][Debug]: eleding24 released lock AsteroidComet - eleding24
+[04:06:35][Debug]: Performing backups...
+[04:06:35][Debug]: Backups done

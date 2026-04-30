@@ -1,0 +1,944 @@
+pid = 91e988c55906417697868d32fe5ead6d
+persistentId = 3489240403
+name = sat Lander Debris
+type = Debris
+sit = SPLASHED
+landed = False
+skipGroundPositioning = False
+skipGroundPositioningForDroppedPart = False
+vesselSpawning = True
+launchedFrom = LaunchPad
+landedAt = 
+displaylandedAt = 
+splashed = True
+met = 338.59614492580295
+lct = 28330895.416488074
+lastUT = 28331234.012633
+distanceTraveled = 342.19687311689711
+root = 0
+lat = -0.87212852364698668
+lon = 60.707146848035727
+alt = -9.0595297286054119
+hgt = -9.0595293
+nrm = -0.0593511835,0.997616172,-0.0352051258
+rot = -0.390868872,0.34412396,0.620522797,-0.586303473
+CoM = 1.31130282E-05,-6.56247044,0.000113487229
+stg = 1
+prst = False
+ref = 0
+ctrl = False
+PQSMin = 2
+PQSMax = 10
+GroupOverride = 0
+OverrideDefault = False,False,False,False
+OverrideActionControl = 0,0,0,0
+OverrideAxisControl = 0,0,0,0
+OverrideGroupNames = ,,,
+altDispState = DEFAULT
+cPch = 0
+cHdg = 0
+cMod = -1
+ORBIT
+{
+SMA = 0
+ECC = 1
+INC = 90.872090625510552
+LPE = 90
+LAN = 188.65925524307877
+MNA = 0
+EPH = 33387723.235500555
+REF = 1
+}
+PART
+{
+name = Size1p5.Tank.03
+cid = 4291011594
+uid = 360801483
+mid = 2924819856
+persistentId = 887803595
+launchID = 3
+parent = 0
+position = 0,0,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, -1
+attN = bottom, 1
+mass = 0.5625
+shielded = False
+temp = 286.80921614712878
+tempExt = 305.25257029126158
+tempExtUnexp = 305.25147714239642
+staticPressureAtm = 1.8771651341456153
+expt = 0.5
+state = 1
+PreFailState = 0
+attached = False
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Size1p5.Tank.03 (sat Lander Debris)
+modCost = 0
+modMass = 0
+moduleVariantName = Basic
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 0
+	maxAmount = 405
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 0
+	maxAmount = 495
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Size1p5.Tank.03
+cid = 4291011246
+uid = 1295126500
+mid = 2924819856
+persistentId = 2423764199
+launchID = 3
+parent = 0
+position = 0,-1.875,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 0
+attN = bottom, 2
+mass = 0.5625
+shielded = False
+temp = 285.31918886431504
+tempExt = 304.69505808098376
+tempExtUnexp = 304.69408486171233
+staticPressureAtm = 2.0582710053568927
+expt = 0.5
+state = 1
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Size1p5.Tank.03
+modCost = 0
+modMass = 0
+moduleVariantName = Basic
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 0
+	maxAmount = 405
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 0
+	maxAmount = 495
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Size1p5.Tank.03
+cid = 4293922560
+uid = 3996235459
+mid = 2924819856
+persistentId = 1111348989
+launchID = 3
+parent = 1
+position = 0,-3.75,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 1
+attN = bottom, 3
+mass = 0.5625
+shielded = False
+temp = 286.05691073708681
+tempExt = 304.90881210611894
+tempExtUnexp = 304.90779906345222
+staticPressureAtm = 2.2393850696267106
+expt = 0.5
+state = 1
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Size1p5.Tank.03
+modCost = 0
+modMass = 0
+moduleVariantName = Basic
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 0
+	maxAmount = 405
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 0
+	maxAmount = 495
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Size1p5.Tank.03
+cid = 4293921572
+uid = 3747526557
+mid = 2924819856
+persistentId = 1174553767
+launchID = 3
+parent = 2
+position = 0,-5.625,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 2
+attN = bottom, 4
+mass = 0.5625
+shielded = False
+temp = 286.23884068842534
+tempExt = 304.96696779370041
+tempExtUnexp = 304.96597603398715
+staticPressureAtm = 2.420490935438897
+expt = 0.5
+state = 1
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Size1p5.Tank.03
+modCost = 0
+modMass = 0
+moduleVariantName = Basic
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 0
+	maxAmount = 405
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 0
+	maxAmount = 495
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Size1p5.Tank.03
+cid = 4293920840
+uid = 4026023224
+mid = 2924819856
+persistentId = 2311758655
+launchID = 3
+parent = 3
+position = 0,-7.5,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 3
+attN = bottom, 5
+mass = 0.5625
+shielded = False
+temp = 286.5592688665854
+tempExt = 305.05971834412901
+tempExtUnexp = 305.05876032269111
+staticPressureAtm = 2.6015967985459025
+expt = 0.5
+state = 1
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Size1p5.Tank.03
+modCost = 0
+modMass = 0
+moduleVariantName = Basic
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 0
+	maxAmount = 405
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 0
+	maxAmount = 495
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Size1p5.Tank.03
+cid = 4293534586
+uid = 591579751
+mid = 2924819856
+persistentId = 1397722443
+launchID = 3
+parent = 4
+position = 0,-9.375,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 4
+attN = bottom, 6
+mass = 0.5625
+shielded = False
+temp = 286.96082970459656
+tempExt = 305.18894314170711
+tempExtUnexp = 305.18801961786676
+staticPressureAtm = 2.7827111729760245
+expt = 0.5
+state = 1
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Size1p5.Tank.03
+modCost = 0
+modMass = 0
+moduleVariantName = Basic
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 0
+	maxAmount = 405
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 0
+	maxAmount = 495
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Size1p5.Tank.03
+cid = 4293534276
+uid = 1003294658
+mid = 2924819856
+persistentId = 3226947274
+launchID = 3
+parent = 5
+position = 0,-11.25,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 5
+attN = bottom, 7
+mass = 0.5625
+shielded = False
+temp = 287.3878442775586
+tempExt = 305.30816938051299
+tempExtUnexp = 305.30727804974248
+staticPressureAtm = 2.9638170306839391
+expt = 0.5
+state = 1
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Size1p5.Tank.03
+modCost = 0
+modMass = 0
+moduleVariantName = Basic
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 0
+	maxAmount = 405
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 0
+	maxAmount = 495
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+PART
+{
+name = Size1p5.Tank.03
+cid = 4293953162
+uid = 1259528006
+mid = 2924819856
+persistentId = 3269367781
+launchID = 3
+parent = 6
+position = 0,-13.125,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 4
+sqor = -1
+sepI = -1
+sidx = -1
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+attN = top, 6
+attN = bottom, -1
+mass = 0.5625
+shielded = False
+temp = 287.80003828685233
+tempExt = 305.42115679635128
+tempExtUnexp = 305.4202850636886
+staticPressureAtm = 3.1449228856866722
+expt = 0.5
+state = 1
+PreFailState = 0
+attached = True
+autostrutMode = Off
+rigidAttachment = False
+flag = Squad/Flags/default
+rTrf = Size1p5.Tank.03
+modCost = 0
+modMass = 0
+moduleVariantName = Basic
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModulePartVariants
+	isEnabled = True
+	useVariantMass = True
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+RESOURCE
+{
+	name = LiquidFuel
+	amount = 0
+	maxAmount = 405
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+RESOURCE
+{
+	name = Oxidizer
+	amount = 0
+	maxAmount = 495
+	flowState = True
+	isTweakable = True
+	hideFlow = False
+	isVisible = True
+	flowMode = Both
+}
+}
+ACTIONGROUPS
+{
+Stage = True, 28330853.7288132
+Gear = False, 0
+Light = False, 0
+RCS = False, 0
+SAS = True, 28153092.2472489
+Brakes = False, 0
+Abort = False, 0
+Custom01 = True, 28216384.0450795
+Custom02 = False, 0
+Custom03 = False, 0
+Custom04 = False, 0
+Custom05 = False, 0
+Custom06 = False, 0
+Custom07 = False, 0
+Custom08 = False, 0
+Custom09 = False, 0
+Custom10 = False, 0
+}
+DISCOVERY
+{
+state = -1
+lastObservedTime = 0
+lifetime = Infinity
+refTime = Infinity
+size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+pitch = 0
+yaw = 0
+roll = 0
+trimPitch = 0
+trimYaw = 0
+trimRoll = 0
+mainThrottle = 0
+}
+VESSELMODULES
+{
+FlightIntegrator
+{
+}
+AxisGroupsModule
+{
+}
+SuspensionLoadBalancer
+{
+}
+}

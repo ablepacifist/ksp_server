@@ -1,0 +1,241 @@
+pid = 9f08a6d7e2944d55a5c269a3636d1041
+persistentId = 954250748
+name = sat
+type = Lander
+sit = ORBITING
+landed = False
+skipGroundPositioning = False
+skipGroundPositioningForDroppedPart = False
+vesselSpawning = False
+launchedFrom = 
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 958.27094520628452
+lct = 25788687.386075385
+lastUT = 25789645.657020591
+distanceTraveled = 330749.3114473265
+root = 0
+lat = 60.669103752611967
+lon = 89.554549024119154
+alt = 221916.98580450006
+hgt = 221916.984
+nrm = 0.132622689,0.920339644,-0.367948711
+rot = 0.431525946,0.0121647539,0.0654908121,0.899637938
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+PQSMin = 0
+PQSMax = 0
+GroupOverride = 0
+OverrideDefault = False,False,False,False
+OverrideActionControl = 0,0,0,0
+OverrideAxisControl = 0,0,0,0
+OverrideGroupNames = ,,,
+altDispState = ASL
+cPch = 0.2
+cHdg = 0.3
+cMod = 0
+ORBIT
+{
+SMA = 817381.37826370134
+ECC = 0.0075260129956332923
+INC = 89.381030072902291
+LPE = 257.11759370068353
+LAN = 276.85525935705294
+MNA = 5.5828051749785361
+EPH = 33390381.289058518
+REF = 1
+}
+PART
+{
+name = sensorBarometer
+cid = 0
+uid = 1
+mid = 0
+persistentId = 3518527732
+launchID = 0
+parent = 0
+position = 0,0,0
+rotation = 0,0,0,1
+mirror = 1,1,1
+symMethod = Radial
+istg = -1
+resPri = 0
+dstg = 0
+sqor = 0
+sepI = -1
+sidx = 0
+attm = 0
+sameVesselCollision = False
+srfN = srfAttach, -1
+mass = 0.00499999989
+shielded = False
+temp = 294.77454036961484
+tempExt = 292.14347148187755
+tempExtUnexp = 289.01141288292467
+staticPressureAtm = 0
+expt = 0.5
+state = 0
+PreFailState = 0
+attached = False
+autostrutMode = Off
+rigidAttachment = False
+flag = 
+rTrf = sensorBarometer (sat)
+modCost = 0
+modMass = 0
+moduleVariantName = 
+moduleCargoStackableQuantity = 1
+EVENTS
+{
+}
+ACTIONS
+{
+	ToggleSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	SetSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+	RemoveSameVesselInteraction
+	{
+		actionGroup = None
+		wasActiveBeforePartWasAdjusted = False
+	}
+}
+PARTDATA
+{
+}
+MODULE
+{
+	name = ModuleEnviroSensor
+	isEnabled = True
+	sensorActive = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleScienceExperiment
+	isEnabled = True
+	Deployed = False
+	Inoperable = False
+	cooldownToGo = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ResetAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+MODULE
+{
+	name = ModuleCargoPart
+	isEnabled = True
+	beingAttached = False
+	beingSettled = False
+	reinitResourcesOnStoreInVessel = False
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+}
+ACTIONGROUPS
+{
+Stage = False, 0
+Gear = False, 0
+Light = False, 0
+RCS = False, 0
+SAS = False, 0
+Brakes = False, 0
+Abort = False, 0
+Custom01 = False, 0
+Custom02 = False, 0
+Custom03 = False, 0
+Custom04 = False, 0
+Custom05 = False, 0
+Custom06 = False, 0
+Custom07 = False, 0
+Custom08 = False, 0
+Custom09 = False, 0
+Custom10 = False, 0
+}
+DISCOVERY
+{
+state = -1
+lastObservedTime = 0
+lifetime = Infinity
+refTime = Infinity
+size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+pitch = 0
+yaw = 0
+roll = 0
+trimPitch = 0
+trimYaw = 0
+trimRoll = 0
+mainThrottle = 0
+}
+VESSELMODULES
+{
+FlightIntegrator
+{
+}
+AxisGroupsModule
+{
+}
+SuspensionLoadBalancer
+{
+}
+CommNetVessel
+{
+	controlState = None
+	canComm = False
+}
+}

@@ -1,0 +1,5 @@
+name = EntryCostManager
+scene = 6, 5
+Unlocks
+{
+}
